@@ -19,7 +19,7 @@
 84 LET CINPUT = 7
                                                                                           
 
-
+100 PLAY "MBT120<<P8E-8B-4E-8>E-4D-4C8<B-8A-4A-8A-16B-16E-4E-8B-4E-8>E-4A-4A-8G-8F8E-2"
 101 PRINT
 102 COLOR CTEXTO
 103 PRINT "    __                 ___                           _           "
