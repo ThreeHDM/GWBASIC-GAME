@@ -13,13 +13,13 @@
 33 NEXT FREQ%
 
 80 REM ---- Colors ----
-81 LET CERROR = 12 :
+81 LET CERROR = 12
 82 LET CTEXTO = 2 
 83 LET CINFO = 3
 84 LET CINPUT = 7
                                                                                           
 
-100 PLAY "MBT120<<P8E-8B-4E-8>E-4D-4C8<B-8A-4A-8A-16B-16E-4E-8B-4E-8>E-4A-4A-8G-8F8E-2"
+1 PLAY "MBT120<<P8E-8A-4E-8>D-4C4<B-8A-8B-4A-8>D-16E-16<E-4E-8>D-4<E-8B-4>C4C8<B-8A-8E-2"
 101 PRINT
 102 COLOR CTEXTO
 103 PRINT "    __                 ___                           _           "
@@ -136,7 +136,7 @@
 
 
 9100 REM ---- subroutine PRESS ANY KEY ----
-9101 LOCATE 22, 33: COLOR CINFO: PRINT "Presiona cualquier tecla para continuar..." : ANY$ = "" : WHILE ANY$ = INKEY$ : A$ = INKEY$ : WEND : CLS : COLOR CTEXTO
+9101 LOCATE 22, 33: COLOR CINFO: PRINT "Presiona cualquier tecla para continuar..." : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
 9102 RETURN
 
 9110 REM ---- subroutine GAME OVER SOUND ----
@@ -148,7 +148,3 @@
 9901 COLOR CERROR : PRINT "No es una opcion valida"
 9902 PRINT 
 9903 RETURN 116
-
-
-
-
