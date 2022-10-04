@@ -64,58 +64,65 @@
 197 PRINT
 198 COLOR CINFO : PRINT "1. Comprar el juego. Quiero ver de que se trata"
 199 COLOR CINFO : PRINT "2. El juego es muy caro. Debe haber algo mejor en la feria."
-200 PRINT 
+200 SCENEA = 1
+201 SCENEB = 2 
 
 
 220 REM ---- game loop ----
 221 WHILE GAMEOVER = 0
-222 COLOR CINPUT: INPUT "INGRESA EL NUMERO DE LA OPCION Y PRESIONA INTRO: ", A : COLOR CTEXTO
+222 PRINT : COLOR CINPUT: INPUT "INGRESA EL NUMERO DE LA OPCION Y PRESIONA INTRO: ", A : COLOR CTEXTO
 223 IF A = OPTIONA OR A = OPTIONB GOTO 224 ELSE GOSUB 8000
-224 IF A = 1 THEN GOSUB 1000
-225 IF A = 2 THEN GOSUB 2000
-226 IF A = 3 THEN GOSUB 3000
+
+224 IF A = 1 AND SCENEA = 1 THEN GOSUB 1000 : REM ---- SCENE 1 ----
+225 IF A = 2 AND SCENEB = 2 THEN GOSUB 1100 : REM ---- SCENE 2 ----
+226 IF A = 1 AND SCENEA = 3 THEN GOSUB 1200 : REM ---- SCENE 3 ----
+227 IF A = 2 AND SCENEB = 4 THEN GOSUB 1300 : REM ---- SCENE 4 ----
 299 WEND
 999 END
 
 1000 REM ---- SCENE 1 ----
 1001 CLS
-1002 PRINT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lobortis consectetur. Curabitur tristique urna sit amet augue egestas hendrerit. Proin dignissim fermentum tristique."
-
-1003 PRINT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lobortis consectetur. Curabitur tristique urna sit amet augue egestas hendrerit. Proin dignissim fermentum tristique."
-
-1004 PRINT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lobortis consectetur. Curabitur tristique urna sit amet augue egestas hendrerit. Proin dignissim fermentum tristique."
-
-1005 PRINT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lobortis consectetur. Curabitur tristique urna sit amet augue egestas hendrerit. Proin dignissim fermentum tristique."
-
-1006 PRINT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lobortis consectetur. Curabitur tristique urna sit amet augue egestas hendrerit. Proin dignissim fermentum tristique."
+1002 PRINT "Si este juego llega a ser el veradero DIMENTION esta es una oportunidad unica. Gastas todo lo que tenes pero te llevas el disco a tu casa." : PRINT
+1003 PRINT "Vas directo a encender tu IBM PC 486. El inconfundible cielo levemente nublado de Windows 95 aparece en tu pantalla bajo el logo de Microsoft." : PRINT
+1004 PRINT "Abris la caja negra y en su interior encontras solo un diskette cuya etiqueta dice DIMENTION en letras blancas. No hay manual ni instrucciones. Que decepcion." : PRINT
+1005 PRINT "Insertas el diskette de 3 1/2 en la disquetera. Vas a MI PC, disco (A:) y examinas los archivos." : PRINT
+1006 PRINT "En el listado de archivos ves un ejecutable, tu curiosidad esta a punto de ser saciada. Habras sido enganado? O estas por hacer un gran descubrimiento?" : PRINT
+1007 PRINT "Haces click... La pantalla se pone negra y unas letras blancas aparecen en el centro de tu pantalla. El texto dice... presiona INTRO para comenzar" : PRINT : GOSUB 9100
+1008 PRINT "Presionas INTRO y... no pasa absolutamente nada... pareciera que te estafaron." : PRINT
+1009 PRINT "Retornas a la interfaz grafica del OS y repetis el proceso nuevamente.. nada.. un fiasco.. Era algo obvio que la leyenda del DIMENTION es solo eso.. una leyenda.." : PRINT
+1010 PRINT "Decidis que es tiempo de comer algo... quizas la comida calme tu frustracion." : PRINT
 
 1011 PRINT 
-1012 COLOR CINFO : PRINT "3. Opcion C"
-1013 COLOR CINFO : PRINT "4. Opcion D"
+1012 COLOR CINFO : PRINT "1. Comer una sopa de fideos instantanea"
+1013 COLOR CINFO : PRINT "2. Salir a comprar Comida"
 1014 PRINT 
-1015 OPTIONA = 3
-1016 OPTIONB = 4
-1017 RETURN 299
+1015 SCENEA = 3
+1016 SCENEB = 4
+1099 RETURN 299
 
-2000 REM ---- SCENE 2 ----
-2001 CLS
-2002 PRINT
-2003 PRINT "El juego es demasiado caro y seguramente sea una estafa. Decidis seguir recorriendo la feria buscando algo que te llame la atencion."
-2004 PRINT
-2005 PRINT "Compras algunas figus de CROMY, piezas faltantes de tus munecos y una remera de las TORTUGAS NINJA. Nada mal!"
-2006 PRINT
-2007 PRINT "Pasas un dia muy divertido en la feria y volves a casa con las cosas que compraste para tu coleccion... pero... no dejas de preguntarte... que contenia ese diskette que llamo tu atencion..."
-2008 PRINT
-2009 PRINT "Al tiempo regresas al stand del vendedor para comprar el juego.. ya es tarde.. lo compro un tal ERNEST CLINE... parece que es escritor... y esta escribiendo un libro sobre videojuegos y cultura pop.... se habra inspirado en el DIMENTION?"
-2010 GOSUB 9110 : REM -- GAMEOVER --
-2012 RETURN 299
+1100 REM ---- SCENE 2 ----
+1101 CLS
+1102 PRINT "El juego es demasiado caro y seguramente sea una estafa. Decidis seguir recorriendo la feria buscando algo que te llame la atencion. " : PRINT
+1103 PRINT "Compras algunas figus de CROMY, piezas faltantes de tus munecos y una remera de las TORTUGAS NINJA. Nada mal!" : PRINT
+1104 PRINT "Pasas un dia muy divertido en la feria y volves a casa con las cosas que compraste para tu coleccion... pero... no dejas de preguntarte... que contenia ese juego de MSDOS que llamo tu atencion..." : PRINT
+1105 PRINT "Al tiempo regresas al stand del vendedor para comprar el juego.. ya es tarde.." : PRINT
+1106 PRINT "Lo compro un tal ERNEST CLINE... parece que es escritor... y esta escribiendo un libro sobre videojuegos y cultura pop.... se habra inspirado en el DIMENTION?" : PRINT
+1108 GOSUB 9110 : REM -- GAMEOVER --
+1199 RETURN 299
 
-3000 REM ---- subroutine 3 ----
-3001 CLS
-3010 PRINT "subroutine 3, program ends"
-3011 PRINT
-3020 GOSUB 9110 : REM -- GAMEOVER --
-3999 RETURN 299
+1200 REM ---- SCENE 3 ----
+1201 CLS
+1202 PRINT "subroutine 3, program ends"
+1203 PRINT
+1204 GOSUB 9110 : REM -- GAMEOVER --
+1299 RETURN 299
+
+1300 REM ---- SCENE 4 ----
+1301 CLS
+1302 PRINT "subroutine 4, program ends"
+1303 PRINT
+1304 GOSUB 9110 : REM -- GAMEOVER --
+1399 RETURN 299
 
 8000 PRINT 
 8001 COLOR CERROR : PRINT "No es una opcion valida, ingresa" OPTIONA "o" OPTIONB
@@ -139,18 +146,13 @@
 9114 PRINT : COLOR CINPUT : INPUT "Escribe s para seguir jugando o q para salir, luego presiona INTRO: ", Z$
 9115 IF Z$ = "q" GOTO 9000
 9116 IF Z$ = "s" THEN GAMEOVER = 0
-9117 IF Z$ = "s" GOTO 125 ELSE GOSUB 9800
+9117 IF Z$ = "s" GOTO 125 ELSE GOSUB 9900
 9118 RETURN
-
-9800 PRINT 
-9801 COLOR CERROR : PRINT "No es una opcion valida"
-9802 PRINT 
-9803 RETURN 9114
 
 9900 PRINT 
 9901 COLOR CERROR : PRINT "No es una opcion valida"
 9902 PRINT 
-9903 RETURN 116
+9903 IF GAMEOVER = 1 THEN RETURN 9114 ELSE RETURN 116
 
 
 
