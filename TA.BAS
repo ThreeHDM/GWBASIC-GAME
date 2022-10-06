@@ -78,11 +78,11 @@
 225 IF A = 2 AND SCENEB = 2 THEN GOSUB 1100 : REM ---- SCENE 2 ----
 226 IF A = 1 AND SCENEA = 3 THEN GOSUB 1200 : REM ---- SCENE 3 ----
 227 IF A = 2 AND SCENEB = 4 THEN GOSUB 1300 : REM ---- SCENE 4 ----
-228 IF A = 1 AND SCENEB = 5 THEN GOSUB 1400 : REM ---- SCENE 5 ----
+228 IF A = 1 AND SCENEA = 5 THEN GOSUB 1400 : REM ---- SCENE 5 ----
 229 IF A = 2 AND SCENEB = 6 THEN GOSUB 1500 : REM ---- SCENE 6 ----
-230 IF A = 1 AND SCENEB = 7 THEN GOSUB 1600 : REM ---- SCENE 7 ----
+230 IF A = 1 AND SCENEA = 7 THEN GOSUB 1600 : REM ---- SCENE 7 ----
 231 IF A = 2 AND SCENEB = 8 THEN GOSUB 1700 : REM ---- SCENE 8 ----
-232 IF A = 1 AND SCENEB = 9 THEN GOSUB 1800 : REM ---- SCENE 9 ----
+232 IF A = 1 AND SCENEA = 9 THEN GOSUB 1800 : REM ---- SCENE 9 ----
 233 IF A = 2 AND SCENEB = 10 THEN GOSUB 1900 : REM ---- SCENE 10 ----
 
 299 WEND
@@ -155,7 +155,43 @@
 
 1400 REM ---- SCENE 5 ----
 1500 REM ---- SCENE 6 ----
+
 1600 REM ---- SCENE 7 ----
+1601 CLS
+1602 PRINT "Te presentas y le preguntas al viejo quien es y donde estas. " : PRINT
+1603 PRINT "El viejo se quita el casco y te explica que pudo leer tu mente con el. Ya sabe todo sobre ti. " : PRINT
+1604 PRINT "Un casco para leer la mente? Como el que EMMET BROWN uso con MARTY en VOLVER AL FUTURO I? " : PRINT
+1605 PRINT "Este tipo debe estar loco, nada tiene sentido.. Ademas en la pelicula el casco no funciona.." : PRINT
+1606 PRINT "El viejo se presenta y dice:" : PRINT
+1607 PRINT "- Un placer conocerte "USERNAME$"." : PRINT : GOSUB 9100
+1608 PRINT "- Soy el Dr. CALEB MERITT y estas lejos de casa. Estas en otra DIMENSION. Seguramente te resulte familiar. En tu dimension un tal ROBERT ZEMECKIS creo una pelicula basada en ella junto con otro de nombre BOB GALE." : PRINT
+1609 PRINT "Ese tipo paso por aqui hace un tiempo y con el se llevo la idea.. o mas bien se la dieron.. la llamo VOLVER AL FUTURO." : PRINT
+1610 PRINT "Tus oidos no pueden creen lo que esuchan. Debes estar en coma.. debes haber perdido el conocimiento y estas tirado en el piso de tu cocina.." : PRINT
+1611 PRINT "Miras bien a CALEB y notas el parecido con el Dr. EMMET BROWN." : PRINT
+1612 PRINT "CALEB continua explicandote:" : PRINT : GOSUB 9100
+1613 PRINT "- Esta DIMENSION, junto con otras, forma parte de una MEGA DIMENSION. Somos todos prisioneros de un ser que mediante el viaje interdimensional comenzo a coleccionar dimensiones y a atraparlas en esta MEGA DIMENSION." : PRINT
+1614 PRINT "- Lo llamamos EL COLECCIONISTA y.. es el unico que puede ayudarte a regresar. Otros viajeros de tu dimension ya lo han logrado." : PRINT
+1615 PRINT "- EL COLECCIONISTA atrapa  las dimensiones en bucles de guiones que el mismo escribe. Son guiones o historias fantasticas utilizando recursos de cada dimension. " : PRINT
+1616 PRINT "- Somos muy pocos los seres que tenemos conciencia de esto. La mayoria no sabe que estamos atrapados. Tuviste suerte que yo te encontrara antes que cualquier otro." : PRINT
+1617 PRINT "CALEB toma una pizarra y comienza a dibujar circulos representando todas las dimensiones y como se entrecruzan entre si." : PRINT : GOSUB 9100
+1618 PRINT "- La union de todas las dimensiones no es natural. Todas se estan entrelazando en una unidad inestable. Segun mis calculos todo confluira en un gran agujero negro y moriremos." : PRINT
+1619 PRINT "- Tu dimension no corre peligro. Al COLECCIONISTA le gusta como ustedes llevan a libros, peliculas o comics sus historias. Inspiradas en las dimensiones que colecciona." : PRINT
+1620 PRINT "- Nuestro encuentro no fue casualidad. Creo que tu puedes salvarnos. Si consigues una audiencia con EL COLECCIONISTA podras estar lo suficientemente cerca suyo como para destruir su BACULO MAGICO." : PRINT
+1621 PRINT "- Eso liberara a todas las dimensiones y le impedira capturar otras." : PRINT
+1622 PRINT "- Para conseguir una audiencia con EL COLECCIONISTA debes conseguir 1 objeto de coleccion de alguna DIMENSION.  El te pondra a prueba para su entretenimiento. " : PRINT : GOSUB 9100
+1623 PRINT "- Si logras conseguir un objeto de su interes podras verlo. En ese momento te pondra a prueba por ultima vez. De fallar quedaras atrapado aqui para siempre. " : PRINT
+1624 PRINT "- Aquellos que truinfan regresan a su dimension con un guion, libro o idea para producir y seguir complaciendo al COLECCIONISTA." : PRINT
+1625 PRINT "- Tu debes romper ese patron y liberarnos! Te lo imploro!" : PRINT
+1626 PRINT "Ahora te das cuenta.. el juego DIMENTION es una llave a otra dimension." : PRINT
+1627 PRINT "Los viajeros de la tierra que llegan aqui regresan con ideas del COLECCIONISTA. El es el genio creativo detras de muchas obras del cine y la literatura." : PRINT : GOSUB 9100
+1628 PRINT "- "USERNAME$", espero que puedas ayudarnos. Se que sabras hacer lo correcto. Toma esto.. si vas a hacer algo.. mejor hacerlo con estilo... " : PRINT
+1629 PRINT "CALEB te entrega las llaves de un increible DeLorean. Esta no es una maquina del tiempo. Es una maquina dimensional que te permite elegir la DIMENSION a la que viajar." : PRINT
+1630 PRINT "El Dr. te explica que este auto no es el mismo que el que usa el MARTY de su dimension. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
+1631 PRINT "CALEB lo adapto los controles del auto para que asocies cada DIMENSION con la historia correspondiente en tu mundo y para que te informe que objeto quiere EL COLECCIONISTA." : PRINT
+1632 PRINT
+1633 SCENEA = 9
+1634 SCENEB = 10
+1699 RETURN 299
 
 1700 REM ---- SCENE 8 ----
 1701 CLS
@@ -201,7 +237,7 @@
 9118 RETURN
 
 9200 REM ---- subroutine PRESS ANY KEY TO ENTER DIMENTION ----
-9201 CLS : LOCATE 12, 20: COLOR CINPUT: PRINT "PRESS ANY KEY TO ENTER DIMENTION" : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
+9201 CLS : LOCATE 12, 22: COLOR CINPUT: PRINT "PRESS ANY KEY TO ENTER DIMENTION" : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
 9202 RETURN
 
 9300 REM ---- subroutine INTERDIMENTIONAL TRIP ----
