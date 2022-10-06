@@ -70,7 +70,7 @@
 
 
 220 REM ---- game loop ----
-221 WHILE GAMEOVER = 0
+221 WHILE GAMEOVER = 0 
 222 PRINT : COLOR CINPUT: INPUT "INGRESA EL NUMERO DE LA OPCION Y PRESIONA INTRO: ", A : COLOR CTEXTO
 223 IF A = OPTIONA OR A = OPTIONB GOTO 224 ELSE GOSUB 8000
 
@@ -84,6 +84,25 @@
 231 IF A = 2 AND SCENEB = 8 THEN GOSUB 1700 : REM ---- SCENE 8 ----
 232 IF A = 1 AND SCENEA = 9 THEN GOSUB 1800 : REM ---- SCENE 9 ----
 233 IF A = 2 AND SCENEB = 10 THEN GOSUB 1900 : REM ---- SCENE 10 ----
+234 IF A = 1 AND SCENEA = 11 THEN GOSUB 2000 : REM ---- SCENE 11 ----
+235 IF A = 2 AND SCENEB = 12 THEN GOSUB 2100 : REM ---- SCENE 12 ----
+236 IF A = 1 AND SCENEA = 13 THEN GOSUB 2200 : REM ---- SCENE 13 ----
+237 IF A = 2 AND SCENEB = 14 THEN GOSUB 2300 : REM ---- SCENE 14 ----
+238 IF A = 1 AND SCENEA = 15 THEN GOSUB 2400 : REM ---- SCENE 15 ----
+239 IF A = 2 AND SCENEB = 16 THEN GOSUB 2500 : REM ---- SCENE 16 ----
+240 IF A = 1 AND SCENEA = 17 THEN GOSUB 2600 : REM ---- SCENE 17 ----
+241 IF A = 2 AND SCENEB = 18 THEN GOSUB 2700 : REM ---- SCENE 18 ----
+242 IF A = 1 AND SCENEA = 19 THEN GOSUB 2800 : REM ---- SCENE 19 ----
+243 IF A = 2 AND SCENEB = 20 THEN GOSUB 2900 : REM ---- SCENE 20 ----
+244 IF A = 1 AND SCENEA = 21 THEN GOSUB 3000 : REM ---- SCENE 21 ----
+245 IF A = 2 AND SCENEB = 22 THEN GOSUB 3100 : REM ---- SCENE 22 ----
+246 IF A = 1 AND SCENEA = 23 THEN GOSUB 3200 : REM ---- SCENE 23 ----
+247 IF A = 2 AND SCENEB = 24 THEN GOSUB 3300 : REM ---- SCENE 24 ----
+248 IF A = 1 AND SCENEA = 25 THEN GOSUB 3400 : REM ---- SCENE 25 ----
+249 IF A = 2 AND SCENEB = 26 THEN GOSUB 3500 : REM ---- SCENE 26 ----
+250 IF A = 1 AND SCENEA = 27 THEN GOSUB 3600 : REM ---- SCENE 27 ----
+251 IF A = 2 AND SCENEB = 28 THEN GOSUB 3700 : REM ---- SCENE 28 ----
+
 
 299 WEND
 999 END
@@ -189,8 +208,10 @@
 1630 PRINT "El Dr. te explica que este auto no es el mismo que el que usa el MARTY de su dimension. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
 1631 PRINT "CALEB lo adapto los controles del auto para que asocies cada DIMENSION con la historia correspondiente en tu mundo y para que te informe que objeto quiere EL COLECCIONISTA." : PRINT
 1632 PRINT
-1633 SCENEA = 9
-1634 SCENEB = 10
+1633 COLOR CINFO : PRINT "1. Permanecer en la dimension de VOLVER AL FUTURO"
+1634 COLOR CINFO : PRINT "2. Viajar a otra dimension"
+1697 SCENEA = 9
+1698 SCENEB = 10
 1699 RETURN 299
 
 1700 REM ---- SCENE 8 ----
@@ -209,7 +230,131 @@
 
 
 1800 REM ---- SCENE 9 ----
+1801 CLS
+1802 PRINT "VOLVER AL FUTURO es una de tus peliculas favoritas. Aqui tenes mas chances de conseguir un objeto de coleccion. " : PRINT
+1803 PRINT "Le decis a CALEB que preferis quedarte y buscar un objeto aqui. El te cuenta que EL COLECCIONISTA quiere el ALMANAQUE de resultados deportivos de esta DIMENSION." : PRINT
+1804 PRINT "Si le llevas eso te concedera una audiencia." : PRINT
+1805 PRINT "Agradeces a CALEB su ayuda y muy a tu pesar, le devolves las llaves del DELOREAN. ya que podes caminar hasta HILL VALLEY." : PRINT
+1806 PRINT "CALEB te cuenta que manana es la noche del BAILE DEL ENCANTO BAJO EL OCEANO y que MARTY esta intentando recuperar el ALMANAQUE con resultados deportivos que el BIFF del futuro entrego a su yo de 1955." : PRINT
+1807 PRINT "Queres recuperar el almanaque en la casa de BIFF antes del baile, pero el Doc. te lo impide debido a que afuera esta nevando." : PRINT : GOSUB 9100
+1808 PRINT "No se trata de una nevada comun y corriente. Al entrar en contacto con la piel los copos producen una muerte instantanea." : PRINT
+1809 PRINT "CALEB te explica que la DIMENSION del ETERNAUTA de OESTERHELD se esta uniendo con esta y la nevada afecta a todos los seres que no viven en la MEGA DIMENSION." : PRINT
+1810 PRINT "Haces caso al Doc. Pasas la noche y el dia siguiente en su casa. " : PRINT
+1811 PRINT "Afortunadamente la noche del baile es preciosa justo como en la pelicula. No hay nevada mortal." : PRINT
+1812 PRINT "Saludas al Doc. y partis en tu mision." : PRINT : GOSUB 9100
+1813 PRINT "Llegas al baile escolar y buscas al equivalente de MARTY.. deberia tener un sombrero y una campera de cuero. Tal y como esta vestido en VOLVER AL FUTURO II." : PRINT
+1814 PRINT "El lugar es identico a la pelicula. Ves a todos los jovenes bailando, la decoracion del oceano, la ropa de los 50s y ves a los dobles de GEORGE Y LORRAINE de esta dimension. Son muy parecidos a los actores!" : PRINT
+1815 PRINT "En ese momento comienza a sonar Johnny B. Goode de Chuck Berry! Claro! el MARTY de VOLVER AL FUTURO I esta tocando para que sus padres se enamoren! " : PRINT
+1816 PRINT "Eso quiere decir que el otro MARTY esta escapando de BIFF y esta detras del escenario en este preciso momento. " : PRINT
+1817 PRINT "MARTY es noqueado por una puerta y BIFF recupera el ALMANAQUE. No llegaste a tiempo... ahora hay que arrebatarselo a BIFF." : PRINT : GOSUB 9100
+1818 PRINT "Despertas a MARTY y le decis que sos amigo de CALEB... el nombre de MARTY en esta dimension es MATHEW. " : PRINT
+1819 PRINT "MATHEW y vos llaman a CALEB usando un walkie talkie como con el que jugabas en tu infancia." : PRINT
+1820 PRINT "CALEB te dice que MATHEW no sabe nada de la fusion de las dimensiones y esta viviendo este bucle una y otra vez. " : PRINT
+1821 PRINT "No debes mencionarle nada al respecto. Lo contrario podria causar una ruptura del espacio interdimensional." : PRINT
+1822 PRINT "Los tres se suben al DELOREAN para alcanzar a BIFF en su auto. " : PRINT : GOSUB 9100
+1823 PRINT "MATHEW toma la patineta voladora y se baja del auto para recuperar el ALMANAQUE. " : PRINT
+1824 PRINT "Ya sabes que pasa despues y CALEB también. Ya vivio este bucle antes." : PRINT
+1825 PRINT "Te bajas del DeLorean mas adelante y esperas que MATHEW recupere el ALMANAQUE, sea rescatado por CALEB y el doble de BIFF choque nuevamente contra un camion de estiercol." : PRINT
+1826 PRINT "Le pedis a MATHEW el almanaque pero el quiere quemarlo." : PRINT
+1827 PRINT "Tratas de explicarle que lo necesitas para volver a tu tiempo. Inventas que vos tambien sos un viajero del tiempo para convencerlo sin revelar nada del viaje interdimensional." : PRINT
+1828 PRINT "MATHEW sigue negandose. El quiere prevenir el futuro en el que su padre esta muerto, BIFF es asquerosamente rico y su madre esta casada con el." : PRINT
+1829 PRINT
+1830 COLOR CINFO : PRINT "1. Tomar el almanaque a la fuerza"
+1831 COLOR CINFO : PRINT "2. Dejar que MATHEW queme el almanaque y buscar un objeto alternativo"
+1897 SCENEA = 17
+1898 SCENEB = 18
+1899 RETURN 299
+
+
 1900 REM ---- SCENE 10 ----
+2000 REM ---- SCENE 11 ----
+2100 REM ---- SCENE 12 ----
+2200 REM ---- SCENE 13 ----
+2300 REM ---- SCENE 14 ----
+2400 REM ---- SCENE 15 ----
+2500 REM ---- SCENE 16 ----
+
+2600 REM ---- SCENE 17 ----
+2601 CLS
+2602 PRINT "MATHEW no lo sabe, pero vos estas seguro que no haras nada con el ALMANAQUE que lo perjudique. " : PRINT
+2603 PRINT "Forcejeas con el por el ALMANAQUE y logras quitarselo. No es facil luchar contra un idolo de toda tu vida!" : PRINT
+2604 PRINT "Sin embargo estas muy motivado y logras imponerte. De un golpe final knockeas a MATHEW y recuperas el ALMANAQUE." : PRINT
+2605 PRINT "Y ahora... que?" : PRINT
+2606 PRINT "Luego de unos segundos comenzas a desvanecerte como cuando el capitan PICARD y REINER se teletransportaban a explorar un planeta extrano en STAR TREK NEXT GENERATION." : PRINT
+
+2697 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
+2698 SCENEA = 21 : OPTIONB = 1
+2699 RETURN 299
+
+2700 REM ---- SCENE 18 ----
+2701 CLS
+2702 PRINT "MATHEW se ve muy decidido. No queres pelear con el para obtener el almanaque. Seguramente haya otro objeto que puedas llevar al coleccionista." : PRINT
+2703 PRINT "Tal y como en la pelicula MATHEW quema el ALMANAQUE y CALEB es golpeado por un rayo que lo envia al viejo oeste." : PRINT
+2704 PRINT "La tormenta que desato el rayo empapa a ambos." : PRINT
+2705 PRINT "En ese momento llega un cartero para entregar la carta que informa a MATHEW que el Doc. esta vivo! " : PRINT
+2706 PRINT "El cartero tiene otra carta a nombre de "USERNAME$"." : PRINT
+2707 PRINT "Tu carta dice:" : PRINT : GOSUB 9100
+2708 PRINT "No pudiste recuperar el objeto de coleccion que queria. Fallaste mi prueba. Quedaras atrapado en esta DIMENSION para siempre." : PRINT
+2709 PRINT "Firmado EL COLECCIONISTA." : PRINT
+2797 PRINT
+2798 GOSUB 9110 : REM -- GAMEOVER --
+2799 RETURN
+
+
+2800 REM ---- SCENE 19 ----
+2900 REM ---- SCENE 20 ----
+
+3000 REM ---- SCENE 21 ----
+3001 CLS
+3002 PRINT "Tu cuerpo se materializa en el lugar de tus suenos. " : PRINT
+3003 PRINT "Es como si toda la cultura pop de tu infancia estuviera colgando de las paredes y en las estanterias." : PRINT
+3004 PRINT "Aqui hay de todo VHS, videograbadoras, laser discs, consolas de videojuegos, munecos, PCs retro, juegos bigbox, figuritas, computadoras retro y mas. No falta nada!" : PRINT
+3005 PRINT "Hacia el frente hay una gran escalera de tres colores. Al final de cada color hay como un campo de fuerza que claramente impide el paso." : PRINT
+3006 PRINT "Te recuerda al campo de fuerza que impedia el paso a OBI WAN KENOBI en su pelea con DARTH MAUL en EPISODIO I." : PRINT
+3007 PRINT "En los escalones tambien hay numeros: 1, 2 y 3." : PRINT : GOSUB 9100
+3008 PRINT "Te acercas hacia el primer conjunto de escalones de color verde y miras hacia arriba. Hay una luz cegadora en la cima de la escalera, pero llegas a ver una figura sentada." : PRINT
+3009 PRINT "- Gracias por mi nuevo objeto de coleccion. Dice EL COLECCIONISTA. " : PRINT
+3010 PRINT "En ese momento el objeto que le trajiste desaparece de tus manos y se materializa en una de las estanterias." : PRINT
+3011 PRINT "- Ahora debes superar una ultima prueba. Si contestas bien estas 3 preguntas podras regresar a tu dimension con la ultima de mis creaciones. Un guion para una nueva pelicula que te hara rico y famoso." : PRINT
+3012 PRINT "La primera pregunta es" : PRINT
+3013 PRINT "- En que ano se publico el primer arcade de STREET FIGHTER 2?" : PRINT
+
+3095 COLOR CINFO : PRINT "1. 1990"
+3096 COLOR CINFO : PRINT "2. 1991"
+3097 SCENEA = 23 
+3098 SCENEB = 22 : OPTIONB = 2
+3099 RETURN 299
+
+
+3100 REM ---- SCENE 22 ----
+3101 CLS
+3102 PRINT "- Excelente. Conestaste bien mi primera pregunta." : PRINT
+3103 PRINT "El campo de fuerza que te impedia el paso entre los escalones verdes desaparece. Ya podes subir hasta los escalones amarillos que tienen el numero 2." : PRINT
+3104 PRINT "- Es hora de mi segunda pregunta:" : PRINT
+3105 PRINT "- Como se llama el creador del TETRIS?" : PRINT
+
+3195 COLOR CINFO : PRINT "1. Dimitri Antonov"
+3196 COLOR CINFO : PRINT "2. Alekséi Leonídovich Pázhitnov"
+3197 SCENEA = 25 
+3198 SCENEB = 24
+3199 RETURN 299
+
+3200 REM ---- SCENE 23 ----
+3201 CLS
+3202 PRINT "No, el primer arcade de STREET FIGHTER 2 se publico en 1991." : PRINT
+3203 PRINT "No podes creer como te equivocaste en esta pregunta! Deben haber sido los nervios!" : PRINT
+3204 PRINT "EL COLECCIONISTA toma su baculo, te lanza un hechizo y te atrapa en la DIMENSION de JUMANJI donde tendras que vivir en la selva hasta que alguien saque un 5 o un 8." : PRINT
+3297 PRINT
+3298 GOSUB 9110 : REM -- GAMEOVER --
+3299 RETURN 299
+
+3300 REM ---- SCENE 24 ----
+3400 REM ---- SCENE 25 ----
+3500 REM ---- SCENE 26 ----
+3600 REM ---- SCENE 27 ----
+3700 REM ---- SCENE 28 ----
+3800 REM ---- SCENE 29 ----
+3900 REM ---- SCENE 30 ----
 
 8000 PRINT 
 8001 COLOR CERROR : PRINT "No es una opcion valida, ingresa" OPTIONA "o" OPTIONB
