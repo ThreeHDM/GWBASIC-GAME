@@ -298,7 +298,7 @@
 1709 PRINT "El efecto no te deja mucho mas tiempo para pensar... mueres al instante.. " : PRINT
 1710 PRINT
 1711 GOSUB 9110 : REM -- GAMEOVER --
-1799 RETURN
+1799 RETURN 299
 
 
 1800 REM ---- SCENE 9 ----
@@ -340,9 +340,116 @@
 
 1900 REM ---- SCENE 10 ----
 2000 REM ---- SCENE 11 ----
+2001 CLS
+2002 PRINT "Preferis ir a otra DIMENSION. " : PRINT
+2003 PRINT "A KIDCOMB no le gusta que rechaces su oferta. " : PRINT
+2004 PRINT "Esto lo enfurece y te demuestra que es un verdadero pirata. No perdono que lo hayas vencido en la lucha de espadas." : PRINT
+2005 PRINT "Desenvaina su sable una vez mas, pero esta vez usa insultos de la maestra de la espada." : PRINT
+2006 PRINT "No son un desafio para un gran conocedor como vos." : PRINT
+2007 PRINT "Esta vez lo vences definitivamente y comenzas tu viaje." : PRINT : GOSUB 9100
+2008 PRINT "Recordas que no tenes dinero para comprar un barco, por lo que primero te dirigis a la tienda de la isla para conseguir una nota de credito. " : PRINT
+2009 PRINT "Enganas al tendero para que salga de su negocio pidiendole que pregunte a la maestra de la espada si podes verla." : PRINT
+2010 PRINT "La conbinacion de la caja fuerte es identica a la del juego!" : PRINT
+2011 PRINT "Una ve con la nota de credito, caminas por las calles de la isla y llegas al astillero." : PRINT
+2012 PRINT "Alli esta TRISTAN, un vendedor de barcos que claramente inspiro a STAN de MONKEY ISLAND." : PRINT : GOSUB 9100
+2013 PRINT "Tal y como STAN tristan es un gran vendedor pero vos no tenes nada de dinero, solo tu nota de credito." : PRINT
+2014 PRINT "Tenes que convencer a TRISTAN de que no queres comprar ningun adicional.  Ni faros antiniebla, ni garantia extendida, nada." : PRINT : GOSUB 9100 : GOSUB 9400
+2015 PRINT "Finalmente llegas a un acuerdo con TRISTAN y obtenes un bote de remos. Querias un barco, querias viajar en el MONO MARINO, pero ese barco ya lo tiene KIDCOMB. Tenes que conformarte con esto." : PRINT
+2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. El se da cuenta que no sos de esta DIMENSION. Te ruega que destruyas el baculo del coleccionista. Ya esta harto de vivir en este bucle guionado." : PRINT
+2017 PRINT "Te dice que para viajar a otra dimensión tenes que navegar hacia el horizonte. Para que tengas exito en tu mision te coloca los faros anti niebla gratuitamente. A cuenta de la casa!" : PRINT
+2018 PRINT "Comenzas a remar alejandote de la isla. Al navegar hacia el horizonte, podes apreciar la vista de la isla como en el inicio del MONKEY ISLAND." : PRINT
+2019 PRINT "Al estar un poco mas lejos el viaje interdimensional comienza nuevamente." : PRINT
+2020 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
+2021 PRINT "No te sentis tan aturdido como la primera vez." : PRINT
+2022 PRINT "Debe ser que el viaje entre las DIMENSIONES de la MEGA DIMENSION no es tan severo para el cuerpo." : PRINT
+2023 PRINT "Apareces con tu bote en mar abierto, a lo lejos ves tierra." : PRINT
+2024 PRINT "Luego de un tiempo de remar sin descanso llegas a ver una ciudad. Una ciudad que no tiene calles, sino canales!" : PRINT
+2025 PRINT "Podra ser? Es Venecia! Remas con tu bote entre gondolas y llegas a puerto." : PRINT
+2026 PRINT "En el puerto hay dos peleadores rompiendo un TOYOTA. Uno viste un traje blanco y el otro rojo. Claramente son RUI y KEN. Habras llegado a la DIMENSION de STREET FIGHTER?" : PRINT : GOSUB 9100
+2027 PRINT "Parece que toda nuestra cultura pop esta inspirada en esta MEGA DIMENSION! No hay nada que escape." : PRINT
+2028 PRINT "Te subis al muelle y te dispones a hablar con los peleadores cuando de pronto ves que una lancha es destruida por las helices de un barco. Ves que dos tipos que estan peleando escapan justo a tiempo de las helices." : PRINT
+2029 PRINT "Uno de ellos tiene sombrero y campera de cuero. " : PRINT
+2030 PRINT "Entonces te das cuenta. Miras a tu alrededor. La vestimenta de la gente es de 1930. Estas en la escena de INDIANA JONES Y LA ULTIMA CRUZADA!! Una de tus peliculas favoritas." : PRINT
+2031 PRINT "Las dimensiones deben estar cruzandose aqui tambien. No haces caso a los peleadores y te dirigis a hablar con este doble de INDIANA JONES." : PRINT : GOSUB 9100
+2032 PRINT "- Disculpe, es usted arqueologo? está buscando a su padre?" : PRINT
+2033 PRINT "El tipo te mira sorprendido. Te toma de tu remera y te pregunta que sabes de su padre." : PRINT
+2034 PRINT "Te das cuenta de que no ha tomado conciencia de la union de las dimensiones." : PRINT
+2035 PRINT "Llegas a la conclusion de que quizas no sea buena idea contarle todo. Le decis que sos un caballero de la orden de los Caballeros de la Espada Cruciforme y que estas dispuesto a ayudarlo. " : PRINT
+2036 PRINT "Te mira desconfiado. Aun asi,  se presenta como KANSAS JONAS." : PRINT : GOSUB 9100
+2037 PRINT "- Que tal Dr. JONAS mi nombre es "USERNAME". Supongo que ya sabe que su padre esta en un castillo nazi. " : PRINT
+2038 PRINT "- Le propongo que vayamos al castillo y rescatemos a su padre. Luego iremos en busca del GRIAL. Cuando lo logremos usted me dara un objeto suyo, para retornarme el favor." : PRINT
+2039 PRINT "A JONAS tu peticion le resulta extrana pero cree tu historia y te acepta como companero." : PRINT
+2040 PRINT "A quien no ves es a la Dra. Schneider, claramente ella fue un interes romantico agregado al guion de la pelicula. Tampoco ves a Marcus, debe ser otro personaje anadido al guion como alivio comico." : PRINT
+2041 PRINT "Tal y como en la pelicula llegan al castillo para rescatar a HARRY JONAS, el padre del DR. JONAS. El mayordomo del castillo abre las inmensas puertas y le decis:" : PRINT : GOSUB 9100
+2042 PRINT "- Hola, vendo estas hermosas chaquetas de cuero." : PRINT
+2043 PRINT "El tipo no te cree una sola palabra y debes noquearlo." : PRINT
+2044 PRINT "Todo es tal cual la pelicula con algunos detalles de la aventura grafica. " : PRINT
+2045 PRINT "Conoces bien el castillo dado que es muy similar a la pelicula y a la aventura grafica." : PRINT
+2046 PRINT "Logran rescatar a HARRY y huir del castillo evitando ser capturados, evitando la escena del incendio o la persecuisión en motocilceta." : PRINT : GOSUB 9100
+2047 PRINT "Una vez a salvo escapas con los Dres. JONAS en zepellin, para luego viajar al Valle de la Luna Creciente y buscar la copa de Cristo." : PRINT
+2048 PRINT "Como evistaste que los nazis obtuvieran el diario del grial, en el templo no hay nadie. Nadie supo como hallarlo." : PRINT
+2049 PRINT "Es hora de pasar por las tres pruebas." : PRINT
+2050 PRINT "Avanzas con los Dres. JONAS por la primer prueba." : PRINT
+2051 PRINT "Solo el hombre penitente pasara... el hombre penitente esta de rodillas! cuidado con las cuchillas! KANSAS JONAS logra detenerlas a tiempo. " : PRINT : GOSUB 9100
+2052 PRINT "Bien.. solo dos mas..." : PRINT
+2053 PRINT "Seguir los pasos de Dios.. la palabra de Dios.. Recordás que en latin Iehova se escribe con I! Segunda prueba superada!" : PRINT
+2054 PRINT "En el salto desde la cabeza del leon.. el probara su valor.. Esta prueba es un salto de fe... Los Dres. JONAS te miran atonitos cuando decidis dar el salto y caes en el puente invisible." : PRINT
+2055 PRINT "Listo.. es hora de conocer al caballero... al ultimo de los 3 hermanos que protegen la copa de Cristo. Los Dres. JONAS siguen tus pasos boquiabiertos por lo que estan viendo. Es el sueno de cualquier arqueologo!" : PRINT
+2056 PRINT "Al llegar el caballero espera a otro para batirse a duelo. Pero está muy viejo y no logra levantar la espada. Espero 700 anos ser vencido por otro caballero." : PRINT : GOSUB 9100
+2057 PRINT "Detras del caballero hay una gran mesa llena de copas y calices. Uno de ellos es el santo grial. " : PRINT
+2058 PRINT "El caballero mira las copas y te dice" : PRINT
+2059 PRINT "- Debes elegir con sabiduria.. el verdadero grial te puede dar vida eterna, el falso te la quitara. " : PRINT
+2060 PRINT "Inmediatamente piensas en pedir ayuda a HARRY, pero el caballero te aclara que debes elegir por vos mismo o el templo se desmoronara." : PRINT
+2061 PRINT "Debes elegir que copa.. pero hay diferencias con la pelicula.. puede que en esta dimension la copa sea la de oro.. es la copa del rey de reyes..." : PRINT
+2062 PRINT
+2063 COLOR CINFO : PRINT "1. Beber de la copa del carpintero"
+2064 COLOR CINFO : PRINT "2. Beber de la copa de oro y rubies"
+2099 SCENEA = 19
+2098 SCENEB = 20
+2099 RETURN 299
+
 2100 REM ---- SCENE 12 ----
+2101 CLS
+2102 PRINT "KIDCOMB te extiende el idolo y cuando estas acercando la mano para tomarlo te golpea en la cabeza. " : PRINT
+2103 PRINT "Este es un verdadero pirata. Un pirata orgulloso al que no le gusto haber sido derrotado. " : PRINT
+2104 PRINT "GUYBRUSH jamas haria algo asi, pero su personaje se baso en este pirata. " : PRINT
+2105 PRINT "Tu error fue ver a tu pirata favorito en KIDCOMB." : PRINT
+2106 PRINT "El despiadado pirata te ata al idolo y te tira al agua en el muelle de la isla, cerca del bar del puerto. Justo como le sucede a GUYBRUSH en el MONKEY ISLAND I." : PRINT
+2107 PRINT "Por suerte podes aguantar la respiracion durante 10 minutos." : PRINT : GOSUB 9100
+2108 PRINT "A tu alrededor hay muchos objetos filosos para cortar la soga que te ata al idolo y asi poder escapar de una muerte por ahogamiento. " : PRINT
+2109 PRINT
+2110 COLOR CINFO : PRINT "1. Intentar agarrar algun objeto filoso para cortar la soga"
+2111 COLOR CINFO : PRINT "2. Intentar levantar la estatua"
+2197 SCENEA = 13
+2198 SCENEB = 14
+2199 RETURN 299
+
 2200 REM ---- SCENE 13 ----
+2201 CLS
+2202 PRINT "En el lecho marino llegas a ver tijeras, sierras, espadas y otros objetos filosos. Cualquiera de ellos te serviria para cortar la soga y poder salir a tiempo." : PRINT
+2203 PRINT "Intentas con todas tus fuerzas acercarte a alguno de ellos pero no es posible. La cuerda es demasiado corta. " : PRINT
+2204 PRINT "No alcanzas ninguno." : PRINT
+2205 PRINT "El tiempo se acaba." : PRINT
+2206 PRINT "Comenzas a perder el aire. Tu rostro se torna morado. Burbujas salen de tu boca en un reflejo por tomar aire." : PRINT
+2207 PRINT "Finalmente el tiempo se acaba y no podes contener mas el aire.. moris ahogado.." : PRINT : GOSUB 9100
+2208 PRINT "Ahora solo podes FLOTAR, HINCHARTE o PUDRIRTE..." : PRINT
+2298 GOSUB 9110 : REM -- GAMEOVER --
+2299 RETURN 299
+
 2300 REM ---- SCENE 14 ----
+2301 CLS
+2302 PRINT "Se te ocurre acercarte al idolo y levantarlo. " : PRINT
+2303 PRINT "Recordas que GUYBRUSH escapa a esta situacion de ese modo en el MONKEY ISLAND I!" : PRINT
+2304 PRINT "Te acercas a la estatua y podes levantarla sin problemas. " : PRINT
+2305 PRINT "Con la estatua en la mano ya tenes el objeto de coleccion que quiere EL COLECCIONISTA." : PRINT
+2306 PRINT "Eso no fue tan dificil!" : PRINT
+2307 PRINT "Subis la escalera hacia los muelles y te preguntas que pasos hay que seguir una vez que ya tenes el objeto para pedir la audiencia." : PRINT : GOSUB 9100
+2308 PRINT "Luego de unos segundos tu cuerpo comienza a desvanecerse como YODA al morir en EL REGRESO DEL JEDI." : PRINT
+2397 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
+2398 SCENEA = 21 : OPTIONB = 1
+2399 RETURN 299
+
+
 2400 REM ---- SCENE 15 ----
 2500 REM ---- SCENE 16 ----
 
@@ -370,11 +477,19 @@
 2709 PRINT "Firmado EL COLECCIONISTA." : PRINT
 2797 PRINT
 2798 GOSUB 9110 : REM -- GAMEOVER --
-2799 RETURN
+2799 RETURN 299
 
 
 2800 REM ---- SCENE 19 ----
+2801 CLS
+2802 PRINT "SCENE 19"
+2899 RETURN 299
+
 2900 REM ---- SCENE 20 ----
+2901 CLS
+2902 PRINT "SCENE 20"
+2998 GOSUB 9110 : REM -- GAMEOVER --
+2999 RETURN 299
 
 3000 REM ---- SCENE 21 ----
 3001 CLS
@@ -406,7 +521,7 @@
 3105 PRINT "- Como se llama el creador del TETRIS?" : PRINT
 
 3195 COLOR CINFO : PRINT "1. Dimitri Antonov"
-3196 COLOR CINFO : PRINT "2. Alekséi Leonídovich Pázhitnov"
+3196 COLOR CINFO : PRINT "2. Aleksei Leonidovich Pazhitnov"
 3197 SCENEA = 25 
 3198 SCENEB = 24
 3199 RETURN 299
@@ -468,9 +583,11 @@
 9308 PRINT "o                | - *             *              -O-      |  ,  o       .       *  | " : PRINT
 9309 PRINT "    .     -O- *             *              -O-          .      *  o     .    '   " : PRINT 
 9310 PRINT ".                 |        *      .     -0-          .          o *         - ) - " : PRINT
-
-
 9399 RETURN
+
+9400 REM ---- subroutine HOURS LATER ----
+9401 CLS : LOCATE 12, 22: COLOR CINPUT: PRINT "UNAS HORAS MAS TARDE..." : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
+9402 RETURN
 
 
 
