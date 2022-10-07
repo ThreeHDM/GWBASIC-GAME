@@ -339,9 +339,10 @@
 
 
 1900 REM ---- SCENE 10 ----
+
 2000 REM ---- SCENE 11 ----
 2001 CLS
-2002 PRINT "Preferis ir a otra DIMENSION. " : PRINT
+2002 PRINT "Preferis ir a otra DIMENSION." : PRINT
 2003 PRINT "A KIDCOMB no le gusta que rechaces su oferta. " : PRINT
 2004 PRINT "Esto lo enfurece y te demuestra que es un verdadero pirata. No perdono que lo hayas vencido en la lucha de espadas." : PRINT
 2005 PRINT "Desenvaina su sable una vez mas, pero esta vez usa insultos de la maestra de la espada." : PRINT
@@ -385,7 +386,7 @@
 2043 PRINT "El tipo no te cree una sola palabra y debes noquearlo." : PRINT
 2044 PRINT "Todo es tal cual la pelicula con algunos detalles de la aventura grafica. " : PRINT
 2045 PRINT "Conoces bien el castillo dado que es muy similar a la pelicula y a la aventura grafica." : PRINT
-2046 PRINT "Logran rescatar a HARRY y huir del castillo evitando ser capturados, evitando la escena del incendio o la persecuisión en motocilceta." : PRINT : GOSUB 9100
+2046 PRINT "Logran rescatar a HARRY y huir del castillo evitando ser capturados, evitando la escena del incendio o la persecucion en motocilceta." : PRINT : GOSUB 9100
 2047 PRINT "Una vez a salvo escapas con los Dres. JONAS en zepellin, para luego viajar al Valle de la Luna Creciente y buscar la copa de Cristo." : PRINT
 2048 PRINT "Como evistaste que los nazis obtuvieran el diario del grial, en el templo no hay nadie. Nadie supo como hallarlo." : PRINT
 2049 PRINT "Es hora de pasar por las tres pruebas." : PRINT
@@ -404,7 +405,7 @@
 2062 PRINT
 2063 COLOR CINFO : PRINT "1. Beber de la copa del carpintero"
 2064 COLOR CINFO : PRINT "2. Beber de la copa de oro y rubies"
-2099 SCENEA = 19
+2097 SCENEA = 19
 2098 SCENEB = 20
 2099 RETURN 299
 
@@ -482,12 +483,41 @@
 
 2800 REM ---- SCENE 19 ----
 2801 CLS
-2802 PRINT "SCENE 19"
+2802 PRINT "Jesus bebio de la copa de un carpintero. Justo como en la pelicula!" : PRINT
+2803 PRINT "Tomas un sorbo y te sentis fortalecido." : PRINT
+2804 PRINT "El caballero dice:" : PRINT
+2805 PRINT "- Tu elegiste con sabiduria." : PRINT
+2806 PRINT "Los Dres. JONAS beben de la copa como vos y te agradecen por tu ayuda. Los ayudaste a escapar de los nazis y obtener el Grial." : PRINT
+2807 PRINT "A cambio le pedis al KANSAS su latigo. Muy a su pesar te lo entrega.. una promesa es una promesa.. pero no pasa nada... " : PRINT : GOSUB 9100
+2808 PRINT "Esperas alguna senal para ver al COLECCIONISTA sin exito..." : PRINT
+2809 PRINT "Le das el latigo a KANSAS y le pedis su sombrero... tampoco... parece que EL COLECCIONISTA no esta interesado en estos articulos..." : PRINT
+2810 PRINT "Pensando un poco en todo lo que acaban de vivir... le pedis a HARRY el DIARIO DEL GRIAL.. " : PRINT
+2811 PRINT "Al tomar el diario, tu cuerpo comienza a desvanecerse como la mano de MARTY MCFLY cuando sus padres casi no se besan en 1955." : PRINT
+2812 PRINT "Finalmente desapareces por completo..." : PRINT
+2897 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
+2898 SCENEA = 21 : OPTIONB = 1
 2899 RETURN 299
 
 2900 REM ---- SCENE 20 ----
 2901 CLS
-2902 PRINT "SCENE 20"
+2902 PRINT "Seguramente en esta DIMENSION la copa de oro y rubies es la indicada. Al fin y al cabo no es exactamente igual a la pelicula." : PRINT
+2903 PRINT "Servis el agua en la copa y das un sorbo. Al principio no pasa nada. Hasta que comienzas a sentir un fuerte dolor en el pecho. " : PRINT
+2904 PRINT "Tus manos comienzan a envejecer y todo tu cuerpo se siente pesado, avejentado. Tu pelo se torna blanco, canoso " : PRINT
+2905 PRINT "Tus ojos se secan hasta que finalmente caen de tus cuencas oculares." : PRINT
+2906 PRINT "Moriste..." : PRINT
+2907 PRINT "Tu elegiste mal..." : PRINT  : GOSUB 9100
+2908 PRINT "           ______              "
+2909 PRINT "        .-"      "-.           "
+2910 PRINT "       /            \          "
+2911 PRINT "      |              |         "
+2912 PRINT "      |,  .-.  .-.  ,|         "
+2913 PRINT "      | )(__/  \__)( |         "
+2914 PRINT "      |/     /\     \|         "
+2915 PRINT "      (_     ^^     _)         "
+2916 PRINT "       \__|IIIIII|__/          "
+2917 PRINT "        | \IIIIII/ |           "
+2918 PRINT "        \          /           "
+2919 PRINT "         `--------`            "
 2998 GOSUB 9110 : REM -- GAMEOVER --
 2999 RETURN 299
 
@@ -561,12 +591,20 @@
 9110 REM ---- subroutine GAME OVER ----
 9111 PLAY "T120<<F4E4D#4D2"
 9112 LET GAMEOVER = 1
-9113 COLOR CINFO : PRINT : PRINT "GAME OVER"
-9114 PRINT : COLOR CINPUT : INPUT "Escribe s para seguir jugando o q para salir, luego presiona INTRO: ", Z$
-9115 IF Z$ = "q" GOTO 9000
-9116 IF Z$ = "s" THEN GAMEOVER = 0
-9117 IF Z$ = "s" GOTO 125 ELSE GOSUB 9900
-9118 RETURN
+9113 GOSUB 9100
+9114 COLOR CINFO 
+9115 PRINT "  _______  _______  __   __  _______    _______  __   __  _______  ______   "
+9116 PRINT " |       ||   _   ||  |_|  ||       |  |       ||  | |  ||       ||    _ |  "
+9117 PRINT " |    ___||  |_|  ||       ||    ___|  |   _   ||  |_|  ||    ___||   | ||  "
+9118 PRINT " |   | __ |       ||       ||   |___   |  | |  ||       ||   |___ |   |_||_ "
+9119 PRINT " |   ||  ||       ||       ||    ___|  |  |_|  ||       ||    ___||    __  |"
+9120 PRINT " |   |_| ||   _   || ||_|| ||   |___   |       | |     | |   |___ |   |  | |"
+9121 PRINT " |_______||__| |__||_|   |_||_______|  |_______|  |___|  |_______||___|  |_|"
+9122 PRINT : COLOR CINPUT : INPUT "Escribe s para seguir jugando o q para salir, luego presiona INTRO: ", Z$
+9123 IF Z$ = "q" GOTO 9000
+9124 IF Z$ = "s" THEN GAMEOVER = 0
+9125 IF Z$ = "s" GOTO 125 ELSE GOSUB 9900
+9199 RETURN
 
 9200 REM ---- subroutine PRESS ANY KEY TO ENTER DIMENTION ----
 9201 CLS : LOCATE 12, 22: COLOR CINPUT: PRINT "PRESS ANY KEY TO ENTER DIMENTION" : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
@@ -594,7 +632,7 @@
 9900 PRINT 
 9901 COLOR CERROR : PRINT "No es una opcion valida"
 9902 PRINT 
-9903 IF GAMEOVER = 1 THEN RETURN 9114 ELSE RETURN 116
+9903 IF GAMEOVER = 1 THEN RETURN 9122 ELSE RETURN 116
 
 
 
