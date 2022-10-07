@@ -152,8 +152,8 @@
 1212 PRINT "Logras convencerte de que estas sonando, a pesar del ectoplasma que hay en tu cocina y tu cara. " : PRINT : GOSUB 9100
 1213 PRINT "Decidis salir a tomar aire para despejar la cabeza." : PRINT
 1214 PRINT "Al abrir la puerta de entrada ves que la calle desaparecio, que no hay vereda, arboles, autos o peatones. " : PRINT
-1215 PRINT "Lo unico que puede verse es un portal brillante como el que vio el Dr. DANIEL JACKSON interpretado por JAMES SPADER en STARGATE. De repente una fuerte fuerza te absorbe y caes por un tunel interdimensional." : PRINT : GOSUB 9100
-1216 GOSUB 9300 : GOSUB 9100
+1215 PRINT "Lo unico que puede verse es un portal brillante como el que vio el Dr. DANIEL JACKSON interpretado por JAMES SPADER en STARGATE. De repente una fuerte fuerza te absorbe y caes por un tunel interdimensional." : PRINT
+1216 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
 1217 PRINT "Te despertas confundido y aturdido en la sala de una casa con aspecto antiguo, como de los 50s." : PRINT
 1218 PRINT "Un viejo de pelo blanco, con un apariencia similar a ALBERT EINSTEIN te mira fijamente. Tiene un casco metalico en la cabeza, te recuerda a alguien..." : PRINT
 1219 PRINT "La puerta esta abierta, podes intentar escapar o pedir explicaciones al viejo con cara de cientifico loco." : PRINT
@@ -167,13 +167,85 @@
 
 1300 REM ---- SCENE 4 ----
 1301 CLS
-1302 PRINT "subroutine 4, program ends"
-1303 PRINT
-1304 GOSUB 9110 : REM -- GAMEOVER --
+1302 PRINT "Se te antoja comer una hamburguesa. Te preparas para ir a un McDonadls que queda cerca de tu casa. Desearias que fuera un PUMPER NIC pero hay que conformarse con lo que hay." : PRINT 
+1303 PRINT "Abris la puerta de entrada y tus ojos no pueden creer lo que ven." : PRINT 
+1304 PRINT "La calle no esta ahi, la casa de tu vecino de enfrente no esta." : PRINT 
+1305 PRINT "Frente a tu rostro hay un portal como el de la pelicula STARGATE. Un brillante y metalico liquido suspendido en el aire." : PRINT 
+1306 PRINT "Colocar tu mano en el portal genera ondas en la brillante pelicula de liquido plateado." : PRINT 
+1307 PRINT "No entedes que esta pasando o por que.. y no tenes mucho tiempo para pensar." : PRINT : GOSUB 9100
+1308 PRINT "Antes de que te des cuenta una fuerza desconocida te absorbe desde el portal." : PRINT 
+1309 PRINT "Sentis como tus atomos se separan y se dispersan por el universo en un viaje interdimensional. Aun asi tenes conciencia y no sentis dolor." : PRINT 
+1310 PRINT "Ves como estrellas y galaxias pasan a velocidades incribles a tu lado, o mejor dicho al lado de tus atomos dispersos." : PRINT 
+1311 PRINT "Por un momento te ves sumido en una completa obscuridad." : PRINT 
+1312 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
+1313 PRINT "Tu cuerpo se materializa en un camino de tierra, estas rodeado de naturaleza, la escena tiene colores azules y obscuros. Es de noche y el cielo esta estrellado." : PRINT 
+1314 PRINT "Perdes la conciencia y te desamayas en la maleza. Al rato te despiertas en el mismo lugar." : PRINT 
+1315 PRINT "Aun estas un poco aturdido, pero vas recobrando el conocimiento. Caminas un poco buscando a alguien que tenga respuestas. No tenes idea donde estas o que paso. Estaras en un sueno? Estaras alucinando?" : PRINT 
+1316 PRINT "Al costado del camino encontras un esqueleto humano. Lo que te hace pensar que estas en una pesadilla, una muy vivida." : PRINT 
+1317 PRINT "El muerto viste ropas de pirata. Algo asi como EL TUERTO WILLY de los GOONIES. En su mano hay una espada." : PRINT 
+1318 PRINT "De la obscuridad surge un joven con aspecto piratezco (aunque mas bien parece un inspector de suelos) que se acerca hacia vos y levanta una espada o, mejor dicho, un sable pirata. " : PRINT : GOSUB 9100
+1319 PRINT "El joven dice:" : PRINT 
+1320 PRINT "- Mi nombre es KIDCOMB FLEETWOOD, preparate para morir!" : PRINT 
+1321 PRINT "- Luchas como un ganadero!" : PRINT 
+1322 PRINT "No tienes mucho tiempo para pensar. Es acaso esto una broma? Este muchacho disfrazado de GUYBRUSH THREEPWOOD te esta desafiando a una pelea... una pelea de insultos!" : PRINT 
+1323 PRINT "Comenzas a atar cabos... encendiste el DIMENTION en tu computadora... y ahora esta pasandote esto..." : PRINT : GOSUB 9100
+1324 PRINT "Podra ser que el DIMENTION haya funcionado? Miras nuevamente a tu alrededor... te das cuenta.. estas en un lugar muy parecido a la ISLA MELEE (TM)!" : PRINT 
+1325 PRINT "Esto significa que estas en una pelea de insultos y debes contestar correctamente para ganar... Tomas la espada del esqueleto e intentas recordar la respuesta al insulto..." : PRINT
+1326 PRINT
+1327 COLOR CINFO : PRINT "1. Que apropiado, tu peleas como una vaca"
+1328 COLOR CINFO : PRINT "2. Yo soy goma, tu pegamento"
+1329 PRINT 
+
+1397 SCENEA = 5
+1398 SCENEB = 6
 1399 RETURN 299
 
 1400 REM ---- SCENE 5 ----
+1401 CLS
+1402 PRINT "La respuesta correcta al insulto de KIDCOMB hace que puedas avanzar y golpear el sable de su mano. Te ganaste el respeto de este pirata. Ahora queres respuestas." : PRINT 
+1403 PRINT "Apuntando tu sable a su cuello le preguntas donde estas y que esta pasando. El te nota desorientado." : PRINT
+1404 PRINT "- Veo que no sos de por aqui. Debes venir de la dimension de RON GILBERT. Hace tiempo paso por aqui. Tu vestimenta es similar a la suya." : PRINT
+1405 PRINT "- RON GILBERT se inspiro en esta DIMENSION para crear un videojuego en su mundo. Lo llaman MONKEY ISLAND. En realidad la idea fue un regalo del COLECCIONISTA." : PRINT
+1406 PRINT "- Veras.. estas en una MEGA DIMENSION creada por un ser llamado EL COLECCIONISTA. " : PRINT
+1407 PRINT "- El descubrio el viaje interdimensional y en sus travesias encontro un baculo magico que le permite capturar otras dimensiones. Asi comenzo a coleccionarlas en esta MEGA DIMENSION." : PRINT : GOSUB 9100
+1408 PRINT "- Para que me entiendas, digamos que estas en la DIMENSION MONKEY ISLAND de esta MEGA DIMENSION." : PRINT
+1409 PRINT "- Somos pocos los que tenemos conciencia de esto. Los demas seres no la tienen y estan atrapados en bucles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez. La historia que le regalo a RON GILBERT." : PRINT
+1410 PRINT "- En esta dimension solo yo tengo conciencia de estar en el bucle." : PRINT
+1411 PRINT "Todo cierra.. estas en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
+1412 PRINT "Le preguntas a KIDCOMB como salir de aqui y regresar a casa." : PRINT : GOSUB 9100
+1413 PRINT "- Para hacer eso debes llevarle un objeto de coleccion de alguna DIMENSION al COLECCIONISTA. Asi podras obtener una audiencia con el. En ese momento te pondra a prueba. " : PRINT
+1414 PRINT "- Si logras vencerlo regresaras a tu dimension con un libro, guion o codigo para videojuego de su autoria." : PRINT
+1415 PRINT "- Al COLECCIONISTA le gusta como la gente de tu dimension produce los guiones o historias que escribe." : PRINT
+1416 PRINT "Le preguntas a KIDCOMB porque no enfrentan al coleccionista dado que atrapo su dimension." : PRINT
+1417 PRINT "Te responde que no le interesa.. que la diferencia casi no se nota excepto que por momentos las DIMENSIONES se superponen y podes cruzarte con MAZINGER Z  o un TIRANOSAURIO en el medio del caribe. " : PRINT : GOSUB 9100
+1418 PRINT "Ademas es dificil, ya que pare liberar a todos hay que destruir el BACULO del COLECCIONISTA y para eso hay que estar lo suficientemente cerca de el." : PRINT
+1419 PRINT "Por otra parte KIDCOMB no sabe que seres de otras dimensiones son consientes de estar atrapados." : PRINT
+1420 PRINT "Y seguramente, como el, los que son conscientes no correrian ese riesgo. EL COLECCIONISTA es muy poderoso." : PRINT
+1421 PRINT "Ahora entendes todo.. el DIMENTION no vuelve genios creativos a sus jugadores... sino que es un portal a esta dimension." : PRINT
+1422 PRINT "RON GILBERT paso las pruebas del coleccionista y volvio a casa con una idea genial.. ese podria ser tu destino.. " : PRINT : GOSUB 9100
+1423 PRINT "Le preguntas a KIDCOMB a donde podes ir ahora..." : PRINT
+1424 PRINT "KIDCOMB te dice que EL COLECCIONISTA quiere el IDOLO DE MULTIPLES BRAZOS de esta DIMENSION. " : PRINT
+1425 PRINT "Casualmente KIDCOMB tiene el idolo en su poder ya que paso las 3 pruebas para convertirse en pirata." : PRINT
+1426 PRINT "KIDCOMB te ofrece el idolo,  sino podes hablar con TRISTAN el vendedor de barcos de la isla para navegar a otra DIMENSION." : PRINT
+1427 PRINT
+1428 COLOR CINFO : PRINT "1. Hablar con TRISTAN y viajar a otra dimension"
+1429 COLOR CINFO : PRINT "2. Aceptar el idolo"
+1497 SCENEA = 11
+1498 SCENEB = 12
+1499 RETURN 299
+
 1500 REM ---- SCENE 6 ----
+1501 CLS
+1502 PRINT "Por mas que pienses y pienses no logras recordar la respuesta correcta al insulto. El muchacho gana este duelo y en consecuencia te convierte en prisionero en su barco pirata." : PRINT 
+1503 PRINT "Hablando con la tripulacion te enteras que RON GILBERT paso por aqui y se inspiro para crear el MONKEY ISLAND." : PRINT
+1504 PRINT "Estas atrapado en esta dimension y hay una especie de ser supremo que podria liberarte, pero primero debes huir de este barco." : PRINT
+1505 PRINT "El capital KIDCOMB los lleva por los mares del caribe en busca de su amada. En sus aventuras lleva su barco a las orillas de una isla misteriosa, de similares caracteristicas a MONKEY ISLAND." : PRINT
+1506 PRINT "La tripulacion se amotina mientras el capitan baja a explorar la isla, es tu momento para intentar escapar. " : PRINT
+1507 PRINT "Mientras tentas con un hueso al perro que vigila tu celda y sostiene la llave de la misma en su hocico, la tripulacion toma sol en la cubierta del barco y disfruta del clima del caribe." : PRINT : GOSUB 9100
+1508 PRINT "De repente, una roca gigante cae del cielo partiendo el barco a la mitad. Moris ahogado al no poder salir de tu celda." : PRINT
+1509 PRINT
+1510 GOSUB 9110 : REM -- GAMEOVER --
+1599 RETURN 299
 
 1600 REM ---- SCENE 7 ----
 1601 CLS
@@ -396,7 +468,6 @@
 9308 PRINT "o                | - *             *              -O-      |  ,  o       .       *  | " : PRINT
 9309 PRINT "    .     -O- *             *              -O-          .      *  o     .    '   " : PRINT 
 9310 PRINT ".                 |        *      .     -0-          .          o *         - ) - " : PRINT
-9311 PRINT "*  o     .    '       *      .        o *         - ) -     *  - )-      |        " : PRINT
 
 
 9399 RETURN
