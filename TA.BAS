@@ -39,8 +39,8 @@
 
 125 REM ---- initialize ----
 126 LET GAMEOVER = 0
-127 LET OPTIONA = 1
-128 LET OPTIONB = 2
+127 LET OPTIONA$ = "1"
+128 LET OPTIONB$ = "2"
 
 129 REM ---- SCENE 0 ----
 130 CLS: COLOR CTEXTO 
@@ -71,39 +71,37 @@
 
 220 REM ---- game loop ----
 221 WHILE GAMEOVER = 0 
-222 PRINT : COLOR CINPUT: INPUT "INGRESA EL NUMERO DE LA OPCION Y PRESIONA INTRO: ", A : COLOR CTEXTO
-223 IF A = OPTIONA OR A = OPTIONB GOTO 224 ELSE GOSUB 8000
+222 PRINT : COLOR CINPUT: INPUT "INGRESA EL NUMERO DE LA OPCION Y PRESIONA INTRO: ", A$ : COLOR CTEXTO
+223 IF A$ = OPTIONA$ OR A$ = OPTIONB$ GOTO 224 ELSE GOSUB 8000
 
-224 IF A = 1 AND SCENEA = 1 THEN GOSUB 1000 : REM ---- SCENE 1 ----
-225 IF A = 2 AND SCENEB = 2 THEN GOSUB 1100 : REM ---- SCENE 2 ----
-226 IF A = 1 AND SCENEA = 3 THEN GOSUB 1200 : REM ---- SCENE 3 ----
-227 IF A = 2 AND SCENEB = 4 THEN GOSUB 1300 : REM ---- SCENE 4 ----
-228 IF A = 1 AND SCENEA = 5 THEN GOSUB 1400 : REM ---- SCENE 5 ----
-229 IF A = 2 AND SCENEB = 6 THEN GOSUB 1500 : REM ---- SCENE 6 ----
-230 IF A = 1 AND SCENEA = 7 THEN GOSUB 1600 : REM ---- SCENE 7 ----
-231 IF A = 2 AND SCENEB = 8 THEN GOSUB 1700 : REM ---- SCENE 8 ----
-232 IF A = 1 AND SCENEA = 9 THEN GOSUB 1800 : REM ---- SCENE 9 ----
-233 IF A = 2 AND SCENEB = 10 THEN GOSUB 1900 : REM ---- SCENE 10 ----
-234 IF A = 1 AND SCENEA = 11 THEN GOSUB 2000 : REM ---- SCENE 11 ----
-235 IF A = 2 AND SCENEB = 12 THEN GOSUB 2100 : REM ---- SCENE 12 ----
-236 IF A = 1 AND SCENEA = 13 THEN GOSUB 2200 : REM ---- SCENE 13 ----
-237 IF A = 2 AND SCENEB = 14 THEN GOSUB 2300 : REM ---- SCENE 14 ----
-238 IF A = 1 AND SCENEA = 15 THEN GOSUB 2400 : REM ---- SCENE 15 ----
-239 IF A = 2 AND SCENEB = 16 THEN GOSUB 2500 : REM ---- SCENE 16 ----
-240 IF A = 1 AND SCENEA = 17 THEN GOSUB 2600 : REM ---- SCENE 17 ----
-241 IF A = 2 AND SCENEB = 18 THEN GOSUB 2700 : REM ---- SCENE 18 ----
-242 IF A = 1 AND SCENEA = 19 THEN GOSUB 2800 : REM ---- SCENE 19 ----
-243 IF A = 2 AND SCENEB = 20 THEN GOSUB 2900 : REM ---- SCENE 20 ----
-244 IF A = 1 AND SCENEA = 21 THEN GOSUB 3000 : REM ---- SCENE 21 ----
-245 IF A = 2 AND SCENEB = 22 THEN GOSUB 3100 : REM ---- SCENE 22 ----
-246 IF A = 1 AND SCENEA = 23 THEN GOSUB 3200 : REM ---- SCENE 23 ----
-247 IF A = 2 AND SCENEB = 24 THEN GOSUB 3300 : REM ---- SCENE 24 ----
-248 IF A = 1 AND SCENEA = 25 THEN GOSUB 3400 : REM ---- SCENE 25 ----
-249 IF A = 2 AND SCENEB = 26 THEN GOSUB 3500 : REM ---- SCENE 26 ----
-250 IF A = 1 AND SCENEA = 27 THEN GOSUB 3600 : REM ---- SCENE 27 ----
-251 IF A = 2 AND SCENEB = 28 THEN GOSUB 3700 : REM ---- SCENE 28 ----
-
-
+224 IF A$ = "1" AND SCENEA = 1 THEN GOSUB 1000 : REM ---- SCENE 1 ----
+225 IF A$ = "2" AND SCENEB = 2 THEN GOSUB 1100 : REM ---- SCENE 2 ----
+226 IF A$ = "1" AND SCENEA = 3 THEN GOSUB 1200 : REM ---- SCENE 3 ----
+227 IF A$ = "2" AND SCENEB = 4 THEN GOSUB 1300 : REM ---- SCENE 4 ----
+228 IF A$ = "1" AND SCENEA = 5 THEN GOSUB 1400 : REM ---- SCENE 5 ----
+229 IF A$ = "2" AND SCENEB = 6 THEN GOSUB 1500 : REM ---- SCENE 6 ----
+230 IF A$ = "1" AND SCENEA = 7 THEN GOSUB 1600 : REM ---- SCENE 7 ----
+231 IF A$ = "2" AND SCENEB = 8 THEN GOSUB 1700 : REM ---- SCENE 8 ----
+232 IF A$ = "1" AND SCENEA = 9 THEN GOSUB 1800 : REM ---- SCENE 9 ----
+233 IF A$ = "2" AND SCENEB = 10 THEN GOSUB 1900 : REM ---- SCENE 10 ----
+234 IF A$ = "1" AND SCENEA = 11 THEN GOSUB 2000 : REM ---- SCENE 11 ----
+235 IF A$ = "2" AND SCENEB = 12 THEN GOSUB 2100 : REM ---- SCENE 12 ----
+236 IF A$ = "1" AND SCENEA = 13 THEN GOSUB 2200 : REM ---- SCENE 13 ----
+237 IF A$ = "2" AND SCENEB = 14 THEN GOSUB 2300 : REM ---- SCENE 14 ----
+238 IF A$ = "1" AND SCENEA = 15 THEN GOSUB 2400 : REM ---- SCENE 15 ----
+239 IF A$ = "2" AND SCENEB = 16 THEN GOSUB 2500 : REM ---- SCENE 16 ----
+240 IF A$ = "1" AND SCENEA = 17 THEN GOSUB 2600 : REM ---- SCENE 17 ----
+241 IF A$ = "2" AND SCENEB = 18 THEN GOSUB 2700 : REM ---- SCENE 18 ----
+242 IF A$ = "1" AND SCENEA = 19 THEN GOSUB 2800 : REM ---- SCENE 19 ----
+243 IF A$ = "2" AND SCENEB = 20 THEN GOSUB 2900 : REM ---- SCENE 20 ----
+244 IF A$ = "1" AND SCENEA = 21 THEN GOSUB 3000 : REM ---- SCENE 21 ----
+245 IF A$ = "2" AND SCENEB = 22 THEN GOSUB 3100 : REM ---- SCENE 22 ----
+246 IF A$ = "1" AND SCENEA = 23 THEN GOSUB 3200 : REM ---- SCENE 23 ----
+247 IF A$ = "2" AND SCENEB = 24 THEN GOSUB 3300 : REM ---- SCENE 24 ----
+248 IF A$ = "1" AND SCENEA = 25 THEN GOSUB 3400 : REM ---- SCENE 25 ----
+249 IF A$ = "2" AND SCENEB = 26 THEN GOSUB 3500 : REM ---- SCENE 26 ----
+250 IF A$ = "1" AND SCENEA = 27 THEN GOSUB 3600 : REM ---- SCENE 27 ----
+251 IF A$ = "2" AND SCENEB = 28 THEN GOSUB 3700 : REM ---- SCENE 28 ----
 299 WEND
 999 END
 
@@ -339,6 +337,52 @@
 
 
 1900 REM ---- SCENE 10 ----
+1901 CLS
+1902 PRINT "Te sentas en este hermoso DeLorean el cual es casi identico a la maquina del tiempo de la pelicula, con algunas pequenas diferencias." : PRINT
+1903 PRINT "Los circuitos del tiempo no muestran tres fechas sino que podes ver un menu con nombres de multiples dimensiones a las que podes viajar y los objetos que debes buscar en cada una de ellas." : PRINT
+1904 PRINT "Comenzas a trastear un poco con los controles y vas pasando diferentes opciones. CALEB adapto el menu para que puedas asociar la dimension con el libro, juego o pelicula que se baso en ella." : PRINT
+1905 PRINT "En el menu ves: " : PRINT
+1906 PRINT "STREET FIIGHTER - QIPAO DE CHUN LI" : PRINT
+1907 PRINT "MANIAC MANSION - LOS ANTEOJOS DE BERNARD" : PRINT : GOSUB 9100
+1908 PRINT "SONIC  - UNA ESMERALDA DEL CAOS" : PRINT
+1909 PRINT "MARIO - EL SOMBRERO DE LUIGI" : PRINT
+1910 PRINT "ZELDA - EL ESCUDO DE LINK" : PRINT
+1911 PRINT "CASTLEVANIA - EL LATIGO DE SIMON BELMONT" : PRINT
+1912 PRINT "DOOM - LA ESCOPETA DEL MARINE" : PRINT : GOSUB 9100
+1913 PRINT "Y muchos mas! Toda nuestra cultura pop esta basada en esta MEGA DIMENSION! Es increible!" : PRINT
+1914 PRINT "En parte te gusta estar aqui y poder formar parte de las historias que marcaron tu infancia. Pero tambien queres regresar a casa." : PRINT
+1915 PRINT "Debes elegir una." : PRINT
+1916 PRINT "Repasando la lista llegas a un juego al que le dedicaste horas y horas en tu SEGA GENESIS." : PRINT
+1917 PRINT "MORTAL KOMBAT - EL SOMBRERO ASIATICO DE RAIDEN" : PRINT : GOSUB 9100
+1918 PRINT "Es este! no hay nadie que sepa mas que vos sobre este juego y la historia de sus personajes.  " : PRINT
+1919 PRINT "Hasta tenes toda la coleccion de munecos que venian en la revista TOP KIDS!" : PRINT
+1920 PRINT "Configuras los controles y saludas a CALEB. El te desea mucha suerte y te recuerda que debes alcanzar las 80 millas por hora para poder viajar entre dimensiones." : PRINT
+1921 PRINT "Comenzas a acelerar y, al llegar a la velocidad adecuada, el auto llega a un tunel interdimensional." : PRINT
+1922 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
+1923 PRINT "El auto se materializa sobrevolando un gran boque.  " : PRINT
+1924 PRINT "Sin ningun motivo aparente los controles del auto comienzan a fallar y comenzas a perder altitud." : PRINT
+1925 PRINT "Este sera un aterrizaje forzoso. Golpeas una copa, ramas, troncos y finalmente quedas atrapado en altura como la escena de TIM en el Jepp en JURASIC PARK." : PRINT
+1926 PRINT "La rama que sostenia tu destruido DeLorean se rompe y el auto cae con toda velocidad al piso." : PRINT
+1927 PRINT "Logras salir justo a tiempo y evitas morir aplastado." : PRINT
+1928 PRINT "Bajas del arbol con mucho cuidado y ves que el auto aplasto a alguien. Un Ninja amarillo! Acabas de matar al doblde de SCORPION!! " : PRINT : GOSUB 9100
+1929 PRINT "SCORPION ahora parece la bruja del este en el MAGO DE OZ. Apenas llegas y ya hiciste una FATALITY!" : PRINT
+1930 PRINT "Ves esto como una oportunidad. Logras quitarle el traje de ninja amarillo y te vestís de SCORPION." : PRINT
+1931 PRINT "Inmediatamente sentis como los poderes infernales de SCORPION entran en tu cuerpo. Te das cuenta que podes pelear como el ninja amarillo y posees todos sus poderes. " : PRINT
+1932 PRINT "Solo debes pensar en la combinacion de botones de la SEGA GENESIS y tu cuerpo se mueve solo!" : PRINT
+1933 PRINT "Caminando por el bosque y llegas a un puente sin baranda. Bajo el puente hay clavos gigantes en el suelo. Reconoces inmedatamente el escenario de MORTAL KOMBAT 1." : PRINT : GOSUB 9100
+1934 PRINT "A continuacion no podes creer lo que ven tus ojos. RAIDEN esta peleando contra SUB ZERO sobre el puente." : PRINT
+1935 PRINT "Rapidamente RAIDEN vence a SUB ZERO y lo envia al fondo del pozo con un uppercut." : PRINT
+1936 PRINT "Intentas hablar con RAIDEN y explicarle tu situacion, pero no cree una palabra de lo que decis. Debe estar atrapado en el bucle." : PRINT
+1937 PRINT "Considera que sos un enviado de TSANG LUNG (ese debe ser el nombre del hechicero en esta DIMENSION) y se prepara para pelear." : PRINT
+1938 PRINT "No te queda opcion, debes pelear contra RAIDEN. Debe estar debilitado por su pelea con el ninja de Hielo." : PRINT : GOSUB 9100
+1939 PRINT "Comenzas saltando y lanzando una patada al dios del trueno. El bolquea tu ataque y te electrocuta con sus dos manos en alto." : PRINT
+1940 PRINT "Intentas otro ataque frontal y no podes atravezar su defensa. Es hora de usar un movimiento especial. En tus nervios no recordas como era la combinacion de botones para hacer el gancho de SCORPION." : PRINT
+1941 PRINT
+1942 COLOR CINFO : PRINT "1. Abajo, Adelante, Patada Baja"
+1943 COLOR CINFO : PRINT "2. Atras, Atras, Golpe Bajo" 
+1997 SCENEA = 15
+1998 SCENEB = 16
+1999 RETURN 299
 
 2000 REM ---- SCENE 11 ----
 2001 CLS
@@ -447,12 +491,36 @@
 2307 PRINT "Subis la escalera hacia los muelles y te preguntas que pasos hay que seguir una vez que ya tenes el objeto para pedir la audiencia." : PRINT : GOSUB 9100
 2308 PRINT "Luego de unos segundos tu cuerpo comienza a desvanecerse como YODA al morir en EL REGRESO DEL JEDI." : PRINT
 2397 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
-2398 SCENEA = 21 : OPTIONB = 1
+2398 SCENEA = 21 : OPTIONB$ = "1"
 2399 RETURN 299
 
 
 2400 REM ---- SCENE 15 ----
+2402 CLS
+2403 PRINT "Maldicion, no funciona. Intentas nuevamente. Claramente esta no es la combinacion correcta. No logras recordar bien como hacer el gancho." : PRINT
+2404 PRINT "Tu oponente aprovecha esta oportunidad y te electrocuta dejandote levemente inconciente. En ese momento RAIDEN se agacha y te aplica un duro uppercut." : PRINT
+2405 PRINT "Salis volando por los aires y caes por el pozo hacia los clavos." : PRINT
+2406 PRINT "RAIDEN gana..." : PRINT
+2407 PRINT " @@@@@@@@  @@@@@@  @@@@@@@  @@@@@@  @@@      @@@ @@@@@@@ @@@ @@@"
+2408 PRINT " @@!      @@!  @@@   @@!   @@!  @@@ @@!      @@!   @@!   @@! !@@"
+2409 PRINT " @!!!:!   @!@!@!@!   @!!   @!@!@!@! @!!      !!@   @!!    !@!@! "
+2410 PRINT " !!:      !!:  !!!   !!:   !!:  !!! !!:      !!:   !!:     !!:  "
+2411 PRINT "  :        :   : :    :     :   : : : ::.: : :      :      .:   "
+
+2498 GOSUB 9110 : REM -- GAMEOVER --
+2499 RETURN 299
+
 2500 REM ---- SCENE 16 ----
+2501 CLS
+2502 PRINT "Es la combinacion correcta!!" : PRINT
+2503 PRINT "Tu gancho sale disparado de tu mano y no podes evitar decir la famosa frase GET OVER HERE!" : PRINT
+2504 PRINT "El doble de RAIDEN es tomado por sorpresa por tu ataque especial y la punta de tu gancho se clava en su pecho." : PRINT
+2505 PRINT "Lo atraes hacia vos y le das un golpe final. No queres enviarlo a una muerte horrible al fondo del pozo por lo que lo noqueas y le quitas el sombrero." : PRINT
+2506 PRINT "Y ahora... que? Que se supone que debes hacer con el sombrero?" : PRINT
+2507 PRINT "Mientras meditas que hacer, y antes de que te des cuenta, comenzas a desvanecerte como cuando el capitan KIRK y SPOCK se teletransportaban a explorar un planeta extrano." : PRINT
+2597 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
+2598 SCENEA = 21 : OPTIONB$ = "1"
+2599 RETURN 299
 
 2600 REM ---- SCENE 17 ----
 2601 CLS
@@ -463,7 +531,7 @@
 2606 PRINT "Luego de unos segundos comenzas a desvanecerte como cuando el capitan PICARD y REINER se teletransportaban a explorar un planeta extrano en STAR TREK NEXT GENERATION." : PRINT
 
 2697 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
-2698 SCENEA = 21 : OPTIONB = 1
+2698 SCENEA = 21 : OPTIONB$ = "1"
 2699 RETURN 299
 
 2700 REM ---- SCENE 18 ----
@@ -495,7 +563,7 @@
 2811 PRINT "Al tomar el diario, tu cuerpo comienza a desvanecerse como la mano de MARTY MCFLY cuando sus padres casi no se besan en 1955." : PRINT
 2812 PRINT "Finalmente desapareces por completo..." : PRINT
 2897 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
-2898 SCENEA = 21 : OPTIONB = 1
+2898 SCENEA = 21 : OPTIONB$ = "1"
 2899 RETURN 299
 
 2900 REM ---- SCENE 20 ----
@@ -539,19 +607,19 @@
 3095 COLOR CINFO : PRINT "1. 1990"
 3096 COLOR CINFO : PRINT "2. 1991"
 3097 SCENEA = 23 
-3098 SCENEB = 22 : OPTIONB = 2
+3098 SCENEB = 22 : OPTIONB$ = "2"
 3099 RETURN 299
 
 
 3100 REM ---- SCENE 22 ----
 3101 CLS
 3102 PRINT "- Excelente. Conestaste bien mi primera pregunta." : PRINT
-3103 PRINT "El campo de fuerza que te impedia el paso entre los escalones verdes desaparece. Ya podes subir hasta los escalones amarillos que tienen el numero 2." : PRINT
+3103 PRINT "El campo de fuerza que te impedia el paso desaparece. Ya podes subir hasta los escalones amarillos que tienen el numero 2." : PRINT
 3104 PRINT "- Es hora de mi segunda pregunta:" : PRINT
-3105 PRINT "- Como se llama el creador del TETRIS?" : PRINT
+3105 PRINT "- Como se llama el creador del PRINCE OF PERSIA?" : PRINT
 
-3195 COLOR CINFO : PRINT "1. Dimitri Antonov"
-3196 COLOR CINFO : PRINT "2. Aleksei Leonidovich Pazhitnov"
+3195 COLOR CINFO : PRINT "1. Steve Purcell"
+3196 COLOR CINFO : PRINT "2. Jordan Mechner"
 3197 SCENEA = 25 
 3198 SCENEB = 24
 3199 RETURN 299
@@ -566,15 +634,59 @@
 3299 RETURN 299
 
 3300 REM ---- SCENE 24 ----
+3301 CLS
+3302 PRINT "- Correcto! Era facil" : PRINT
+3303 PRINT "El campo de fuerza que te impedia pasar se desvanece. Ya podes subir hasta los escalones verdes que tienen el numero 1." : PRINT
+3304 PRINT "- Ultima pregunta. Si ganas podras volver a tu dimension con este guion para una pelicula basado en una idea inedita." : PRINT
+3305 PRINT "- Ya que te gustan tanto las retro computadoras..  dime.. cual fue la ultima version estable de GW-BASIC?" : PRINT
+3306 COLOR CINFO : PRINT "1. 3.23"
+3307 COLOR CINFO : PRINT "2. 3.20"
+3397 SCENEA = 27 
+3398 SCENEB = 26
+3399 RETURN 299
+
 3400 REM ---- SCENE 25 ----
+3401 CLS
+3402 PRINT "No! Ese es el creador de SAM & MAX!" : PRINT
+3403 PRINT "Tantas horas que le dedicaste al PRINCE OF PERSIA y no recordaste bien el nombre de su creador." : PRINT
+3404 PRINT "El coleccionista toma su baculo y te arroja un hechizo." : PRINT
+3405 PRINT "Tu cuerpo es el de un gato y estas en una casa suburbana de los 80s en Estados Unidos." : PRINT
+3406 PRINT "Una voz familiar se escucha detras tuyo" : PRINT
+3407 PRINT "- SUERTUDO! Que hambre verte!" : PRINT : GOSUB 9100
+3408 PRINT "Es ALF! e intenta comerte!" : PRINT
+3409 PRINT "El COLECCIONISTA te atrapo en la DIMENSION de ALF y te condeno a un bucle infinito huyando de el para evitar ser comido!" : PRINT
+3498 GOSUB 9110 : REM -- GAMEOVER --
+3499 RETURN 299
+
 3500 REM ---- SCENE 26 ----
+3501 CLS
+3502 PRINT "SCENE 26"
+3598 GOSUB 9110 : REM -- GAMEOVER --
+3599 RETURN 299
+
 3600 REM ---- SCENE 27 ----
+3601 CLS
+3602 PRINT "SCENE 27"
+3650 COLOR CINFO : PRINT "1. 3.23"
+3651 COLOR CINFO : PRINT "2. 3.20"
+3697 SCENEA = 28 
+3698 SCENEB = 29
+3699 RETURN 299
+
 3700 REM ---- SCENE 28 ----
+3701 CLS
+3702 PRINT "SCENE 28"
+3798 GOSUB 9500 : REM -- ENDING --
+3799 RETURN 299
+
 3800 REM ---- SCENE 29 ----
-3900 REM ---- SCENE 30 ----
+3801 CLS
+3802 "SCENE 29"
+3898 GOSUB 9110 : REM -- ENDING --
+3899 RETURN 299
 
 8000 PRINT 
-8001 COLOR CERROR : PRINT "No es una opcion valida, ingresa" OPTIONA "o" OPTIONB
+8001 COLOR CERROR : PRINT "No es una opcion valida, ingresa " OPTIONA$ " o " OPTIONB$
 8002 PRINT 
 8010 RETURN 299
 
@@ -627,7 +739,19 @@
 9401 CLS : LOCATE 12, 22: COLOR CINPUT: PRINT "UNAS HORAS MAS TARDE..." : WHILE INKEY$ = "" : WEND : CLS : COLOR CTEXTO
 9402 RETURN
 
-
+9500 REM ---- subroutine ENDING ----
+9510 LET GAMEOVER = 1
+9512 GOSUB 9100
+9513 COLOR CINFO 
+9514 PRINT " _____ _          _____       _ "
+9515 PRINT "|_   _| |_ ___   |   __|___ _| |"
+9516 PRINT "  | | |   | -_|  |   __|   | . |"
+9517 PRINT "  |_| |_|_|___|  |_____|_|_|___|"
+9518 PRINT : COLOR CINPUT : INPUT "Escribe s para seguir jugando o q para salir, luego presiona INTRO: ", Z$
+9519 IF Z$ = "q" GOTO 9000
+9520 IF Z$ = "s" THEN GAMEOVER = 0
+9521 IF Z$ = "s" GOTO 125 ELSE GOSUB 9900
+9599 RETURN
 
 9900 PRINT 
 9901 COLOR CERROR : PRINT "No es una opcion valida"
