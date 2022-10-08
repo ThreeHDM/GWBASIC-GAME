@@ -102,6 +102,7 @@
 249 IF A$ = "2" AND SCENEB = 26 THEN GOSUB 3500 : REM ---- SCENE 26 ----
 250 IF A$ = "1" AND SCENEA = 27 THEN GOSUB 3600 : REM ---- SCENE 27 ----
 251 IF A$ = "2" AND SCENEB = 28 THEN GOSUB 3700 : REM ---- SCENE 28 ----
+252 IF A$ = "1" AND SCENEA = 29 THEN GOSUB 3800 : REM ---- SCENE 29 ----
 299 WEND
 999 END
 
@@ -600,7 +601,7 @@
 3008 PRINT "Te acercas hacia el primer conjunto de escalones de color verde y miras hacia arriba. Hay una luz cegadora en la cima de la escalera, pero llegas a ver una figura sentada." : PRINT
 3009 PRINT "- Gracias por mi nuevo objeto de coleccion. Dice EL COLECCIONISTA. " : PRINT
 3010 PRINT "En ese momento el objeto que le trajiste desaparece de tus manos y se materializa en una de las estanterias." : PRINT
-3011 PRINT "- Ahora debes superar una ultima prueba. Si contestas bien estas 3 preguntas podras regresar a tu dimension con la ultima de mis creaciones. Un guion para una nueva pelicula que te hara rico y famoso." : PRINT
+3011 PRINT "- Ahora debes superar una ultima prueba. Si contestas bien estas 3 preguntas podras regresar a tu dimension con la ultima de mis creaciones. Un idea que te hara rico y famoso." : PRINT
 3012 PRINT "La primera pregunta es" : PRINT
 3013 PRINT "- En que ano se publico el primer arcade de STREET FIGHTER 2?" : PRINT
 
@@ -660,29 +661,71 @@
 
 3500 REM ---- SCENE 26 ----
 3501 CLS
-3502 PRINT "SCENE 26"
+3502 3502 PRINT "- Incorrecto!" : PRINT
+3503 PRINT "-No, la ultima version estable es la 3.23!" : PRINT
+3504 PRINT "EL COLECCIONISTA toma su baculo y te arroja un hechizo. " : PRINT
+3505 PRINT "La magia te lleva al atico de una mansion muy antigua . Un fuerte ruido llama tu atencion." : PRINT
+3506 PRINT "Una puerta trampa se abre en el suelo del atico. De ella sale un verde y poligonal zombie!" : PRINT
+3507 PRINT "Te das cuenta! Se trata de la mansion Derceto! Estas en la DIMENSION ALONE IN THE DARK! " : PRINT
+3508 PRINT "Huis del atico y corres por el pasillo, olvidaste que el suelo es inestable en el juego.. aqui tambien.." : PRINT
+3509 PRINT "El suelo se desmorona bajo tus pies y moris al instante.." : PRINT
 3598 GOSUB 9110 : REM -- GAMEOVER --
 3599 RETURN 299
 
 3600 REM ---- SCENE 27 ----
 3601 CLS
-3602 PRINT "SCENE 27"
-3650 COLOR CINFO : PRINT "1. 3.23"
-3651 COLOR CINFO : PRINT "2. 3.20"
-3697 SCENEA = 28 
-3698 SCENEB = 29
+3602 PRINT "- Excelente. Veo que eres un gran conocedor de mi obra y de mi arte." : PRINT
+3603 PRINT "El ultimo campo de fuerza se desvanece y te permite ver al COLECCIONISTA." : PRINT
+3604 PRINT "Su aspecto te recuerda a MUNRA o SKELETOR, es realmente aterrador." : PRINT
+3605 PRINT "Esta sentado en un trono de oro macizo. El trono tiene decoraciones de personajes y elementos de la cultura pop en toda su superficie." : PRINT
+3606 PRINT "El coleccionista sostiene su baculo magico con la mano derecha y lo apoya en el piso." : PRINT
+3607 PRINT "Realmente te recuerda a SKELETOR y su baculo." : PRINT : GOSUB 9100
+3608 PRINT "El baculo es un gran baston que en su punta tiene un GAMEBOY de plata." : PRINT
+3609 PRINT "- Recoge tu premio y te enviare a tu dimension." : PRINT
+3610 PRINT "EL COLECCIONISTA extiende su otra mano y te entrega un bloque de hojas. Parece ser el borrador de una historia." : PRINT
+3611 PRINT "Dudas que hacer... convertirte en un genio creativo suena tentador.. pero... EL COLECCIONISTA es un ser maligno y alguien tiene que detenerlo... romper su baculo liberaria a los seres atrapados en la MEGA DIMENSION" : PRINT
+3650 COLOR CINFO : PRINT "1. Intentar destruir el baculo"
+3651 COLOR CINFO : PRINT "2. Aceptar la recompensa y regresar a casa"
+3697 SCENEA = 29
+3698 SCENEB = 28
 3699 RETURN 299
 
 3700 REM ---- SCENE 28 ----
 3701 CLS
-3702 PRINT "SCENE 28"
+3702 PRINT "Convertirte el alguien como RON GILBERT, JOHN ROMERO, SPIELBERG, GEORGE LUCAS, JOHN TOBIAS, entre tantos otros, es un sueno hecho realidad." : PRINT
+3703 PRINT "Aceptas el borrador que te entrega el coleccionista." : PRINT
+3704 PRINT "Al entrar en contacto con el papel todo desaparece." : PRINT
+3705 PRINT "Te despertas en tu cama. Todo fue un sueno? No puede ser! Fue tan real." : PRINT
+3706 PRINT "Miras a tu alrededor y en tu mesa de luz hay un bloque de papel." : PRINT
+3707 PRINT "Es el bloque de hojas que te entrego EL COLECCIONISTA." : PRINT : GOSUB 9100
+3708 PRINT "Cumplio con su parte del trato. Eso quiere decir que todos los seres que conociste  (y los que no tambien) siguen atrapados en la MEGA DIMENSION." : PRINT
+3709 PRINT "No tuviste el coraje para ayudarlos. Un fuerte sentimiento de culpa te invade." : PRINT
+3710 PRINT "Tomas el bloque de hojas y lo miras fijamente." : PRINT
+3711 PRINT "En la primer hoja se puede ver el titulo de la historia que esta escrita en el." : PRINT
+3712 PRINT "Dice... " : PRINT
+3713 PRINT "LA DIMENSION RETRO" : PRINT
 3798 GOSUB 9500 : REM -- ENDING --
 3799 RETURN 299
 
 3800 REM ---- SCENE 29 ----
 3801 CLS
-3802 "SCENE 29"
-3898 GOSUB 9110 : REM -- ENDING --
+3802 PRINT "Esta es una oportunidad unica. No podes dejar de aprovecharla." : PRINT
+3803 PRINT "Tenes que ayudar a todos los seres que atrapo EL COLECCIONISTA en LA MEGA DIMENSION." : PRINT
+3804 PRINT "Aparentas acercarte para tomar el bloque de hojas y con un rapido movimiento  le arrebatas el baculo." : PRINT
+3805 PRINT "- NOO! Que pensas hacer con eso!? No seas tonto.. No lograras nada" : PRINT
+3806 PRINT "No crees una palabra de este sadico y egoista coleccionista que solo busca entretenimiento." : PRINT
+3807 PRINT "Sosteniendo el baculo con ambas manos usas tu pierna para partirlo. Require una gran cantidad de fuerza, pero logras destruirlo." : PRINT : GOSUB 9100
+3808 PRINT "Un vortice se crea en el punto en el espacio donde se partio el baculo." : PRINT
+3809 PRINT "Todo es absorbido por este agujero negro, vos incluido." : PRINT
+3810 PRINT "Perdes el conocimiento. Ya te estas acostumbrando a esto!" : PRINT
+3811 PRINT "Al despertar estas en tu cama. Acaso fue todo un sueno?" : PRINT
+3812 PRINT "Miras a tu mesa de luz y encontras una nota sobre una caja." : PRINT : GOSUB 9100
+3813 PRINT "Querido "USERNAME$"," : PRINT
+3814 PRINT "Nunca olvidaremos lo que hiciste por nosotros, este es un pequeno gesto de nuestro agradecimiento. Firmado: tu amigo interdimensional" : PRINT
+3815 PRINT "Abris la caja con una sonrisa y encontras...un diskette." : PRINT
+3816 PRINT "Al insertarlo en tu computadora ves que tiene muchos archivos de texto con todas las ideas de nuevas historias del COLECCIONISTA." : PRINT
+3817 PRINT "Entre ellas esta... LA DIMENSION RETRO.. " : PRINT
+3898 GOSUB 9500 : REM -- ENDING --
 3899 RETURN 299
 
 8000 PRINT 
@@ -701,7 +744,7 @@
 9102 RETURN
 
 9110 REM ---- subroutine GAME OVER ----
-9111 PLAY "T120<<F4E4D#4D2"
+9111 PLAY "T120F4E4D#4D2"
 9112 LET GAMEOVER = 1
 9113 GOSUB 9100
 9114 COLOR CINFO 
@@ -742,7 +785,7 @@
 9500 REM ---- subroutine ENDING ----
 9510 LET GAMEOVER = 1
 9512 GOSUB 9100
-9513 COLOR CINFO 
+9513 COLOR CINFO : PLAY "MBT120P8E-8A-4E-8>D-4C4<B-8A-8B-4A-8>D-16E-16<E-4E-8>D-4<E-8B-4>C4C8<B-8A-8E-2"
 9514 PRINT " _____ _          _____       _ "
 9515 PRINT "|_   _| |_ ___   |   __|___ _| |"
 9516 PRINT "  | | |   | -_|  |   __|   | . |"
