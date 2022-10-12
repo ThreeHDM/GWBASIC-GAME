@@ -108,7 +108,7 @@
 
 1000 REM ---- SCENE 1 ----
 1001 CLS
-1002 PRINT "Si este juego llega a ser el verdadero DIMENTION, Çsta es una oportunidad £nica. Gast†s todo lo que tenÇs pero te llev†s el juego a casa." : PRINT
+1002 PRINT "Si este juego llega a ser el verdadero DIMENTION, esta es una oportunidad £nica. Gast†s todo lo que tenÇs pero te llev†s el juego a casa." : PRINT
 1003 PRINT "Al llegar, vas directo a encender tu IBM PC 486. El inconfundible cielo levemente nublado de Windows 95 aparece en tu pantalla bajo el logo de Microsoft." : PRINT
 1004 PRINT "Mientras inicia el sistema operativo, abr°s la caja negra y en su interior encontr†s solamente un diskette cuya etiqueta dice DIMENTION en letras blancas sobre un fondo negro. No hay manual ni instrucciones. Que decepci¢n." : PRINT   
 1005 PRINT "Insert†s el diskette de 3 1/2 en la disquetera. Vas a MI PC, disco (A:) y examin†s los archivos." : PRINT
@@ -206,10 +206,10 @@
 1404 PRINT "- Veo que no sos de por aqu°. DebÇs venir de la dimensi¢n de RON GILBERT. Hace tiempo pas¢ por aqui. Tu vestimenta es similar a la suya." : PRINT
 1405 PRINT "- RON GILBERT se inspir¢ en esta DIMENSI‡N para crear un videojuego. En tu mundo lo llaman MONKEY ISLAND. En realidad la idea fue un regalo del COLECCIONISTA." : PRINT
 1406 PRINT "- Ver†s.. est†s en una MEGA DIMENSI‡N creada por un ser a quien llamamos EL COLECCIONISTA." : PRINT
-1407 PRINT "- êl descubri¢ el viaje interdimensional y, en sus traves°as, encontr¢ un b†culo m†gico que le permite capturar otras dimensiones. De ese modo, comenz¢ a coleccionarlas en Çsta MEGA DIMENSI‡N." : PRINT : GOSUB 9100
+1407 PRINT "- êl descubri¢ el viaje interdimensional y, en sus traves°as, encontr¢ un b†culo m†gico que le permite capturar otras dimensiones. De ese modo, comenz¢ a coleccionarlas en esta MEGA DIMENSI‡N." : PRINT : GOSUB 9100
 1408 PRINT "- Para que me entiendas, digamos que est†s en la DIMENSI‡N MONKEY ISLAND de esta MEGA DIMENSI‡N." : PRINT
 1409 PRINT "- Somos pocos los que tenemos conciencia de Çsto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en bucles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
-1410 PRINT "- En Çsta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
+1410 PRINT "- En esta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
 1411 PRINT "Todo cierra.. est†s en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
 1412 PRINT "Le preguntas a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
 1413 PRINT "- Para hacer eso debÇs llevar un objeto de coleccion al COLECCIONISTA. Algo de alguna de las dimensiones. As° podr†s obtener una audiencia con êl. En ese momento te pondr† a prueba." : PRINT
@@ -309,12 +309,12 @@
 1806 PRINT "CALEB te cuenta que ma§ana es la noche del BAILE DEL ENCANTO BAJO EL OCEANO y que MARTY est† intentando recuperar el ALMANAQUE con resultados deportivos que el BIFF del futuro entreg¢ a su yo de 1955." : PRINT
 1807 PRINT "QuerÇs recuperar el almanaque en la casa de BIFF antes del baile, pero el Doc. te lo impide debido a que afuera est† nevando." : PRINT : GOSUB 9100
 1808 PRINT "No se trata de una nevada com£n y corriente. Al entrar en contacto con la piel, los copos producen una muerte instant†nea." : PRINT
-1809 PRINT "CALEB te explica que la DIMENSI‡N del ETERNAUTA de OESTERHELD se est† uniendo con Çsta y la nevada afecta a todos los seres que no viven en la MEGA DIMENSI‡N." : PRINT
+1809 PRINT "CALEB te explica que la DIMENSI‡N del ETERNAUTA de OESTERHELD se est† uniendo con esta y la nevada afecta a todos los seres que no viven en la MEGA DIMENSI‡N." : PRINT
 1810 PRINT "HacÇs caso al Doc. Pasas la noche y el d°a siguiente en su casa." : PRINT
 1811 PRINT "Afortunadamente, la noche del baile es preciosa, justo como en la pel°cula. No hay nevada mortal." : PRINT
 1812 PRINT "Saludas al Doc. y part°s en tu misi¢n." : PRINT : GOSUB 9100
 1813 PRINT "Lleg†s al baile escolar y busc†s al equivalente de MARTY.. deber°a tener un sombrero y una campera de cuero. Tal y como est† vestido en VOLVER AL FUTURO II." : PRINT
-1814 PRINT "El lugar es idÇntico a la pel°cula. Ves a todos los jovenes bailando, la decoraci¢n del ocÇano y la ropa de los a§os 50s. Not†s a los dobles de GEORGE Y LORRAINE de Çsta dimensi¢n. ≠Son muy parecidos a los actores!" : PRINT
+1814 PRINT "El lugar es idÇntico a la pel°cula. Ves a todos los jovenes bailando, la decoraci¢n del ocÇano y la ropa de los a§os 50s. Not†s a los dobles de GEORGE Y LORRAINE de esta dimensi¢n. ≠Son muy parecidos a los actores!" : PRINT
 1815 PRINT "En ese momento, ≠comienza a sonar Johnny B. Goode de Chuck Berry! ≠Claro, el MARTY de VOLVER AL FUTURO I est† tocando para que sus padres se enamoren!" : PRINT
 1816 PRINT "Eso quiere decir que el otro MARTY est† escapando de BIFF y est† detr†s del escenario en este preciso momento." : PRINT
 1817 PRINT "MARTY es noqueado por una puerta y BIFF recupera el ALMANAQUE. No llegaste a tiempo... ahora hay que arrebat†rselo a BIFF." : PRINT : GOSUB 9100
@@ -350,7 +350,7 @@
 1910 PRINT "ZELDA - EL ESCUDO DE LINK" : PRINT
 1911 PRINT "CASTLEVANIA - EL LµTIGO DE SIMON BELMONT" : PRINT
 1912 PRINT "DOOM - LA ESCOPETA DEL MARINE" : PRINT : GOSUB 9100
-1913 PRINT "≠Y muchos m†s! Toda nuestra cultura pop est† basada en Çsta MEGA DIMENSI‡N!≠Es incre°ble!" : PRINT
+1913 PRINT "≠Y muchos m†s! Toda nuestra cultura pop est† basada en esta MEGA DIMENSI‡N!≠Es incre°ble!" : PRINT
 1914 PRINT "En parte te gusta estar aqu° y poder formar parte de las historias que marcaron tu infancia. Pero tambiÇn querÇs regresar a casa." : PRINT
 1915 PRINT "Debes elegir una." : PRINT
 1916 PRINT "Repasando la lista, lleg†s a un juego al que le dedicaste horas y horas en tu SEGA GENESIS." : PRINT
@@ -390,7 +390,7 @@
 2002 PRINT "Prefer°s ir a otra DIMENSI‡N." : PRINT
 2003 PRINT "A KIDCOMB no le gusta que rechaces su oferta." : PRINT
 2004 PRINT "Esto lo enfurece y te demuestra que es un verdadero pirata. No perdon¢ que lo hayas vencido en la lucha de espadas." : PRINT
-2005 PRINT "Desenvaina su sable una vez m†s, pero Çsta vez usa ins£ltos de la maestra de la espada." : PRINT
+2005 PRINT "Desenvaina su sable una vez m†s, pero esta vez usa ins£ltos de la maestra de la espada." : PRINT
 2006 PRINT "No son un desaf°o para un gran conocedor como vos." : PRINT
 2007 PRINT "Esta vez lo vencÇs definitivamente y comenz†s tu viaje." : PRINT : GOSUB 9100
 2008 PRINT "Record†s que no tenÇs dinero para comprar un barco, por lo que, antes que nada, te dirig°s a la tienda de la isla para conseguir una nota de crÇdito." : PRINT
@@ -401,7 +401,7 @@
 2013 PRINT "Tal y como STAN, TRISTAN es un gran vendedor, pero vos no tenÇs nada de dinero, solamente tu nota de crÇdito." : PRINT
 2014 PRINT "TenÇs que convencer a TRISTAN de que no querÇs comprar ning£n adicional.  Ni faros antiniebla, ni garant°a extendida, nada." : PRINT : GOSUB 9100 : GOSUB 9400
 2015 PRINT "Finalmente, lleg†s a un acuerdo con TRISTAN y obtenÇs un bote de remos. Quer°as un barco, querias viajar en el MONO MARINO, pero ese barco ya lo tiene KIDCOMB. TenÇ que conformarte con esto." : PRINT
-2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. êl se da cuenta de que no sos de Çsta DIMENSI‡N. Te ruega que destruyas el b†culo del COLECCIONISTA. Ya est† harto de vivir en este bucle guionado." : PRINT
+2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. êl se da cuenta de que no sos de esta DIMENSI‡N. Te ruega que destruyas el b†culo del COLECCIONISTA. Ya est† harto de vivir en este bucle guionado." : PRINT
 2017 PRINT "Te dice que para viajar a otra dimensi¢n tenÇs que navegar hacia el horizonte. Para que tengas Çxito en tu mision te coloca los faros anti niebla gratuitamente. ≠A cuenta de la casa!" : PRINT
 2018 PRINT "Comenz†s a remar alej†ndote de la isla. Al navegar, podÇs apreciar la vista de la isla como en el inicio del MONKEY ISLAND." : PRINT
 2019 PRINT "Al alejarte, el viaje interdimensional comienza nuevamente." : PRINT
@@ -412,7 +412,7 @@
 2024 PRINT "Luego de un tiempo de remar sin descanso, lleg† a ver una ciudad. Una ciudad que no tiene calles, sino canales." : PRINT
 2025 PRINT "®Podr† ser? ≠Es Venecia! Rem†s con tu bote entre g¢ndolas y llegas a puerto." : PRINT
 2026 PRINT "En el puerto hay dos peleadores rompiendo un TOYOTA. Uno viste un traje blanco y el otro rojo. Claramente son RUI y KEN. ®Habr†s llegado a la DIMENSI‡N de STREET FIGHTER?" : PRINT : GOSUB 9100
-2027 PRINT "≠Parece que toda nuestra cultura pop est† inspirada en Çsta MEGA DIMENSI‡N! No hay nada que escape." : PRINT
+2027 PRINT "≠Parece que toda nuestra cultura pop est† inspirada en esta MEGA DIMENSI‡N! No hay nada que escape." : PRINT
 2028 PRINT "Te sub°s al muelle y te dispones a hablar con los peleadores, cuando de pronto ves que una lancha es destruida por las hÇlices del motor de un barco. Ves que dos tipos, que est†n peleando, escapan justo a tiempo de las hÇlices." : PRINT
 2029 PRINT "Uno de ellos tiene sombrero y campera de cuero." : PRINT
 2030 PRINT "Entonces te das cuenta. Mir†s a tu alrededor, la vestimenta de la gente es de 1930. ≠≠Est†s en la escena de persecusi¢n de INDIANA JONES Y LA ULTIMA CRUZADA!! Una de tus pel°culas favoritas." : PRINT
@@ -456,15 +456,15 @@
 
 2100 REM ---- SCENE 12 ----
 2101 CLS
-2102 PRINT "KIDCOMB te extiende el °dolo y cuando estas acercando la mano para tomarlo te golpea en la cabeza. " : PRINT
+2102 PRINT "KIDCOMB te extiende el °dolo y cuando acerc†s la mano para tomarlo, sent°s un golpe en la cabeza." : PRINT
 2103 PRINT "Este es un verdadero pirata. Un pirata orgulloso al que no le gusto haber sido derrotado. " : PRINT
-2104 PRINT "GUYBRUSH jamas haria algo asi, pero su personaje se baso en este pirata. " : PRINT
+2104 PRINT "GUYBRUSH jam†s har°a algo asi, pero su personaje se bas¢ en este pirata, no significa que sean tengan la misma personalidad. " : PRINT
 2105 PRINT "Tu error fue ver a tu pirata favorito en KIDCOMB." : PRINT
 2106 PRINT "El despiadado pirata te ata al °dolo y te tira al agua en el muelle de la isla, cerca del bar del puerto. Justo como le sucede a GUYBRUSH en el MONKEY ISLAND I." : PRINT
-2107 PRINT "Por suerte podes aguantar la respiracion durante 10 minutos." : PRINT : GOSUB 9100
-2108 PRINT "A tu alrededor hay muchos objetos filosos para cortar la soga que te ata al °dolo y asi poder escapar de una muerte por ahogamiento. " : PRINT
+2107 PRINT "Por suerte podÇs aguantar la respiraci¢n durante 10 minutos." : PRINT : GOSUB 9100
+2108 PRINT "A tu alrededor, hay muchos objetos filosos para cortar la soga que te ata al °dolo y as° poder escapar de una muerte por ahogamiento." : PRINT
 2109 PRINT
-2110 COLOR CINFO : PRINT "1. Intentar agarrar algun objeto filoso para cortar la soga"
+2110 COLOR CINFO : PRINT "1. Intentar agarrar alg£n objeto filoso para cortar la soga"
 2111 COLOR CINFO : PRINT "2. Intentar levantar la estatua"
 2197 SCENEA = 13
 2198 SCENEB = 14
@@ -472,25 +472,25 @@
 
 2200 REM ---- SCENE 13 ----
 2201 CLS
-2202 PRINT "En el lecho marino llegas a ver tijeras, sierras, espadas y otros objetos filosos. Cualquiera de ellos te serviria para cortar la soga y poder salir a tiempo." : PRINT
-2203 PRINT "Intentas con todas tus fuerzas acercarte a alguno de ellos pero no es posible. La cuerda es demasiado corta. " : PRINT
-2204 PRINT "No alcanzas ninguno." : PRINT
+2202 PRINT "En el lecho marino lleg†s a ver tijeras, sierras, espadas y otros objetos filosos. Cualquiera de ellos te servir°a para cortar la soga y poder sal°r a tiempo." : PRINT
+2203 PRINT "Intent†s con todas tus fuerzas acercarte a alguno de ellos, pero no es posible. La cuerda es demasiado corta." : PRINT
+2204 PRINT "No alcanz†s a agarrar ninguno." : PRINT
 2205 PRINT "El tiempo se acaba." : PRINT
-2206 PRINT "Comenzas a perder el aire. Tu rostro se torna morado. Burbujas salen de tu boca en un reflejo por tomar aire." : PRINT
-2207 PRINT "Finalmente el tiempo se acaba y no podes contener mas el aire.. moris ahogado.." : PRINT : GOSUB 9100
-2208 PRINT "Ahora solo podes FLOTAR, HINCHARTE o PUDRIRTE..." : PRINT
+2206 PRINT "Comenz†s a perder el aire. Tu rostro se torna morado. Burbujas salen de tu boca en un reflejo por tomar aire." : PRINT
+2207 PRINT "Finalmente no podes contener m†s el aire.. mor°s ahogado.." : PRINT : GOSUB 9100
+2208 PRINT "Ahora s¢lo podes FLOTAR, HINCHARTE o PUDRIRTE..." : PRINT
 2298 GOSUB 9110 : REM -- GAMEOVER --
 2299 RETURN 299
 
 2300 REM ---- SCENE 14 ----
 2301 CLS
 2302 PRINT "Se te ocurre acercarte al °dolo y levantarlo. " : PRINT
-2303 PRINT "Recordas que GUYBRUSH escapa a esta situacion de ese modo en el MONKEY ISLAND I!" : PRINT
-2304 PRINT "Te acercas a la estatua y podes levantarla sin problemas. " : PRINT
-2305 PRINT "Con la estatua en la mano ya tenes el objeto de coleccion que quiere EL COLECCIONISTA." : PRINT
-2306 PRINT "Eso no fue tan dificil!" : PRINT
-2307 PRINT "Subis la escalera hacia los muelles y te preguntas que pasos hay que seguir una vez que ya tenes el objeto para pedir la audiencia." : PRINT : GOSUB 9100
-2308 PRINT "Luego de unos segundos tu cuerpo comienza a desvanecerse como YODA al morir en EL REGRESO DEL JEDI." : PRINT
+2303 PRINT "≠Record†s que GUYBRUSH escapa a esta situacion de ese modo en el MONKEY ISLAND I!" : PRINT
+2304 PRINT "Te acerc†s a la estatua y podÇs levantarla sin problemas." : PRINT
+2305 PRINT "Con la estatua en la mano, ya tenÇs el objeto de colecci¢n que quiere EL COLECCIONISTA." : PRINT
+2306 PRINT "≠Eso no fue tan dif°cil!" : PRINT
+2307 PRINT "Sub°s la escalera hacia los muelles y te preguntas quÇ pasos hay que seguir una vez que ya tenÇs el objeto para pedir la audiencia." : PRINT : GOSUB 9100
+2308 PRINT "Luego de unos segundos, tu cuerpo comienza a desvanecerse como YODA al morir en EL REGRESO DEL JEDI." : PRINT
 2397 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
 2398 SCENEA = 21 : OPTIONB$ = "1"
 2399 RETURN 299
@@ -498,9 +498,9 @@
 
 2400 REM ---- SCENE 15 ----
 2402 CLS
-2403 PRINT "Maldicion, no funciona. Intentas nuevamente. Claramente esta no es la combinacion correcta. No logras recordar bien como hacer el gancho." : PRINT
-2404 PRINT "Tu oponente aprovecha esta oportunidad y te electrocuta dejandote levemente inconciente. En ese momento RAIDEN se agacha y te aplica un duro uppercut." : PRINT
-2405 PRINT "Salis volando por los aires y caes por el pozo hacia los clavos." : PRINT
+2403 PRINT "Maldici¢n, no funciona. Intentas nuevamente. Claramente esta no es la combinaci¢n correcta. No logr†s recordar bien como hacer el gancho." : PRINT
+2404 PRINT "Tu oponente aprovecha esta oportunidad y te electrocuta dej†ndote levemente inconciente. En ese momento RAIDEN se agacha y te aplica un duro uppercut." : PRINT
+2405 PRINT "Sal°s volando por los aires y caes por el pozo hacia los clavos." : PRINT
 2406 PRINT "RAIDEN gana..." : PRINT
 2407 PRINT " @@@@@@@@  @@@@@@  @@@@@@@  @@@@@@  @@@      @@@ @@@@@@@ @@@ @@@"
 2408 PRINT " @@!      @@!  @@@   @@!   @@!  @@@ @@!      @@!   @@!   @@! !@@"
@@ -513,23 +513,23 @@
 
 2500 REM ---- SCENE 16 ----
 2501 CLS
-2502 PRINT "Es la combinacion correcta!!" : PRINT
-2503 PRINT "Tu gancho sale disparado de tu mano y no podes evitar decir la famosa frase GET OVER HERE!" : PRINT
+2502 PRINT "≠≠Es la combinaci¢n correcta!!" : PRINT
+2503 PRINT "Tu gancho sale disparado de tu mano y no podÇs evitar decir la famosa frase ≠GET OVER HERE!" : PRINT
 2504 PRINT "El doble de RAIDEN es tomado por sorpresa por tu ataque especial y la punta de tu gancho se clava en su pecho." : PRINT
-2505 PRINT "Lo atraes hacia vos y le das un golpe final. No queres enviarlo a una muerte horrible al fondo del pozo por lo que lo noqueas y le quitas el sombrero." : PRINT
-2506 PRINT "Y ahora... que? Que se supone que debes hacer con el sombrero?" : PRINT
-2507 PRINT "Mientras meditas que hacer, y antes de que te des cuenta, comenzas a desvanecerte como cuando el capitan KIRK y SPOCK se teletransportaban a explorar un planeta extrano." : PRINT
+2505 PRINT "Lo atraes hacia vos y le das un golpe final. No querÇs enviarlo a una muerte horrible al fondo del pozo, por lo que lo noqueas y le quitas el sombrero." : PRINT
+2506 PRINT "Y ahora... ®quÇ? ®QuÇ se supone que debÇs hacer con el sombrero?" : PRINT
+2507 PRINT "Mientras meditas quÇ hacer, y antes de que te des cuenta, comenz†s a desvanecerte como cuando el capit†n KIRK y SPOCK se teletransportaban a explorar un planeta extra§o." : PRINT
 2597 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
 2598 SCENEA = 21 : OPTIONB$ = "1"
 2599 RETURN 299
 
 2600 REM ---- SCENE 17 ----
 2601 CLS
-2602 PRINT "MATHEW no lo sabe, pero vos estas seguro que no haras nada con el ALMANAQUE que lo perjudique. " : PRINT
-2603 PRINT "Forcejeas con el por el ALMANAQUE y logras quitarselo. No es facil luchar contra un °dolo de toda tu vida!" : PRINT
-2604 PRINT "Sin embargo estas muy motivado y logras imponerte. De un golpe final knockeas a MATHEW y recuperas el ALMANAQUE." : PRINT
-2605 PRINT "Y ahora... que?" : PRINT
-2606 PRINT "Luego de unos segundos comenzas a desvanecerte como cuando el capitan PICARD y REINER se teletransportaban a explorar un planeta extrano en STAR TREK NEXT GENERATION." : PRINT
+2602 PRINT "MATHEW no lo sabe, pero vos est†s seguro de que no har†s nada con el ALMANAQUE que lo perjudique. " : PRINT
+2603 PRINT "Forcejeas con Çl por el ALMANAQUE y logr†s quit†rselo. ≠No es f†cil luchar contra un °dolo de toda tu vida!" : PRINT
+2604 PRINT "Sin embargo, est†s muy motivado y logr†s imponerte. De un golpe final noqueas a MATHEW y recuper†s el ALMANAQUE." : PRINT
+2605 PRINT "Y ahora... ®quÇ?" : PRINT
+2606 PRINT "Luego de unos segundos comenz†s a desvanecerte, como cuando el capit†n PICARD y REINER se teletransportaban a explorar un planeta extra§o en STAR TREK NEXT GENERATION." : PRINT
 
 2697 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
 2698 SCENEA = 21 : OPTIONB$ = "1"
@@ -537,13 +537,13 @@
 
 2700 REM ---- SCENE 18 ----
 2701 CLS
-2702 PRINT "MATHEW se ve muy decidido. No queres pelear con el para obtener el almanaque. Seguramente haya otro objeto que puedas llevar al coleccionista." : PRINT
-2703 PRINT "Tal y como en la pel°cula MATHEW quema el ALMANAQUE y CALEB es golpeado por un rayo que lo envia al viejo oeste." : PRINT
-2704 PRINT "La tormenta que desato el rayo empapa a ambos." : PRINT
-2705 PRINT "En ese momento llega un cartero para entregar la carta que informa a MATHEW que el Doc. esta vivo! " : PRINT
+2702 PRINT "MATHEW se ve muy decidido. No querÇs pelear con Çl para obtener el almanaque. Seguramente haya otro objeto que puedas llevar al coleccionista." : PRINT
+2703 PRINT "Tal y como en la pel°cula MATHEW quema el ALMANAQUE y CALEB es golpeado por un rayo que lo env°a al viejo oeste." : PRINT
+2704 PRINT "La tormenta que desat¢ el rayo viene acompa§ada de una fuerte tormenta y los empapa." : PRINT
+2705 PRINT "En ese momento, llega un cartero para entregar la carta que informa a MATHEW que ≠el Doc. esta vivo! " : PRINT
 2706 PRINT "El cartero tiene otra carta a nombre de "USERNAME$"." : PRINT
 2707 PRINT "Tu carta dice:" : PRINT : GOSUB 9100
-2708 PRINT "No pudiste recuperar el objeto de coleccion que queria. Fallaste mi prueba. Quedaras atrapado en esta DIMENSI‡N para siempre." : PRINT
+2708 PRINT "No pudiste recuperar el objeto de colecci¢n que quer°a. Fallaste mi prueba. Quedar†s atrapado en esta DIMENSI‡N para siempre." : PRINT
 2709 PRINT "Firmado EL COLECCIONISTA." : PRINT
 2797 PRINT
 2798 GOSUB 9110 : REM -- GAMEOVER --
@@ -552,27 +552,27 @@
 
 2800 REM ---- SCENE 19 ----
 2801 CLS
-2802 PRINT "Jesus bebio de la copa de un carpintero. Justo como en la pel°cula!" : PRINT
-2803 PRINT "Tomas un sorbo y te sentis fortalecido." : PRINT
+2802 PRINT "Jes£s bebi¢ de la copa de un carpintero. ≠Justo como en la pel°cula!" : PRINT
+2803 PRINT "Tom†s un sorbo y te sent°s fortalecido." : PRINT
 2804 PRINT "El caballero dice:" : PRINT
-2805 PRINT "- Tu elegiste con sabiduria." : PRINT
+2805 PRINT "- Tu elegiste con sabidur°a." : PRINT
 2806 PRINT "Los Dres. JONAS beben de la copa como vos y te agradecen por tu ayuda. Los ayudaste a escapar de los nazis y obtener el Grial." : PRINT
-2807 PRINT "A cambio le pedis al KANSAS su latigo. Muy a su pesar te lo entrega.. una promesa es una promesa.. pero no pasa nada... " : PRINT : GOSUB 9100
-2808 PRINT "Esperas alguna senal para ver al COLECCIONISTA sin exito..." : PRINT
-2809 PRINT "Le das el latigo a KANSAS y le pedis su sombrero... tampoco... parece que EL COLECCIONISTA no esta interesado en estos articulos..." : PRINT
-2810 PRINT "Pensando un poco en todo lo que acaban de vivir... le pedis a HARRY el DIARIO DEL GRIAL.. " : PRINT
+2807 PRINT "A cambio le ped°s al KANSAS su l†tigo. Muy a su pesar, te lo entrega.. una promesa es una promesa.. pero no pasa nada... " : PRINT : GOSUB 9100
+2808 PRINT "Esper†s, en vano, alguna se§al para ver al COLECCIONISTA..." : PRINT
+2809 PRINT "Le das el l†tigo a KANSAS y le ped°s su sombrero... tampoco... parece que EL COLECCIONISTA no est† interesado en estos art°culos..." : PRINT
+2810 PRINT "Pensando un poco en todo lo que acaban de vivir... le ped°s a HARRY el DIARIO DEL GRIAL.. " : PRINT
 2811 PRINT "Al tomar el diario, tu cuerpo comienza a desvanecerse como la mano de MARTY MCFLY cuando sus padres casi no se besan en 1955." : PRINT
-2812 PRINT "Finalmente desapareces por completo..." : PRINT
+2812 PRINT "Finalmente desaparecÇs por completo..." : PRINT
 2897 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
 2898 SCENEA = 21 : OPTIONB$ = "1"
 2899 RETURN 299
 
 2900 REM ---- SCENE 20 ----
 2901 CLS
-2902 PRINT "Seguramente en esta DIMENSI‡N la copa de oro y rubies es la indicada. Al fin y al cabo no es exactamente igual a la pel°cula." : PRINT
-2903 PRINT "Servis el agua en la copa y das un sorbo. Al principio no pasa nada. Hasta que comienzas a sentir un fuerte dolor en el pecho. " : PRINT
-2904 PRINT "Tus manos comienzan a envejecer y todo tu cuerpo se siente pesado, avejentado. Tu pelo se torna blanco, canoso " : PRINT
-2905 PRINT "Tus ojos se secan hasta que finalmente caen de tus cuencas oculares." : PRINT
+2902 PRINT "Seguramente en esta DIMENSI‡N la copa de oro y rub°es es la indicada. Al fin y al cabo, no es exactamente igual a la pel°cula." : PRINT
+2903 PRINT "Serv°s el agua en la copa y das un sorbo. Al principio, no pasa nada. Hasta que comienzas a sentir un fuerte dolor en el pecho." : PRINT
+2904 PRINT "Tus manos comienzan a envejecer y todo tu cuerpo se siente pesado, avejentado. Tu pelo se torna blanco, canoso, podrido..." : PRINT
+2905 PRINT "Tus ojos se secan, hasta que finalmente caen de tus cuencas oculares." : PRINT
 2906 PRINT "Moriste..." : PRINT
 2907 PRINT "Tu elegiste mal..." : PRINT  : GOSUB 9100
 2908 PRINT "           ______              "
@@ -592,18 +592,18 @@
 
 3000 REM ---- SCENE 21 ----
 3001 CLS
-3002 PRINT "Tu cuerpo se materializa en el lugar de tus suenos. " : PRINT
+3002 PRINT "Tu cuerpo se materializa en el lugar de tus sue§os. " : PRINT
 3003 PRINT "Es como si toda la cultura pop de tu infancia estuviera colgando de las paredes y en las estanterias." : PRINT
-3004 PRINT "Aqui hay de todo VHS, videograbadoras, laser discs, consolas de videojuegos, munecos, PCs retro, juegos bigbox, figuritas, computadoras retro y mas. No falta nada!" : PRINT
-3005 PRINT "Hacia el frente hay una gran escalera de tres colores. Al final de cada color hay como un campo de fuerza que claramente impide el paso." : PRINT
-3006 PRINT "Te recuerda al campo de fuerza que impedia el paso a OBI WAN KENOBI en su pelea con DARTH MAUL en EPISODIO I." : PRINT
-3007 PRINT "En los escalones tambien hay numeros: 1, 2 y 3." : PRINT : GOSUB 9100
-3008 PRINT "Te acercas hacia el primer conjunto de escalones de color verde y miras hacia arriba. Hay una luz cegadora en la cima de la escalera, pero llegas a ver una figura sentada." : PRINT
+3004 PRINT "Aqui hay de todo: VHSs, videograbadoras, laser discs, consolas de videojuegos, mu§ecos, PCs retro, juegos bigbox, figuritas y m†s ≠No falta nada!" : PRINT
+3005 PRINT "Hacia el frente hay una gran escalera de tres colores. Al final de cada color, hay como un campo de fuerza que claramente impide el paso." : PRINT
+3006 PRINT "Te recuerda al campo de fuerza que imped°a el paso a OBI WAN KENOBI ayudar a QUI GON JINN en su pelea con DARTH MAUL en EPISODIO I." : PRINT
+3007 PRINT "En los escalones tambien hay n£meros: 1, 2 y 3." : PRINT : GOSUB 9100
+3008 PRINT "Te acerc†s hacia el primer conjunto de escalones de color verde y mir†s hacia arriba. Hay una luz cegadora en la cima de la escalera, pero llegas a ver una figura sentada." : PRINT
 3009 PRINT "- Gracias por mi nuevo objeto de coleccion. Dice EL COLECCIONISTA. " : PRINT
-3010 PRINT "En ese momento el objeto que le trajiste desaparece de tus manos y se materializa en una de las estanterias." : PRINT
-3011 PRINT "- Ahora debes superar una ultima prueba. Si contestas bien estas 3 preguntas podras regresar a tu dimensi¢ncon la ultima de mis creaciones. Un idea que te hara rico y famoso." : PRINT
-3012 PRINT "La primera pregunta es" : PRINT
-3013 PRINT "- En que ano se publico el primer arcade de STREET FIGHTER 2?" : PRINT
+3010 PRINT "En ese momento, el objeto que trajiste desaparece de tus manos y se materializa en una de las estanterias." : PRINT
+3011 PRINT "- Ahora debÇs superar una £ltima prueba. Si contestas bien estas 3 preguntas podr†s regresar a tu dimensi¢n con la £ltima de mis creaciones. Un idea que te har† rico y famoso." : PRINT
+3012 PRINT "La primera pregunta es:" : PRINT
+3013 PRINT "- ®En que a§o se public¢ el primer arcade de STREET FIGHTER 2?" : PRINT
 
 3095 COLOR CINFO : PRINT "1. 1990"
 3096 COLOR CINFO : PRINT "2. 1991"
@@ -615,9 +615,9 @@
 3100 REM ---- SCENE 22 ----
 3101 CLS
 3102 PRINT "- Excelente. Conestaste bien mi primera pregunta." : PRINT
-3103 PRINT "El campo de fuerza que te impedia el paso desaparece. Ya podes subir hasta los escalones amarillos que tienen el numero 2." : PRINT
+3103 PRINT "El campo de fuerza que te imped°a el paso desaparece. Ya podes subir hasta los escalones amarillos que tienen el n£mero 2." : PRINT
 3104 PRINT "- Es hora de mi segunda pregunta:" : PRINT
-3105 PRINT "- Como se llama el creador del PRINCE OF PERSIA?" : PRINT
+3105 PRINT "- ®C¢mo se llama el creador del PRINCE OF PERSIA?" : PRINT
 
 3195 COLOR CINFO : PRINT "1. Steve Purcell"
 3196 COLOR CINFO : PRINT "2. Jordan Mechner"
@@ -627,19 +627,19 @@
 
 3200 REM ---- SCENE 23 ----
 3201 CLS
-3202 PRINT "No, el primer arcade de STREET FIGHTER 2 se publico en 1991." : PRINT
-3203 PRINT "No podes creer como te equivocaste en esta pregunta! Deben haber sido los nervios!" : PRINT
-3204 PRINT "EL COLECCIONISTA toma su baculo, te lanza un hechizo y te atrapa en la DIMENSI‡N de JUMANJI donde tendras que vivir en la selva hasta que alguien saque un 5 o un 8." : PRINT
+3202 PRINT "No, el primer arcade de STREET FIGHTER 2 se public¢ en 1991." : PRINT
+3203 PRINT "≠No podÇs creer como te equivocaste en esta pregunta! ≠Deben haber sido los nervios!" : PRINT
+3204 PRINT "EL COLECCIONISTA toma su b†culo, te lanza un hechizo y te atrapa en la DIMENSI‡N de JUMANJI donde tendr†s que vivir en la selva hasta que alguien saque un 5 o un 8." : PRINT
 3297 PRINT
 3298 GOSUB 9110 : REM -- GAMEOVER --
 3299 RETURN 299
 
 3300 REM ---- SCENE 24 ----
 3301 CLS
-3302 PRINT "- Correcto! Era facil" : PRINT
-3303 PRINT "El campo de fuerza que te impedia pasar se desvanece. Ya podes subir hasta los escalones verdes que tienen el numero 1." : PRINT
-3304 PRINT "- Ultima pregunta. Si ganas podras volver a tu dimensi¢ncon este guion para una pel°cula basado en una idea inedita." : PRINT
-3305 PRINT "- Ya que te gustan tanto las retro computadoras..  dime.. cual fue la ultima version estable de GW-BASIC?" : PRINT
+3302 PRINT "- ≠Correcto! Era f†cil" : PRINT
+3303 PRINT "El campo de fuerza que te imped°a pasar se desvanece. Ya podÇs subir hasta los escalones verdes que tienen el n£mero 1." : PRINT
+3304 PRINT "- Èltima pregunta. Si gan†s podr†s volver a tu dimensi¢n con este gui¢n para una pel°cula basado en una idea inÇdita." : PRINT
+3305 PRINT "- Ya que te gustan tanto las retro computadoras..  dime.. ®Cu†l fue la £ltima versi¢n estable de GW-BASIC?" : PRINT
 3306 COLOR CINFO : PRINT "1. 3.23"
 3307 COLOR CINFO : PRINT "2. 3.20"
 3397 SCENEA = 27 
@@ -648,43 +648,43 @@
 
 3400 REM ---- SCENE 25 ----
 3401 CLS
-3402 PRINT "No! Ese es el creador de SAM & MAX!" : PRINT
+3402 PRINT "≠No, ese es el creador de SAM & MAX!" : PRINT
 3403 PRINT "Tantas horas que le dedicaste al PRINCE OF PERSIA y no recordaste bien el nombre de su creador." : PRINT
-3404 PRINT "El coleccionista toma su baculo y te arroja un hechizo." : PRINT
-3405 PRINT "Tu cuerpo es el de un gato y estas en una casa suburbana de los 80s en Estados Unidos." : PRINT
-3406 PRINT "Una voz familiar se escucha detras tuyo" : PRINT
-3407 PRINT "- SUERTUDO! Que hambre verte!" : PRINT : GOSUB 9100
-3408 PRINT "Es ALF! e intenta comerte!" : PRINT
-3409 PRINT "El COLECCIONISTA te atrapo en la DIMENSI‡N de ALF y te condeno a un bucle infinito huyando de el para evitar ser comido!" : PRINT
+3404 PRINT "El coleccionista toma su b†culo y te arroja un hechizo." : PRINT
+3405 PRINT "Tu cuerpo es el de un gato y est†s en una casa suburbana de los a§os 80s, en Estados Unidos." : PRINT
+3406 PRINT "Una voz familiar se escucha detr†s tuyo" : PRINT
+3407 PRINT "- ≠SUERTUDO, que hambre verte!" : PRINT : GOSUB 9100
+3408 PRINT "≠Es ALF, e intenta comerte!" : PRINT
+3409 PRINT "El COLECCIONISTA te atrap¢ en la DIMENSI‡N de ALF, te convirti¢ en el gato SUERTUDO y te conden¢ a un bucle infinito huyendo para evitar ser comido por el extraterrestre." : PRINT
 3498 GOSUB 9110 : REM -- GAMEOVER --
 3499 RETURN 299
 
 3500 REM ---- SCENE 26 ----
 3501 CLS
-3502 3502 PRINT "- Incorrecto!" : PRINT
-3503 PRINT "-No, la ultima version estable es la 3.23!" : PRINT
-3504 PRINT "EL COLECCIONISTA toma su baculo y te arroja un hechizo. " : PRINT
-3505 PRINT "La magia te lleva al atico de una mansion muy antigua . Un fuerte ruido llama tu atencion." : PRINT
-3506 PRINT "Una puerta trampa se abre en el suelo del atico. De ella sale un verde y poligonal zombie!" : PRINT
-3507 PRINT "Te das cuenta! Se trata de la mansion Derceto! Estas en la DIMENSI‡N ALONE IN THE DARK! " : PRINT
-3508 PRINT "Huis del atico y corres por el pasillo, olvidaste que el suelo es inestable en el juego.. aqui tambien.." : PRINT
-3509 PRINT "El suelo se desmorona bajo tus pies y moris al instante.." : PRINT
+3502 3502 PRINT "- ≠Incorrecto!" : PRINT
+3503 PRINT "- ≠No, la £ltima version estable es la 3.23!" : PRINT
+3504 PRINT "EL COLECCIONISTA toma su b†culo y te arroja un hechizo." : PRINT
+3505 PRINT "La magia te lleva al †tico de una mansi¢n muy antigua . Un fuerte ruido llama tu atenci¢n." : PRINT
+3506 PRINT "Una puerta trampa se abre en el suelo del †tico. De ella sale un verde y poligonal zombie." : PRINT
+3507 PRINT "≠Te das cuenta! Se trata de la mansi¢n Derceto! Estas en la DIMENSI‡N ALONE IN THE DARK!" : PRINT
+3508 PRINT "Hu°s del †tico y corrÇs por el pasillo, olvidaste que, en el juego, el suelo de este corredor es inestable.. aqu° tambiÇn.." : PRINT
+3509 PRINT "El suelo se desmorona bajo tus pies y mor°s al instante.." : PRINT£ltimo
 3598 GOSUB 9110 : REM -- GAMEOVER --
 3599 RETURN 299
 
 3600 REM ---- SCENE 27 ----
 3601 CLS
-3602 PRINT "- Excelente. Veo que eres un gran conocedor de mi obra y de mi arte." : PRINT
-3603 PRINT "El ultimo campo de fuerza se desvanece y te permite ver al COLECCIONISTA." : PRINT
+3602 PRINT "- Excelente. Veo que sos un gran conocedor de mi obra y arte." : PRINT
+3603 PRINT "El £ltimo campo de fuerza se desvanece y te permite ver al COLECCIONISTA." : PRINT
 3604 PRINT "Su aspecto te recuerda a MUNRA o SKELETOR, es realmente aterrador." : PRINT
-3605 PRINT "Esta sentado en un trono de oro macizo. El trono tiene decoraciones de personajes y elementos de la cultura pop en toda su superficie." : PRINT
-3606 PRINT "El coleccionista sostiene su baculo magico con la mano derecha y lo apoya en el piso." : PRINT
-3607 PRINT "Realmente te recuerda a SKELETOR y su baculo." : PRINT : GOSUB 9100
-3608 PRINT "El baculo es un gran baston que en su punta tiene un GAMEBOY de plata." : PRINT
-3609 PRINT "- Recoge tu premio y te enviare a tu dimensi¢n." : PRINT
+3605 PRINT "Est† sentado en un trono de oro macizo. El trono tiene decoraciones de personajes y elementos de la cultura pop en toda su superficie." : PRINT
+3606 PRINT "El coleccionista sostiene su b†culo m†gico con la mano derecha y lo apoya en el suelo." : PRINT
+3607 PRINT "Realmente te recuerda a SKELETOR y su b†culo." : PRINT : GOSUB 9100
+3608 PRINT "El b†culo es un gran bast¢n que en su punta tiene un GAMEBOY de plata." : PRINT
+3609 PRINT "- RecogÇ tu premio y te enviarÇ a tu dimensi¢n." : PRINT
 3610 PRINT "EL COLECCIONISTA extiende su otra mano y te entrega un bloque de hojas. Parece ser el borrador de una historia." : PRINT
-3611 PRINT "Dudas que hacer... convertirte en un genio creativo suena tentador.. pero... EL COLECCIONISTA es un ser maligno y alguien tiene que detenerlo... romper su baculo liberaria a los seres atrapados en la MEGA DIMENSI‡N" : PRINT
-3650 COLOR CINFO : PRINT "1. Intentar destruir el baculo"
+3611 PRINT "Dudas quÇ hacer... convertirte en un genio creativo suena tentador.. pero... EL COLECCIONISTA es un ser maligno y alguien tiene que detenerlo... romper su b†culo liberar°a a los seres atrapados en la MEGA DIMENSI‡N" : PRINT
+3650 COLOR CINFO : PRINT "1. Intentar destruir el b†culo"
 3651 COLOR CINFO : PRINT "2. Aceptar la recompensa y regresar a casa"
 3697 SCENEA = 29
 3698 SCENEB = 28
@@ -692,16 +692,16 @@
 
 3700 REM ---- SCENE 28 ----
 3701 CLS
-3702 PRINT "Convertirte el alguien como RON GILBERT, JOHN ROMERO, SPIELBERG, GEORGE LUCAS, JOHN TOBIAS, entre tantos otros, es un sueno hecho realidad." : PRINT
-3703 PRINT "Aceptas el borrador que te entrega el coleccionista." : PRINT
+3702 PRINT "Convertirte el alguien como RON GILBERT, JOHN ROMERO, SPIELBERG, GEORGE LUCAS, JOHN TOBIAS, entre tantos otros, es un sue§o hecho realidad." : PRINT
+3703 PRINT "Acept†s el borrador que te entrega el coleccionista." : PRINT
 3704 PRINT "Al entrar en contacto con el papel todo desaparece." : PRINT
-3705 PRINT "Te despertas en tu cama. Todo fue un sueno? No puede ser! Fue tan real." : PRINT
-3706 PRINT "Miras a tu alrededor y en tu mesa de luz hay un bloque de papel." : PRINT
-3707 PRINT "Es el bloque de hojas que te entrego EL COLECCIONISTA." : PRINT : GOSUB 9100
-3708 PRINT "Cumplio con su parte del trato. Eso quiere decir que todos los seres que conociste  (y los que no tambien) siguen atrapados en la MEGA DIMENSI‡N." : PRINT
+3705 PRINT "Te despert†s en tu cama. ®Acaso todo fue un sue§o? ≠No puede ser! Fue tan real." : PRINT
+3706 PRINT "Mir†s a tu alrededor y en tu mesa de luz hay un bloque de papel." : PRINT
+3707 PRINT "Es el bloque de hojas que te entreg¢ EL COLECCIONISTA." : PRINT : GOSUB 9100
+3708 PRINT "Cumpli¢ con su parte del trato. Eso quiere decir que todos los seres que conociste (y los que no tambi¢n) siguen atrapados en la MEGA DIMENSI‡N." : PRINT
 3709 PRINT "No tuviste el coraje para ayudarlos. Un fuerte sentimiento de culpa te invade." : PRINT
-3710 PRINT "Tomas el bloque de hojas y lo miras fijamente." : PRINT
-3711 PRINT "En la primer hoja se puede ver el titulo de la historia que esta escrita en el." : PRINT
+3710 PRINT "Tom†s el bloque de hojas y lo mir†s fijamente." : PRINT
+3711 PRINT "En la primer hoja se puede ver el t°tulo de la historia que est† escrita en Çl." : PRINT
 3712 PRINT "Dice... " : PRINT
 3713 PRINT "LA DIMENSI‡N RETRO" : PRINT
 3798 GOSUB 9500 : REM -- ENDING --
@@ -709,34 +709,44 @@
 
 3800 REM ---- SCENE 29 ----
 3801 CLS
-3802 PRINT "Esta es una oportunidad unica. No podes dejar de aprovecharla." : PRINT
-3803 PRINT "Tenes que ayudar a todos los seres que atrapo EL COLECCIONISTA en LA MEGA DIMENSI‡N." : PRINT
-3804 PRINT "Aparentas acercarte para tomar el bloque de hojas y con un rapido movimiento  le arrebatas el baculo." : PRINT
-3805 PRINT "- NOO! Que pensas hacer con eso!? No seas tonto.. No lograras nada" : PRINT
-3806 PRINT "No crees una palabra de este sadico y egoista coleccionista que solo busca entretenimiento." : PRINT
-3807 PRINT "Sosteniendo el baculo con ambas manos usas tu pierna para partirlo. Require una gran cantidad de fuerza, pero logras destruirlo." : PRINT : GOSUB 9100
-3808 PRINT "Un vortice se crea en el punto en el espacio donde se partio el baculo." : PRINT
+3802 PRINT "Esta es una oportunidad £nica. No podÇs dejar de aprovecharla." : PRINT
+3803 PRINT "TenÇs que ayudar a todos los seres que atrap¢ EL COLECCIONISTA en LA MEGA DIMENSI‡N." : PRINT
+3804 PRINT "Aparent†s acercarte para tomar el bloque de hojas y con un r†pido movimiento le arrebatas el b†culo." : PRINT
+3805 PRINT "-≠NOO! ®≠QuÇ pensas hacer con eso!? No seas tonto.. No lograr†s nada." : PRINT
+3806 PRINT "No crees una palabra de este s†dico y ego°sta coleccionista que s¢lo busca entretenimiento a expensas de otros." : PRINT
+3807 PRINT "Sosteniendo el b†culo con ambas manos, us†s tu pierna para partirlo. Require una gran cantidad de fuerza, pero logr†s destruirlo." : PRINT : GOSUB 9100
+3808 PRINT "Un vortice se crea en el punto en el espacio donde se parti¢ el b†culo." : PRINT
 3809 PRINT "Todo es absorbido por este agujero negro, vos incluido." : PRINT
-3810 PRINT "Perdes el conocimiento. Ya te estas acostumbrando a esto!" : PRINT
-3811 PRINT "Al despertar estas en tu cama. Acaso fue todo un sueno?" : PRINT
-3812 PRINT "Miras a tu mesa de luz y encontras una nota sobre una caja." : PRINT : GOSUB 9100
+3810 PRINT "PerdÇs el conocimiento. ≠Ya te est†s acostumbrando a esto!" : PRINT
+3811 PRINT "Al despertar est†s en tu cama. ®Acaso fue todo un sue§o?" : PRINT
+3812 PRINT "Mir†s a tu mesa de luz y encontr†s una nota sobre una caja." : PRINT : GOSUB 9100
 3813 PRINT "Querido "USERNAME$"," : PRINT
-3814 PRINT "Nunca olvidaremos lo que hiciste por nosotros, este es un pequeno gesto de nuestro agradecimiento. Firmado: tu amigo interdimensional" : PRINT
-3815 PRINT "Abris la caja con una sonrisa y encontras...un diskette." : PRINT
+3814 PRINT "Nunca olvidaremos lo que hiciste por nosotros, este es un peque§o gesto de nuestro agradecimiento. Firmado: tu amigo interdimensional" : PRINT
+3815 PRINT "Abris la caja con una sonrisa y encontr†s...un diskette." : PRINT
 3816 PRINT "Al insertarlo en tu computadora ves que tiene muchos archivos de texto con todas las ideas de nuevas historias del COLECCIONISTA." : PRINT
-3817 PRINT "Entre ellas esta... LA DIMENSI‡N RETRO.. " : PRINT
+3817 PRINT "Entre ellas est†... LA DIMENSI‡N RETRO.. " : PRINT
 3898 GOSUB 9500 : REM -- ENDING --
 3899 RETURN 299
 
 8000 PRINT 
-8001 COLOR CERROR : PRINT "No es una opcion valida, ingresa " OPTIONA$ " o " OPTIONB$
+8001 COLOR CERROR : PRINT "No es una opci¢n valida, ingresa " OPTIONA$ " o " OPTIONB$
 8002 PRINT 
 8010 RETURN 299
 
 
 9000 CLS
 9001 PRINT "Eres un gallina Mcfly!"
-9002 END
+9002 PRINT "             xx"
+9003 PRINT "             / .|_"
+9004 PRINT "            /(_)_< --- cack cack!"
+9005 PRINT "           /  ("
+9006 PRINT "  ((____.-'    )"
+9007 PRINT "   \\         /"
+9008 PRINT "    \'-.-.-'`/    "
+9009 PRINT "  _  \______/"
+9010 PRINT " (_)   _|_\_"
+9011 PRINT " ''''''''''''''''"
+9099 END
 
 
 9100 REM ---- subroutine PRESS ANY KEY ----
