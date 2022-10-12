@@ -49,7 +49,7 @@
 133 PRINT "Por sobre todo, te encantan las computadoras retro." : PRINT
 134 PRINT "Finalmente llego el d°a. Hoy es la FERIA RETRO. Un espacio de celebraci¢n y encuentro para los coleccionistas. No podÇs esperar para estar ah° y despertar tus recuerdos de la infancia." : PRINT
 135 PRINT "Te ponÇs tu remera de los THUNDERCATS, agarr†s tu mochila y bastante efectivo. Uno nunca sabe que puede encontrar en los puestos de la feria!" : PRINT
-136 PRINT "Lleg†s a la feria. Esta repleta de fan†ticos del retro como vos y llena de objetos coleccionables que te encantan." : PRINT : GOSUB 9100
+136 PRINT "Lleg†s a la feria. Est† repleta de fan†ticos del retro como vos y llena de objetos coleccionables que te encantan." : PRINT : GOSUB 9100
 137 PRINT "Hoy est†s buscando juegos de PC. Te dirig°s al puesto de siempre y comenz†s a revisar entre las cajas llenas de diskettes y juegos bigbox. En tu colecci¢n ya tenes la mayor°a de estos juegos de MS-DOS." : PRINT
 138 PRINT "Revolviendo entre los juegos encontr†s un juego bigbox en una caja completamente negra. En su portada unas letras blancas dibujan la palabra DIMENTION." : PRINT
 139 PRINT "Esto debe ser una broma. Este juego es una leyenda urbana como el POLYBIUS." : PRINT
@@ -302,33 +302,33 @@
 
 1800 REM ---- SCENE 9 ----
 1801 CLS
-1802 PRINT "VOLVER AL FUTURO es una de tus pel°culas favoritas. Aqui tenes mas chances de conseguir un objeto de coleccion. " : PRINT
-1803 PRINT "Le decis a CALEB que preferis quedarte y buscar un objeto aqui. El te cuenta que EL COLECCIONISTA quiere el ALMANAQUE de resultados deportivos de esta DIMENSI‡N." : PRINT
-1804 PRINT "Si le llevas eso te concedera una audiencia." : PRINT
-1805 PRINT "Agradeces a CALEB su ayuda y muy a tu pesar, le devolves las llaves del DELOREAN. ya que podes caminar hasta HILL VALLEY." : PRINT
-1806 PRINT "CALEB te cuenta que manana es la noche del BAILE DEL ENCANTO BAJO EL OCEANO y que MARTY esta intentando recuperar el ALMANAQUE con resultados deportivos que el BIFF del futuro entrego a su yo de 1955." : PRINT
-1807 PRINT "Queres recuperar el almanaque en la casa de BIFF antes del baile, pero el Doc. te lo impide debido a que afuera esta nevando." : PRINT : GOSUB 9100
-1808 PRINT "No se trata de una nevada comun y corriente. Al entrar en contacto con la piel los copos producen una muerte instantanea." : PRINT
-1809 PRINT "CALEB te explica que la DIMENSI‡N del ETERNAUTA de OESTERHELD se esta uniendo con esta y la nevada afecta a todos los seres que no viven en la MEGA DIMENSI‡N." : PRINT
-1810 PRINT "Haces caso al Doc. Pasas la noche y el dia siguiente en su casa. " : PRINT
-1811 PRINT "Afortunadamente la noche del baile es preciosa justo como en la pel°cula. No hay nevada mortal." : PRINT
-1812 PRINT "Saludas al Doc. y partis en tu mision." : PRINT : GOSUB 9100
-1813 PRINT "Llegas al baile escolar y buscas al equivalente de MARTY.. deberia tener un sombrero y una campera de cuero. Tal y como esta vestido en VOLVER AL FUTURO II." : PRINT
-1814 PRINT "El lugar es identico a la pel°cula. Ves a todos los jovenes bailando, la decoracion del oceano, la ropa de los 50s y ves a los dobles de GEORGE Y LORRAINE de esta dimensi¢n. Son muy parecidos a los actores!" : PRINT
-1815 PRINT "En ese momento comienza a sonar Johnny B. Goode de Chuck Berry! Claro! el MARTY de VOLVER AL FUTURO I esta tocando para que sus padres se enamoren! " : PRINT
-1816 PRINT "Eso quiere decir que el otro MARTY esta escapando de BIFF y esta detras del escenario en este preciso momento. " : PRINT
-1817 PRINT "MARTY es noqueado por una puerta y BIFF recupera el ALMANAQUE. No llegaste a tiempo... ahora hay que arrebatarselo a BIFF." : PRINT : GOSUB 9100
-1818 PRINT "Despertas a MARTY y le decis que sos amigo de CALEB... el nombre de MARTY en esta dimensi¢nes MATHEW. " : PRINT
-1819 PRINT "MATHEW y vos llaman a CALEB usando un walkie talkie como con el que jugabas en tu infancia." : PRINT
-1820 PRINT "CALEB te dice que MATHEW no sabe nada de la fusion de las dimensiones y esta viviendo este bucle una y otra vez. " : PRINT
-1821 PRINT "No debes mencionarle nada al respecto. Lo contrario podria causar una ruptura del espacio interdimensional." : PRINT
-1822 PRINT "Los tres se suben al DELOREAN para alcanzar a BIFF en su auto. " : PRINT : GOSUB 9100
-1823 PRINT "MATHEW toma la patineta voladora y se baja del auto para recuperar el ALMANAQUE. " : PRINT
-1824 PRINT "Ya sabes que pasa despues y CALEB tambiÔøΩn. Ya vivio este bucle antes." : PRINT
-1825 PRINT "Te bajas del DeLorean mas adelante y esperas que MATHEW recupere el ALMANAQUE, sea rescatado por CALEB y el doble de BIFF choque nuevamente contra un camion de estiercol." : PRINT
-1826 PRINT "Le pedis a MATHEW el almanaque pero el quiere quemarlo." : PRINT
-1827 PRINT "Tratas de explicarle que lo necesitas para volver a tu tiempo. Inventas que vos tambien sos un viajero del tiempo para convencerlo sin revelar nada del viaje interdimensional." : PRINT
-1828 PRINT "MATHEW sigue negandose. El quiere prevenir el futuro en el que su padre esta muerto, BIFF es asquerosamente rico y su madre esta casada con el." : PRINT
+1802 PRINT "VOLVER AL FUTURO es una de tus pel°culas favoritas. Aqu° tenÇs m†s chances de conseguir un objeto de colecci¢n. " : PRINT
+1803 PRINT "Le dec°s a CALEB que prefer°s quedarte y buscar un objeto aqu°. êl te cuenta que EL COLECCIONISTA quiere el ALMANAQUE de resultados deportivos de esta DIMENSI‡N." : PRINT
+1804 PRINT "Si le llevas eso, te concedera una audiencia." : PRINT
+1805 PRINT "Agradeces a CALEB su ayuda y, muy a tu pesar, le devolvÇs las llaves del DELOREAN, ya que podÇs caminar hasta HILL VALLEY." : PRINT
+1806 PRINT "CALEB te cuenta que ma§ana es la noche del BAILE DEL ENCANTO BAJO EL OCEANO y que MARTY est† intentando recuperar el ALMANAQUE con resultados deportivos que el BIFF del futuro entreg¢ a su yo de 1955." : PRINT
+1807 PRINT "QuerÇs recuperar el almanaque en la casa de BIFF antes del baile, pero el Doc. te lo impide debido a que afuera est† nevando." : PRINT : GOSUB 9100
+1808 PRINT "No se trata de una nevada com£n y corriente. Al entrar en contacto con la piel, los copos producen una muerte instant†nea." : PRINT
+1809 PRINT "CALEB te explica que la DIMENSI‡N del ETERNAUTA de OESTERHELD se est† uniendo con Çsta y la nevada afecta a todos los seres que no viven en la MEGA DIMENSI‡N." : PRINT
+1810 PRINT "HacÇs caso al Doc. Pasas la noche y el d°a siguiente en su casa." : PRINT
+1811 PRINT "Afortunadamente, la noche del baile es preciosa, justo como en la pel°cula. No hay nevada mortal." : PRINT
+1812 PRINT "Saludas al Doc. y part°s en tu misi¢n." : PRINT : GOSUB 9100
+1813 PRINT "Lleg†s al baile escolar y busc†s al equivalente de MARTY.. deber°a tener un sombrero y una campera de cuero. Tal y como est† vestido en VOLVER AL FUTURO II." : PRINT
+1814 PRINT "El lugar es idÇntico a la pel°cula. Ves a todos los jovenes bailando, la decoraci¢n del ocÇano y la ropa de los a§os 50s. Not†s a los dobles de GEORGE Y LORRAINE de Çsta dimensi¢n. ≠Son muy parecidos a los actores!" : PRINT
+1815 PRINT "En ese momento, ≠comienza a sonar Johnny B. Goode de Chuck Berry! ≠Claro, el MARTY de VOLVER AL FUTURO I est† tocando para que sus padres se enamoren!" : PRINT
+1816 PRINT "Eso quiere decir que el otro MARTY est† escapando de BIFF y est† detr†s del escenario en este preciso momento." : PRINT
+1817 PRINT "MARTY es noqueado por una puerta y BIFF recupera el ALMANAQUE. No llegaste a tiempo... ahora hay que arrebat†rselo a BIFF." : PRINT : GOSUB 9100
+1818 PRINT "Despert†s a MARTY y le dec°s que sos amigo de CALEB... el nombre de MARTY en esta dimensi¢n es MATHEW." : PRINT
+1819 PRINT "MATHEW y vos llaman a CALEB usando un walkie talkie, como con el que jugabas en tu infancia." : PRINT
+1820 PRINT "CALEB te dice que MATHEW no sabe nada de la fusi¢n de las dimensiones y est† viviendo este bucle una y otra vez." : PRINT
+1821 PRINT "No debÇs mencionarle nada al respecto. Lo contrario podr°a causar una ruptura del espacio interdimensional." : PRINT
+1822 PRINT "Los tres se suben al DELOREAN para alcanzar a BIFF en su auto." : PRINT : GOSUB 9100
+1823 PRINT "MATHEW toma la patineta voladora y se baja del auto para recuperar el ALMANAQUE." : PRINT
+1824 PRINT "Ya sabes quÇ pasa despues y CALEB tambiÇn. Ya vivi¢ Çste bucle antes." : PRINT
+1825 PRINT "Te baj†s del DeLorean m†s adelante y esper†s que MATHEW recupere el ALMANAQUE, sea rescatado por CALEB y el doble de BIFF choque nuevamente contra un cami¢n de estiÇrcol." : PRINT
+1826 PRINT "Le ped°s a MATHEW el almanaque pero Çl quiere quemarlo." : PRINT
+1827 PRINT "Trat†s de explicarle que lo necesit†s para volver a tu tiempo. Invent†s que vos tambiÇn sos un viajero del tiempo para convencerlo sin revelar nada del viaje interdimensional." : PRINT
+1828 PRINT "MATHEW sigue neg†ndose. êl quiere prevenir el futuro en el que su padre est† muerto, BIFF es asquerosamente rico y est† casado con su madre." : PRINT
 1829 PRINT
 1830 COLOR CINFO : PRINT "1. Tomar el almanaque a la fuerza"
 1831 COLOR CINFO : PRINT "2. Dejar que MATHEW queme el almanaque y buscar un objeto alternativo"
@@ -402,7 +402,7 @@
 2014 PRINT "Tenes que convencer a TRISTAN de que no queres comprar ningun adicional.  Ni faros antiniebla, ni garantia extendida, nada." : PRINT : GOSUB 9100 : GOSUB 9400
 2015 PRINT "Finalmente llegas a un acuerdo con TRISTAN y obtenes un bote de remos. Querias un barco, querias viajar en el MONO MARINO, pero ese barco ya lo tiene KIDCOMB. Tenes que conformarte con esto." : PRINT
 2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. El se da cuenta que no sos de esta DIMENSI‡N. Te ruega que destruyas el baculo del coleccionista. Ya esta harto de vivir en este bucle guionado." : PRINT
-2017 PRINT "Te dice que para viajar a otra dimensiÔøΩn tenes que navegar hacia el horizonte. Para que tengas exito en tu mision te coloca los faros anti niebla gratuitamente. A cuenta de la casa!" : PRINT
+2017 PRINT "Te dice que para viajar a otra dimensi¢n tenes que navegar hacia el horizonte. Para que tengas exito en tu mision te coloca los faros anti niebla gratuitamente. A cuenta de la casa!" : PRINT
 2018 PRINT "Comenzas a remar alejandote de la isla. Al navegar hacia el horizonte, podes apreciar la vista de la isla como en el inicio del MONKEY ISLAND." : PRINT
 2019 PRINT "Al estar un poco mas lejos el viaje interdimensional comienza nuevamente." : PRINT
 2020 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
