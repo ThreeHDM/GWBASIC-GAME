@@ -275,7 +275,7 @@
 1626 PRINT "Ahora te das cuenta.. el juego DIMENTION es una llave a otra dimensi¢n." : PRINT
 1627 PRINT "Los viajeros de la tierra que llegan aqui regresan con ideas del COLECCIONISTA. êl es el genio creativo detr†s de muchas obras del cine y la literatura." : PRINT : GOSUB 9100
 1628 PRINT "- "USERNAME$", espero que puedas ayudarnos. Se que sabr†s hacer lo correcto. Tom† esto.. si vas a hacer algo.. mejor hacerlo con estilo... " : PRINT
-1629 PRINT "CALEB te entrega las llaves de un increible DeLorean. êsta no es una m†quina del tiempo. Es una m†quina dimensional que te permite elegir la DIMENSI‡N a la que viajar." : PRINT
+1629 PRINT "CALEB te entrega las llaves de un incre°ble DeLorean. êsta no es una m†quina del tiempo. Es una m†quina dimensional que te permite elegir la DIMENSI‡N a la que viajar." : PRINT
 1630 PRINT "El Dr. te explica que Çste auto no es el mismo que el que usa el MARTY de su dimensi¢n. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
 1631 PRINT "CALEB lo adapt¢ los controles del auto para que asocies cada DIMENSI‡N con la historia correspondiente en tu mundo y para que te informe quÇ objeto quiere EL COLECCIONISTA." : PRINT
 1632 PRINT
@@ -324,9 +324,9 @@
 1821 PRINT "No debÇs mencionarle nada al respecto. Lo contrario podr°a causar una ruptura del espacio interdimensional." : PRINT
 1822 PRINT "Los tres se suben al DELOREAN para alcanzar a BIFF en su auto." : PRINT : GOSUB 9100
 1823 PRINT "MATHEW toma la patineta voladora y se baja del auto para recuperar el ALMANAQUE." : PRINT
-1824 PRINT "Ya sabes quÇ pasa despues y CALEB tambiÇn. Ya vivi¢ Çste bucle antes." : PRINT
+1824 PRINT "Ya sabÇs quÇ pasa despuÇs y CALEB tambiÇn. Ya vivi¢ Çste bucle antes." : PRINT
 1825 PRINT "Te baj†s del DeLorean m†s adelante y esper†s que MATHEW recupere el ALMANAQUE, sea rescatado por CALEB y el doble de BIFF choque nuevamente contra un cami¢n de estiÇrcol." : PRINT
-1826 PRINT "Le ped°s a MATHEW el almanaque pero Çl quiere quemarlo." : PRINT
+1826 PRINT "Le ped°s a MATHEW el almanaque, pero Çl quiere quemarlo." : PRINT
 1827 PRINT "Trat†s de explicarle que lo necesit†s para volver a tu tiempo. Invent†s que vos tambiÇn sos un viajero del tiempo para convencerlo sin revelar nada del viaje interdimensional." : PRINT
 1828 PRINT "MATHEW sigue neg†ndose. êl quiere prevenir el futuro en el que su padre est† muerto, BIFF es asquerosamente rico y est† casado con su madre." : PRINT
 1829 PRINT
@@ -339,48 +339,48 @@
 
 1900 REM ---- SCENE 10 ----
 1901 CLS
-1902 PRINT "Te sentas en este hermoso DeLorean el cual es casi identico a la maquina del tiempo de la pel°cula, con algunas pequenas diferencias." : PRINT
-1903 PRINT "Los circuitos del tiempo no muestran tres fechas sino que podes ver un menu con nombres de multiples dimensiones a las que podes viajar y los objetos que debes buscar en cada una de ellas." : PRINT
-1904 PRINT "Comenzas a trastear un poco con los controles y vas pasando diferentes opciones. CALEB adapto el menu para que puedas asociar la dimensi¢ncon el libro, juego o pel°cula que se baso en ella." : PRINT
-1905 PRINT "En el menu ves: " : PRINT
+1902 PRINT "Te sent†s en Çste hermoso DeLorean el cual es casi identico a la m†quina del tiempo de la pel°cula, con algunas peque§as diferencias." : PRINT
+1903 PRINT "Los circuitos del tiempo no muestran tres fechas, sino que dejan ver un men£ con nombres de m£ltiples dimensiones a las que podes viajar y los objetos que debes buscar en cada una de ellas." : PRINT
+1904 PRINT "Comenz†s a trastear un poco con los controles y vas pasando por diferentes opciones. CALEB adapt¢ el men£ para que puedas asociar la dimensi¢n con el libro, juego o pel°cula que se bas¢ en ella." : PRINT
+1905 PRINT "En el men£ ves:" : PRINT
 1906 PRINT "STREET FIIGHTER - QIPAO DE CHUN LI" : PRINT
 1907 PRINT "MANIAC MANSION - LOS ANTEOJOS DE BERNARD" : PRINT : GOSUB 9100
 1908 PRINT "SONIC  - UNA ESMERALDA DEL CAOS" : PRINT
 1909 PRINT "MARIO - EL SOMBRERO DE LUIGI" : PRINT
 1910 PRINT "ZELDA - EL ESCUDO DE LINK" : PRINT
-1911 PRINT "CASTLEVANIA - EL LATIGO DE SIMON BELMONT" : PRINT
+1911 PRINT "CASTLEVANIA - EL LµTIGO DE SIMON BELMONT" : PRINT
 1912 PRINT "DOOM - LA ESCOPETA DEL MARINE" : PRINT : GOSUB 9100
-1913 PRINT "Y muchos mas! Toda nuestra cultura pop esta basada en esta MEGA DIMENSI‡N! Es increible!" : PRINT
-1914 PRINT "En parte te gusta estar aqui y poder formar parte de las historias que marcaron tu infancia. Pero tambien queres regresar a casa." : PRINT
+1913 PRINT "≠Y muchos m†s! Toda nuestra cultura pop est† basada en Çsta MEGA DIMENSI‡N!≠Es incre°ble!" : PRINT
+1914 PRINT "En parte te gusta estar aqu° y poder formar parte de las historias que marcaron tu infancia. Pero tambiÇn querÇs regresar a casa." : PRINT
 1915 PRINT "Debes elegir una." : PRINT
-1916 PRINT "Repasando la lista llegas a un juego al que le dedicaste horas y horas en tu SEGA GENESIS." : PRINT
+1916 PRINT "Repasando la lista, lleg†s a un juego al que le dedicaste horas y horas en tu SEGA GENESIS." : PRINT
 1917 PRINT "MORTAL KOMBAT - EL SOMBRERO ASIATICO DE RAIDEN" : PRINT : GOSUB 9100
-1918 PRINT "Es este! no hay nadie que sepa mas que vos sobre este juego y la historia de sus personajes.  " : PRINT
-1919 PRINT "Hasta tenes toda la coleccion de munecos que venian en la revista TOP KIDS!" : PRINT
-1920 PRINT "Configuras los controles y saludas a CALEB. El te desea mucha suerte y te recuerda que debes alcanzar las 80 millas por hora para poder viajar entre dimensiones." : PRINT
-1921 PRINT "Comenzas a acelerar y, al llegar a la velocidad adecuada, el auto llega a un tunel interdimensional." : PRINT
+1918 PRINT "≠Es este! No hay nadie que sepa m†s que vos sobre Çste juego y la historia de sus personajes." : PRINT
+1919 PRINT "≠Incluso tenÇs toda la colecci¢n de mu§ecos que ven°an en la revista TOP KIDS!" : PRINT
+1920 PRINT "Configur†s los controles y salud†s a CALEB. êl te desea mucha suerte y te recuerda que debÇs alcanzar las 80 millas por hora para poder viajar entre dimensiones." : PRINT
+1921 PRINT "Comenz†s a acelerar y, al llegar a la velocidad adecuada, el auto llega a un t£nel interdimensional." : PRINT
 1922 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
-1923 PRINT "El auto se materializa sobrevolando un gran boque.  " : PRINT
-1924 PRINT "Sin ningun motivo aparente los controles del auto comienzan a fallar y comenzas a perder altitud." : PRINT
-1925 PRINT "Este sera un aterrizaje forzoso. Golpeas una copa, ramas, troncos y finalmente quedas atrapado en altura como la escena de TIM en el Jepp en JURASIC PARK." : PRINT
-1926 PRINT "La rama que sostenia tu destruido DeLorean se rompe y el auto cae con toda velocidad al piso." : PRINT
-1927 PRINT "Logras salir justo a tiempo y evitas morir aplastado." : PRINT
-1928 PRINT "Bajas del arbol con mucho cuidado y ves que el auto aplasto a alguien. Un Ninja amarillo! Acabas de matar al doblde de SCORPION!! " : PRINT : GOSUB 9100
-1929 PRINT "SCORPION ahora parece la bruja del este en el MAGO DE OZ. Apenas llegas y ya hiciste una FATALITY!" : PRINT
-1930 PRINT "Ves esto como una oportunidad. Logras quitarle el traje de ninja amarillo y te vest†s de SCORPION." : PRINT
-1931 PRINT "Inmediatamente sentis como los poderes infernales de SCORPION entran en tu cuerpo. Te das cuenta que podes pelear como el ninja amarillo y posees todos sus poderes. " : PRINT
-1932 PRINT "Solo debes pensar en la combinacion de botones de la SEGA GENESIS y tu cuerpo se mueve solo!" : PRINT
-1933 PRINT "Caminando por el bosque y llegas a un puente sin baranda. Bajo el puente hay clavos gigantes en el suelo. Reconoces inmedatamente el escenario de MORTAL KOMBAT 1." : PRINT : GOSUB 9100
-1934 PRINT "A continuacion no podes creer lo que ven tus ojos. RAIDEN esta peleando contra SUB ZERO sobre el puente." : PRINT
-1935 PRINT "Rapidamente RAIDEN vence a SUB ZERO y lo envia al fondo del pozo con un uppercut." : PRINT
-1936 PRINT "Intentas hablar con RAIDEN y explicarle tu situacion, pero no cree una palabra de lo que decis. Debe estar atrapado en el bucle." : PRINT
+1923 PRINT "El auto se materializa sobrevolando un gran boque." : PRINT
+1924 PRINT "Sin ning£n motivo aparente, los controles del auto comienzan a fallar y comenz†s a perder altitud." : PRINT
+1925 PRINT "êste ser† un aterrizaje forzoso. Golpeas una copa, ramas, troncos y finalmente qued†s atrapado en altura como la escena de TIM en el Jepp de JURASIC PARK." : PRINT
+1926 PRINT "La rama que sosten°a tu destru°do DeLorean se rompe y el auto cae con toda velocidad al piso." : PRINT
+1927 PRINT "Logr†s salir justo a tiempo y evit†s morir aplastado." : PRINT
+1928 PRINT "Baj†s del †rbol con mucho cuidado y ves que el auto aplast¢ a alguien. ≠Un Ninja amarillo! ≠Acab†s de matar al doblde de SCORPION! " : PRINT : GOSUB 9100
+1929 PRINT "SCORPION ahora parece la bruja del este del MAGO DE OZ. Apenas lleg†s y ya hiciste una FATALITY" : PRINT
+1930 PRINT "Ves Çsto como una oportunidad. Logr†s quitarle el traje de ninja y te vest°s de SCORPION." : PRINT
+1931 PRINT "Inmediatamente sent°s los poderes infernales de SCORPION entrar en tu cuerpo. Te das cuenta que podÇs pelear como el ninja amarillo y posees todos sus poderes." : PRINT
+1932 PRINT "S¢lo debes pensar en la combinacion de botones de la SEGA GENESIS y tu cuerpo se mueve solo." : PRINT
+1933 PRINT "Caminando por el bosque lleg†s a un puente sin baranda. Bajo el puente hay un abismo con clavos gigantes en el suelo. ReconocÇs inmedatamente el escenario de MORTAL KOMBAT 1." : PRINT : GOSUB 9100
+1934 PRINT "A continuaci¢n, no podÇs creer lo que ven tus ojos. RAIDEN est† peleando contra SUB ZERO sobre el puente." : PRINT
+1935 PRINT "R†pidamente RAIDEN vence a SUB ZERO y lo env°a al fondo del pozo con un uppercut." : PRINT
+1936 PRINT "Intent†s hablar con RAIDEN y explicarle tu situaci¢n, pero no cree una sola palabra de lo que dec°s. Debe estar atrapado en el bucle." : PRINT
 1937 PRINT "Considera que sos un enviado de TSANG LUNG (ese debe ser el nombre del hechicero en esta DIMENSI‡N) y se prepara para pelear." : PRINT
-1938 PRINT "No te queda opcion, debes pelear contra RAIDEN. Debe estar debilitado por su pelea con el ninja de Hielo." : PRINT : GOSUB 9100
-1939 PRINT "Comenzas saltando y lanzando una patada al dios del trueno. El bolquea tu ataque y te electrocuta con sus dos manos en alto." : PRINT
-1940 PRINT "Intentas otro ataque frontal y no podes atravezar su defensa. Es hora de usar un movimiento especial. En tus nervios no recordas como era la combinacion de botones para hacer el gancho de SCORPION." : PRINT
+1938 PRINT "No te queda opci¢n, debes pelear contra RAIDEN. Debe estar debilitado por su pelea con el ninja de hielo." : PRINT : GOSUB 9100
+1939 PRINT "Comenz†s saltando y lanzando una patada al dios del trueno. El bolquea tu ataque y te electrocuta con ambas manos en alto." : PRINT
+1940 PRINT "Intent†s otro ataque frontal y no podÇs atravezar su defensa. Es hora de usar un movimiento especial. En tus nervios no record†s como es la combinaci¢n de botones para hacer el gancho de SCORPION." : PRINT
 1941 PRINT
 1942 COLOR CINFO : PRINT "1. Abajo, Adelante, Patada Baja"
-1943 COLOR CINFO : PRINT "2. Atras, Atras, Golpe Bajo" 
+1943 COLOR CINFO : PRINT "2. Atr†s, Atr†s, Golpe Bajo" 
 1997 SCENEA = 15
 1998 SCENEB = 16
 1999 RETURN 299
