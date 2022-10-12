@@ -208,7 +208,7 @@
 1406 PRINT "- Ver†s.. est†s en una MEGA DIMENSI‡N creada por un ser a quien llamamos EL COLECCIONISTA." : PRINT
 1407 PRINT "- êl descubri¢ el viaje interdimensional y, en sus traves°as, encontr¢ un b†culo m†gico que le permite capturar otras dimensiones. De ese modo, comenz¢ a coleccionarlas en Çsta MEGA DIMENSI‡N." : PRINT : GOSUB 9100
 1408 PRINT "- Para que me entiendas, digamos que est†s en la DIMENSI‡N MONKEY ISLAND de esta MEGA DIMENSI‡N." : PRINT
-1409 PRINT "- Somos pocos los que tenemos conciencia de Çsto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en b£cles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
+1409 PRINT "- Somos pocos los que tenemos conciencia de Çsto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en bucles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
 1410 PRINT "- En Çsta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
 1411 PRINT "Todo cierra.. est†s en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
 1412 PRINT "Le preguntas a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
@@ -261,7 +261,7 @@
 1612 PRINT "CALEB contin£a explic†ndote:" : PRINT : GOSUB 9100
 1613 PRINT "- Esta DIMENSI‡N, junto con otras, forma parte de una MEGA DIMENSI‡N. Somos todos prisioneros de un ser que mediante el viaje interdimensional comenz¢ a coleccionar dimensiones y a atraparlas en esta MEGA DIMENSI‡N." : PRINT
 1614 PRINT "- Lo llamamos EL COLECCIONISTA y.. es el £nico que puede ayudarte a regresar. Otros viajeros de tu dimensi¢n ya lo han logrado." : PRINT
-1615 PRINT "- EL COLECCIONISTA atrapa las dimensiones en b£cles de historias que Çl mismo escribe. Son guiones fantasticos que utilizan recursos de cada dimensi¢n." : PRINT
+1615 PRINT "- EL COLECCIONISTA atrapa las dimensiones en bucles de historias que Çl mismo escribe. Son guiones fantasticos que utilizan recursos de cada dimensi¢n." : PRINT
 1616 PRINT "- Somos muy pocos los seres que tenemos conciencia de esto. La mayor°a no sabe que est†n atrapados. Tuviste suerte de que yo te encontrara antes que cualquier otro." : PRINT
 1617 PRINT "CALEB toma una pizarra y comienza a dibujar c°rculos, representando todas las dimensiones y c¢mo se entrecruzan entre s°." : PRINT : GOSUB 9100
 1618 PRINT "- La uni¢n de todas las dimensiones no es natural. Todas se estan entrelazando en una unidad inestable. Seg°n mis c†lculos, todo confluir† en un gran agujero negro y moriremos." : PRINT
@@ -387,69 +387,69 @@
 
 2000 REM ---- SCENE 11 ----
 2001 CLS
-2002 PRINT "Preferis ir a otra DIMENSI‡N." : PRINT
-2003 PRINT "A KIDCOMB no le gusta que rechaces su oferta. " : PRINT
-2004 PRINT "Esto lo enfurece y te demuestra que es un verdadero pirata. No perdono que lo hayas vencido en la lucha de espadas." : PRINT
-2005 PRINT "Desenvaina su sable una vez mas, pero esta vez usa insultos de la maestra de la espada." : PRINT
-2006 PRINT "No son un desafio para un gran conocedor como vos." : PRINT
-2007 PRINT "Esta vez lo vences definitivamente y comenzas tu viaje." : PRINT : GOSUB 9100
-2008 PRINT "Recordas que no tenes dinero para comprar un barco, por lo que primero te dirigis a la tienda de la isla para conseguir una nota de credito. " : PRINT
-2009 PRINT "Enganas al tendero para que salga de su negocio pidiendole que pregunte a la maestra de la espada si podes verla." : PRINT
-2010 PRINT "La conbinacion de la caja fuerte es identica a la del juego!" : PRINT
-2011 PRINT "Una ve con la nota de credito, caminas por las calles de la isla y llegas al astillero." : PRINT
-2012 PRINT "Alli esta TRISTAN, un vendedor de barcos que claramente inspiro a STAN de MONKEY ISLAND." : PRINT : GOSUB 9100
-2013 PRINT "Tal y como STAN tristan es un gran vendedor pero vos no tenes nada de dinero, solo tu nota de credito." : PRINT
-2014 PRINT "Tenes que convencer a TRISTAN de que no queres comprar ningun adicional.  Ni faros antiniebla, ni garantia extendida, nada." : PRINT : GOSUB 9100 : GOSUB 9400
-2015 PRINT "Finalmente llegas a un acuerdo con TRISTAN y obtenes un bote de remos. Querias un barco, querias viajar en el MONO MARINO, pero ese barco ya lo tiene KIDCOMB. Tenes que conformarte con esto." : PRINT
-2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. El se da cuenta que no sos de esta DIMENSI‡N. Te ruega que destruyas el baculo del coleccionista. Ya esta harto de vivir en este bucle guionado." : PRINT
-2017 PRINT "Te dice que para viajar a otra dimensi¢n tenes que navegar hacia el horizonte. Para que tengas exito en tu mision te coloca los faros anti niebla gratuitamente. A cuenta de la casa!" : PRINT
-2018 PRINT "Comenzas a remar alejandote de la isla. Al navegar hacia el horizonte, podes apreciar la vista de la isla como en el inicio del MONKEY ISLAND." : PRINT
-2019 PRINT "Al estar un poco mas lejos el viaje interdimensional comienza nuevamente." : PRINT
+2002 PRINT "Prefer°s ir a otra DIMENSI‡N." : PRINT
+2003 PRINT "A KIDCOMB no le gusta que rechaces su oferta." : PRINT
+2004 PRINT "Esto lo enfurece y te demuestra que es un verdadero pirata. No perdon¢ que lo hayas vencido en la lucha de espadas." : PRINT
+2005 PRINT "Desenvaina su sable una vez m†s, pero Çsta vez usa ins£ltos de la maestra de la espada." : PRINT
+2006 PRINT "No son un desaf°o para un gran conocedor como vos." : PRINT
+2007 PRINT "Esta vez lo vencÇs definitivamente y comenz†s tu viaje." : PRINT : GOSUB 9100
+2008 PRINT "Record†s que no tenÇs dinero para comprar un barco, por lo que, antes que nada, te dirig°s a la tienda de la isla para conseguir una nota de crÇdito." : PRINT
+2009 PRINT "Enga§as al tendero para que salga de su negocio, pidiÇndole que pregunte a la maestra de la espada si podes verla." : PRINT
+2010 PRINT "≠La combinaci¢n de la caja fuerte es idÇntica a la del juego!" : PRINT
+2011 PRINT "Una vez con la nota de crÇdito en tu poder, camin†s por las calles de la isla y lleg†s al astillero." : PRINT
+2012 PRINT "All° est† TRISTAN, un vendedor de barcos que claramente inspir¢ a STAN de MONKEY ISLAND." : PRINT : GOSUB 9100
+2013 PRINT "Tal y como STAN, TRISTAN es un gran vendedor, pero vos no tenÇs nada de dinero, solamente tu nota de crÇdito." : PRINT
+2014 PRINT "TenÇs que convencer a TRISTAN de que no querÇs comprar ning£n adicional.  Ni faros antiniebla, ni garant°a extendida, nada." : PRINT : GOSUB 9100 : GOSUB 9400
+2015 PRINT "Finalmente, lleg†s a un acuerdo con TRISTAN y obtenÇs un bote de remos. Quer°as un barco, querias viajar en el MONO MARINO, pero ese barco ya lo tiene KIDCOMB. TenÇ que conformarte con esto." : PRINT
+2016 PRINT "TRISTAN sabe sobre el bucle y EL COLECCIONISTA. êl se da cuenta de que no sos de Çsta DIMENSI‡N. Te ruega que destruyas el b†culo del COLECCIONISTA. Ya est† harto de vivir en este bucle guionado." : PRINT
+2017 PRINT "Te dice que para viajar a otra dimensi¢n tenÇs que navegar hacia el horizonte. Para que tengas Çxito en tu mision te coloca los faros anti niebla gratuitamente. ≠A cuenta de la casa!" : PRINT
+2018 PRINT "Comenz†s a remar alej†ndote de la isla. Al navegar, podÇs apreciar la vista de la isla como en el inicio del MONKEY ISLAND." : PRINT
+2019 PRINT "Al alejarte, el viaje interdimensional comienza nuevamente." : PRINT
 2020 GOSUB 9100 : GOSUB 9300 : GOSUB 9100
-2021 PRINT "No te sentis tan aturdido como la primera vez." : PRINT
-2022 PRINT "Debe ser que el viaje entre las DIMENSI‡NES de la MEGA DIMENSI‡N no es tan severo para el cuerpo." : PRINT
-2023 PRINT "Apareces con tu bote en mar abierto, a lo lejos ves tierra." : PRINT
-2024 PRINT "Luego de un tiempo de remar sin descanso llegas a ver una ciudad. Una ciudad que no tiene calles, sino canales!" : PRINT
-2025 PRINT "®Podr† ser? Es Venecia! Remas con tu bote entre gondolas y llegas a puerto." : PRINT
-2026 PRINT "En el puerto hay dos peleadores rompiendo un TOYOTA. Uno viste un traje blanco y el otro rojo. Claramente son RUI y KEN. Habras llegado a la DIMENSI‡N de STREET FIGHTER?" : PRINT : GOSUB 9100
-2027 PRINT "Parece que toda nuestra cultura pop esta inspirada en esta MEGA DIMENSI‡N! No hay nada que escape." : PRINT
-2028 PRINT "Te subis al muelle y te dispones a hablar con los peleadores cuando de pronto ves que una lancha es destruida por las helices de un barco. Ves que dos tipos que estan peleando escapan justo a tiempo de las helices." : PRINT
-2029 PRINT "Uno de ellos tiene sombrero y campera de cuero. " : PRINT
-2030 PRINT "Entonces te das cuenta. Miras a tu alrededor. La vestimenta de la gente es de 1930. Estas en la escena de INDIANA JONES Y LA ULTIMA CRUZADA!! Una de tus pel°culas favoritas." : PRINT
-2031 PRINT "Las dimensiones deben estar cruzandose aqui tambien. No haces caso a los peleadores y te dirigis a hablar con este doble de INDIANA JONES." : PRINT : GOSUB 9100
-2032 PRINT "- Disculpe, es usted arqueologo? est† buscando a su padre?" : PRINT
-2033 PRINT "El tipo te mira sorprendido. Te toma de tu remera y te pregunta que sabes de su padre." : PRINT
-2034 PRINT "Te das cuenta de que no ha tomado conciencia de la union de las dimensiones." : PRINT
-2035 PRINT "Llegas a la conclusion de que quizas no sea buena idea contarle todo. Le decis que sos un caballero de la orden de los Caballeros de la Espada Cruciforme y que estas dispuesto a ayudarlo. " : PRINT
-2036 PRINT "Te mira desconfiado. Aun asi,  se presenta como KANSAS JONAS." : PRINT : GOSUB 9100
-2037 PRINT "- Que tal Dr. JONAS mi nombre es "USERNAME". Supongo que ya sabe que su padre esta en un castillo nazi. " : PRINT
-2038 PRINT "- Le propongo que vayamos al castillo y rescatemos a su padre. Luego iremos en busca del GRIAL. Cuando lo logremos usted me dara un objeto suyo, para retornarme el favor." : PRINT
-2039 PRINT "A JONAS tu peticion le resulta extrana pero cree tu historia y te acepta como companero." : PRINT
-2040 PRINT "A quien no ves es a la Dra. Schneider, claramente ella fue un interes romantico agregado al guion de la pel°cula. Tampoco ves a Marcus, debe ser otro personaje anadido al guion como alivio comico." : PRINT
-2041 PRINT "Tal y como en la pel°cula llegan al castillo para rescatar a HARRY JONAS, el padre del DR. JONAS. El mayordomo del castillo abre las inmensas puertas y le decis:" : PRINT : GOSUB 9100
+2021 PRINT "No te sent°s tan aturdido como la primera vez." : PRINT
+2022 PRINT "Debe ser que el viaje entre las DIMENSIONES de la MEGA DIMENSI‡N no es tan severo para el cuerpo." : PRINT
+2023 PRINT "AparecÇs con tu bote en mar abierto, a lo lejos ves tierra." : PRINT
+2024 PRINT "Luego de un tiempo de remar sin descanso, lleg† a ver una ciudad. Una ciudad que no tiene calles, sino canales." : PRINT
+2025 PRINT "®Podr† ser? ≠Es Venecia! Rem†s con tu bote entre g¢ndolas y llegas a puerto." : PRINT
+2026 PRINT "En el puerto hay dos peleadores rompiendo un TOYOTA. Uno viste un traje blanco y el otro rojo. Claramente son RUI y KEN. ®Habr†s llegado a la DIMENSI‡N de STREET FIGHTER?" : PRINT : GOSUB 9100
+2027 PRINT "≠Parece que toda nuestra cultura pop est† inspirada en Çsta MEGA DIMENSI‡N! No hay nada que escape." : PRINT
+2028 PRINT "Te sub°s al muelle y te dispones a hablar con los peleadores, cuando de pronto ves que una lancha es destruida por las hÇlices del motor de un barco. Ves que dos tipos, que est†n peleando, escapan justo a tiempo de las hÇlices." : PRINT
+2029 PRINT "Uno de ellos tiene sombrero y campera de cuero." : PRINT
+2030 PRINT "Entonces te das cuenta. Mir†s a tu alrededor, la vestimenta de la gente es de 1930. ≠≠Est†s en la escena de persecusi¢n de INDIANA JONES Y LA ULTIMA CRUZADA!! Una de tus pel°culas favoritas." : PRINT
+2031 PRINT "Las dimensiones deben estar cruz†ndose aqui tambien. No haces caso a los peleadores y te dirig°s a hablar con este doble de INDIANA JONES." : PRINT : GOSUB 9100
+2032 PRINT "- Disculpe ®es usted arque¢logo? ®est† buscando a su padre?" : PRINT
+2033 PRINT "El tipo te mira sorprendido. Te toma de tu remera y te pregunta quÇ sabes de su padre." : PRINT
+2034 PRINT "Te das cuenta de que no ha tomado conciencia de la uni¢n de las dimensiones." : PRINT
+2035 PRINT "Lleg†s a la conclusi¢n de que quiz†s no sea buena idea contarle todo. Le dec°s que perteneces a la orden de los Caballeros de la Espada Cruciforme y que est†s dispuesto a ayudarlo." : PRINT
+2036 PRINT "Te mira desconfiado. Aun as°, se presenta como KANSAS JONAS." : PRINT : GOSUB 9100
+2037 PRINT "- ®QuÇ tal Dr. JONAS? Mi nombre es "USERNAME". Supongo que ya sabe que su padre est† en un castillo nazi." : PRINT
+2038 PRINT "- Le propongo que vayamos al castillo y rescatemos a su padre. Luego iremos en busca del GRIAL. Cuando lo logremos, usted me dar† un objeto suyo, para retornarme el favor." : PRINT
+2039 PRINT "A JONAS tu petici¢n le resulta extra§a, pero cree tu historia y te acepta como compa§ero." : PRINT
+2040 PRINT "A quien no ves es a la Dra. Schneider, claramente ella fue un interÇs rom†ntico agregado al gui¢n de la pel°cula. Tampoco ves a Marcus, debe ser otro personaje a§adido al gui¢n como alivio c¢mico." : PRINT
+2041 PRINT "Tal y como en la pel°cula, llegan al castillo para rescatar a HARRY JONAS, el padre del DR. JONAS. El mayordomo del castillo abre las inmensas puertas y le dec°s:" : PRINT : GOSUB 9100
 2042 PRINT "- Hola, vendo estas hermosas chaquetas de cuero." : PRINT
 2043 PRINT "El tipo no te cree una sola palabra y debes noquearlo." : PRINT
-2044 PRINT "Todo es tal cual la pel°cula con algunos detalles de la aventura grafica. " : PRINT
-2045 PRINT "Conoces bien el castillo dado que es muy similar a la pel°cula y a la aventura grafica." : PRINT
-2046 PRINT "Logran rescatar a HARRY y huir del castillo evitando ser capturados, evitando la escena del incendio o la persecucion en motocilceta." : PRINT : GOSUB 9100
-2047 PRINT "Una vez a salvo escapas con los Dres. JONAS en zepellin, para luego viajar al Valle de la Luna Creciente y buscar la copa de Cristo." : PRINT
-2048 PRINT "Como evistaste que los nazis obtuvieran el diario del grial, en el templo no hay nadie. Nadie supo como hallarlo." : PRINT
+2044 PRINT "Todo es tal cual la pel°cula con algunos detalles de la aventura grafica." : PRINT
+2045 PRINT "Conoces bien el castillo dado que es muy similar a historia que ya conoces." : PRINT
+2046 PRINT "Juntos, logran rescatar a HARRY y huir del castillo evitando ser capturados, la escena del incendio o la persecucion en motocilceta." : PRINT : GOSUB 9100
+2047 PRINT "Una vez a salvo, escap†s con los Dres. JONAS en zepellin, para luego viajar al Valle de la Luna Creciente y buscar la copa de Cristo." : PRINT
+2048 PRINT "Como evistaste que los nazis obtuvieran el diario del grial, en el templo no hay nadie. Nadie supo c¢mo hallarlo." : PRINT
 2049 PRINT "Es hora de pasar por las tres pruebas." : PRINT
-2050 PRINT "Avanzas con los Dres. JONAS por la primer prueba." : PRINT
-2051 PRINT "Solo el hombre penitente pasara... el hombre penitente esta de rodillas! cuidado con las cuchillas! KANSAS JONAS logra detenerlas a tiempo. " : PRINT : GOSUB 9100
-2052 PRINT "Bien.. solo dos mas..." : PRINT
-2053 PRINT "Seguir los pasos de Dios.. la palabra de Dios.. Record†s que en latin Iehova se escribe con I! Segunda prueba superada!" : PRINT
-2054 PRINT "En el salto desde la cabeza del leon.. el probara su valor.. Esta prueba es un salto de fe... Los Dres. JONAS te miran atonitos cuando decidis dar el salto y caes en el puente invisible." : PRINT
-2055 PRINT "Listo.. es hora de conocer al caballero... al ultimo de los 3 hermanos que protegen la copa de Cristo. Los Dres. JONAS siguen tus pasos boquiabiertos por lo que estan viendo. Es el sueno de cualquier arqueologo!" : PRINT
-2056 PRINT "Al llegar el caballero espera a otro para batirse a duelo. Pero est† muy viejo y no logra levantar la espada. Espero 700 anos ser vencido por otro caballero." : PRINT : GOSUB 9100
-2057 PRINT "Detras del caballero hay una gran mesa llena de copas y calices. Uno de ellos es el santo grial. " : PRINT
-2058 PRINT "El caballero mira las copas y te dice" : PRINT
+2050 PRINT "Avanz†s con los Dres. JONAS por la primer prueba." : PRINT
+2051 PRINT "S¢lo el hombre penitente pasar†... ≠el hombre penitente est† de rodillas, cuidado con las cuchillas! KANSAS JONAS logra detenerlas justo a tiempo. " : PRINT : GOSUB 9100
+2052 PRINT "Bien.. s¢lo dos m†s..." : PRINT
+2053 PRINT "Seguir los pasos de Dios.. la palabra de Dios.. Record†s que en latin ≠Iehova se escribe con I! Segunda prueba superada." : PRINT
+2054 PRINT "En el salto desde la cabeza del le¢n.. el probar† su valor.. êsta prueba es un salto de fe... Los Dres. JONAS te miran at¢nitos cuando decidis dar el salto y caes en el puente invisible." : PRINT
+2055 PRINT "Listo.. es hora de conocer al caballero... al £ltimo de los tres hermanos que protegen la copa de Cristo. Los Dres. JONAS siguen tus pasos boquiabiertos. Es el sue§o de cualquier arqueologo." : PRINT
+2056 PRINT "Al entrar, ves un caballero que espera a otro para batirse a duelo. Pero est† muy viejo y no logra levantar la espada. Esper¢ 700 a§os para ser vencido por otro caballero." : PRINT : GOSUB 9100
+2057 PRINT "Detr†s del caballero hay una gran mesa llena de copas y c†lices. Uno de ellos es el santo grial. " : PRINT
+2058 PRINT "El caballero mira las copas y te dice:" : PRINT
 2059 PRINT "- Debes elegir con sabiduria.. el verdadero grial te puede dar vida eterna, el falso te la quitara. " : PRINT
-2060 PRINT "Inmediatamente piensas en pedir ayuda a HARRY, pero el caballero te aclara que debes elegir por vos mismo o el templo se desmoronara." : PRINT
+2060 PRINT "Inmediatamente pens†s en pedir ayuda a HARRY, pero el caballero te aclara que debes elegir por vos mismo o el templo se desmoronar†." : PRINT
 2061 PRINT "Debes elegir que copa.. pero hay diferencias con la pel°cula.. puede que en esta dimensi¢n la copa sea la de oro.. es la copa del rey de reyes..." : PRINT
 2062 PRINT
 2063 COLOR CINFO : PRINT "1. Beber de la copa del carpintero"
-2064 COLOR CINFO : PRINT "2. Beber de la copa de oro y rubies"
+2064 COLOR CINFO : PRINT "2. Beber de la copa de oro y rub°es"
 2097 SCENEA = 19
 2098 SCENEB = 20
 2099 RETURN 299
