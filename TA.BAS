@@ -208,7 +208,7 @@
 1406 PRINT "- Ver†s.. est†s en una MEGA DIMENSI‡N creada por un ser a quien llamamos EL COLECCIONISTA." : PRINT
 1407 PRINT "- êl descubri¢ el viaje interdimensional y, en sus traves°as, encontr¢ un b†culo m†gico que le permite capturar otras dimensiones. De ese modo, comenz¢ a coleccionarlas en Çsta MEGA DIMENSI‡N." : PRINT : GOSUB 9100
 1408 PRINT "- Para que me entiendas, digamos que est†s en la DIMENSI‡N MONKEY ISLAND de esta MEGA DIMENSI‡N." : PRINT
-1409 PRINT "- Somos pocos los que tenemos conciencia de Çsto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en bucles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
+1409 PRINT "- Somos pocos los que tenemos conciencia de Çsto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en b£cles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
 1410 PRINT "- En Çsta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
 1411 PRINT "Todo cierra.. est†s en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
 1412 PRINT "Le preguntas a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
@@ -248,10 +248,10 @@
 
 1600 REM ---- SCENE 7 ----
 1601 CLS
-1602 PRINT "Te present†s y le preguntas al viejo quiÇn es y d¢nde est†s. " : PRINT
+1602 PRINT "Te present†s y le preguntas al viejo quiÇn es y d¢nde est†s." : PRINT
 1603 PRINT "El viejo, se quita el casco y te explica que pudo leer tu mente con Çl. Ya sabe todo sobre vos. " : PRINT
-1604 PRINT "®Un casco para leer la mente?®Como el que EMMET BROWN us¢ con MARTY en VOLVER AL FUTURO I? " : PRINT
-1605 PRINT "Este tipo debe estar loco, nada tiene sentido... Adem†s, en la pel°cula el casco no funciona.." : PRINT
+1604 PRINT "®Un casco para leer la mente? ®Como el que EMMET BROWN us¢ con MARTY en VOLVER AL FUTURO I? " : PRINT
+1605 PRINT "Este tipo debe estar loco, nada tiene sentido... Adem†s, en la pel°cula el casco no funciona..." : PRINT
 1606 PRINT "El viejo se presenta y dice:" : PRINT
 1607 PRINT "- Un placer conocerte "USERNAME$"." : PRINT : GOSUB 9100
 1608 PRINT "- Soy el Dr. CALEB MERITT y est†s lejos de casa. est†s en otra DIMENSI‡N. Seguramente te resulte familiar. En tu dimensi¢n un tal ROBERT ZEMECKIS cre¢ una pel°cula basada en ella, junto con otro de nombre BOB GALE." : PRINT
@@ -260,27 +260,27 @@
 1611 PRINT "Mir†s bien a CALEB y not†s el parecido con el Dr. EMMET BROWN." : PRINT
 1612 PRINT "CALEB contin£a explic†ndote:" : PRINT : GOSUB 9100
 1613 PRINT "- Esta DIMENSI‡N, junto con otras, forma parte de una MEGA DIMENSI‡N. Somos todos prisioneros de un ser que mediante el viaje interdimensional comenz¢ a coleccionar dimensiones y a atraparlas en esta MEGA DIMENSI‡N." : PRINT
-1614 PRINT "- Lo llamamos EL COLECCIONISTA y.. es el unico que puede ayudarte a regresar. Otros viajeros de tu dimensi¢n ya lo han logrado." : PRINT
-1615 PRINT "- EL COLECCIONISTA atrapa  las dimensiones en bucles de guiones que el mismo escribe. Son guiones o historias fantasticas utilizando recursos de cada dimension. " : PRINT
-1616 PRINT "- Somos muy pocos los seres que tenemos conciencia de esto. La mayoria no sabe que estamos atrapados. Tuviste suerte que yo te encontrara antes que cualquier otro." : PRINT
-1617 PRINT "CALEB toma una pizarra y comienza a dibujar circulos representando todas las dimensiones y como se entrecruzan entre si." : PRINT : GOSUB 9100
-1618 PRINT "- La union de todas las dimensiones no es natural. Todas se estan entrelazando en una unidad inestable. Segun mis calculos todo confluira en un gran agujero negro y moriremos." : PRINT
-1619 PRINT "- Tu dimensi¢nno corre peligro. Al COLECCIONISTA le gusta como ustedes llevan a libros, pel°culas o comics sus historias. Inspiradas en las dimensiones que colecciona." : PRINT
-1620 PRINT "- Nuestro encuentro no fue casualidad. Creo que tu puedes salvarnos. Si consigues una audiencia con EL COLECCIONISTA podras estar lo suficientemente cerca suyo como para destruir su BACULO MAGICO." : PRINT
-1621 PRINT "- Eso liberara a todas las dimensiones y le impedira capturar otras." : PRINT
-1622 PRINT "- Para conseguir una audiencia con EL COLECCIONISTA debes conseguir 1 objeto de coleccion de alguna DIMENSI‡N.  El te pondra a prueba para su entretenimiento. " : PRINT : GOSUB 9100
-1623 PRINT "- Si logras conseguir un objeto de su interes podras verlo. En ese momento te pondra a prueba por ultima vez. De fallar quedaras atrapado aqui para siempre. " : PRINT
-1624 PRINT "- Aquellos que truinfan regresan a su dimensi¢ncon un guion, libro o idea para producir y seguir complaciendo al COLECCIONISTA." : PRINT
-1625 PRINT "- Tu debes romper ese patron y liberarnos! Te lo imploro!" : PRINT
-1626 PRINT "Ahora te das cuenta.. el juego DIMENTION es una llave a otra dimension." : PRINT
-1627 PRINT "Los viajeros de la tierra que llegan aqui regresan con ideas del COLECCIONISTA. El es el genio creativo detras de muchas obras del cine y la literatura." : PRINT : GOSUB 9100
-1628 PRINT "- "USERNAME$", espero que puedas ayudarnos. Se que sabras hacer lo correcto. Toma esto.. si vas a hacer algo.. mejor hacerlo con estilo... " : PRINT
-1629 PRINT "CALEB te entrega las llaves de un increible DeLorean. Esta no es una maquina del tiempo. Es una maquina dimensional que te permite elegir la DIMENSI‡N a la que viajar." : PRINT
-1630 PRINT "El Dr. te explica que este auto no es el mismo que el que usa el MARTY de su dimension. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
-1631 PRINT "CALEB lo adapto los controles del auto para que asocies cada DIMENSI‡N con la historia correspondiente en tu mundo y para que te informe que objeto quiere EL COLECCIONISTA." : PRINT
+1614 PRINT "- Lo llamamos EL COLECCIONISTA y.. es el £nico que puede ayudarte a regresar. Otros viajeros de tu dimensi¢n ya lo han logrado." : PRINT
+1615 PRINT "- EL COLECCIONISTA atrapa las dimensiones en b£cles de historias que Çl mismo escribe. Son guiones fantasticos que utilizan recursos de cada dimensi¢n." : PRINT
+1616 PRINT "- Somos muy pocos los seres que tenemos conciencia de esto. La mayor°a no sabe que est†n atrapados. Tuviste suerte de que yo te encontrara antes que cualquier otro." : PRINT
+1617 PRINT "CALEB toma una pizarra y comienza a dibujar c°rculos, representando todas las dimensiones y c¢mo se entrecruzan entre s°." : PRINT : GOSUB 9100
+1618 PRINT "- La uni¢n de todas las dimensiones no es natural. Todas se estan entrelazando en una unidad inestable. Seg°n mis c†lculos, todo confluir† en un gran agujero negro y moriremos." : PRINT
+1619 PRINT "- Tu dimensi¢n no corre peligro. Al COLECCIONISTA le gusta la forma en que ustedes llevan a libros, pel°culas o comics sus historias. Inspiradas en las dimensiones que colecciona." : PRINT
+1620 PRINT "- Nuestro encuentro no fue casualidad. Creo que podÇs salvarnos. Si consegu°s una audiencia con EL COLECCIONISTA, podr†s estar lo suficientemente cerca como para destruir su BµCULO MµGICO." : PRINT
+1621 PRINT "- Eso liberar† a todas las dimensiones atrapadas y le impedir† capturar otras." : PRINT
+1622 PRINT "- Para conseguir una audiencia con EL COLECCIONISTA debÇs conseguir un objeto de colecci¢n de alguna DIMENSI‡N. êl te pondra a prueba para su entretenimiento." : PRINT : GOSUB 9100
+1623 PRINT "- Si logras conseguir un objeto de su interÇs podr†s verlo. En ese momento te pondr† a prueba por £ltima vez. De fallar quedar†s atrapado aqu° para siempre." : PRINT
+1624 PRINT "- Aquellos que truinfan, regresan a su dimensi¢n con un gui¢n, libro o idea para producir y seguir complaciendo al COLECCIONISTA." : PRINT
+1625 PRINT "- ≠Vos debÇs romper ese patr¢n y liberarnos! Te lo imploro" : PRINT
+1626 PRINT "Ahora te das cuenta.. el juego DIMENTION es una llave a otra dimensi¢n." : PRINT
+1627 PRINT "Los viajeros de la tierra que llegan aqui regresan con ideas del COLECCIONISTA. êl es el genio creativo detr†s de muchas obras del cine y la literatura." : PRINT : GOSUB 9100
+1628 PRINT "- "USERNAME$", espero que puedas ayudarnos. Se que sabr†s hacer lo correcto. Tom† esto.. si vas a hacer algo.. mejor hacerlo con estilo... " : PRINT
+1629 PRINT "CALEB te entrega las llaves de un increible DeLorean. êsta no es una m†quina del tiempo. Es una m†quina dimensional que te permite elegir la DIMENSI‡N a la que viajar." : PRINT
+1630 PRINT "El Dr. te explica que Çste auto no es el mismo que el que usa el MARTY de su dimensi¢n. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
+1631 PRINT "CALEB lo adapt¢ los controles del auto para que asocies cada DIMENSI‡N con la historia correspondiente en tu mundo y para que te informe que objeto quiere EL COLECCIONISTA." : PRINT
 1632 PRINT
-1633 COLOR CINFO : PRINT "1. Permanecer en la dimensi¢nde VOLVER AL FUTURO"
-1634 COLOR CINFO : PRINT "2. Viajar a otra dimension"
+1633 COLOR CINFO : PRINT "1. Permanecer en la dimensi¢n de VOLVER AL FUTURO"
+1634 COLOR CINFO : PRINT "2. Viajar a otra dimensi¢n"
 1697 SCENEA = 9
 1698 SCENEB = 10
 1699 RETURN 299
@@ -314,7 +314,7 @@
 1811 PRINT "Afortunadamente la noche del baile es preciosa justo como en la pel°cula. No hay nevada mortal." : PRINT
 1812 PRINT "Saludas al Doc. y partis en tu mision." : PRINT : GOSUB 9100
 1813 PRINT "Llegas al baile escolar y buscas al equivalente de MARTY.. deberia tener un sombrero y una campera de cuero. Tal y como esta vestido en VOLVER AL FUTURO II." : PRINT
-1814 PRINT "El lugar es identico a la pel°cula. Ves a todos los jovenes bailando, la decoracion del oceano, la ropa de los 50s y ves a los dobles de GEORGE Y LORRAINE de esta dimension. Son muy parecidos a los actores!" : PRINT
+1814 PRINT "El lugar es identico a la pel°cula. Ves a todos los jovenes bailando, la decoracion del oceano, la ropa de los 50s y ves a los dobles de GEORGE Y LORRAINE de esta dimensi¢n. Son muy parecidos a los actores!" : PRINT
 1815 PRINT "En ese momento comienza a sonar Johnny B. Goode de Chuck Berry! Claro! el MARTY de VOLVER AL FUTURO I esta tocando para que sus padres se enamoren! " : PRINT
 1816 PRINT "Eso quiere decir que el otro MARTY esta escapando de BIFF y esta detras del escenario en este preciso momento. " : PRINT
 1817 PRINT "MARTY es noqueado por una puerta y BIFF recupera el ALMANAQUE. No llegaste a tiempo... ahora hay que arrebatarselo a BIFF." : PRINT : GOSUB 9100
@@ -681,7 +681,7 @@
 3606 PRINT "El coleccionista sostiene su baculo magico con la mano derecha y lo apoya en el piso." : PRINT
 3607 PRINT "Realmente te recuerda a SKELETOR y su baculo." : PRINT : GOSUB 9100
 3608 PRINT "El baculo es un gran baston que en su punta tiene un GAMEBOY de plata." : PRINT
-3609 PRINT "- Recoge tu premio y te enviare a tu dimension." : PRINT
+3609 PRINT "- Recoge tu premio y te enviare a tu dimensi¢n." : PRINT
 3610 PRINT "EL COLECCIONISTA extiende su otra mano y te entrega un bloque de hojas. Parece ser el borrador de una historia." : PRINT
 3611 PRINT "Dudas que hacer... convertirte en un genio creativo suena tentador.. pero... EL COLECCIONISTA es un ser maligno y alguien tiene que detenerlo... romper su baculo liberaria a los seres atrapados en la MEGA DIMENSI‡N" : PRINT
 3650 COLOR CINFO : PRINT "1. Intentar destruir el baculo"
