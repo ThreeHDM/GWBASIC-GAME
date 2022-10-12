@@ -277,7 +277,7 @@
 1628 PRINT "- "USERNAME$", espero que puedas ayudarnos. Se que sabr†s hacer lo correcto. Tom† esto.. si vas a hacer algo.. mejor hacerlo con estilo... " : PRINT
 1629 PRINT "CALEB te entrega las llaves de un increible DeLorean. êsta no es una m†quina del tiempo. Es una m†quina dimensional que te permite elegir la DIMENSI‡N a la que viajar." : PRINT
 1630 PRINT "El Dr. te explica que Çste auto no es el mismo que el que usa el MARTY de su dimensi¢n. Ese MARTY esta atrapado en el bucle y no tiene conciencia de todo esto." : PRINT
-1631 PRINT "CALEB lo adapt¢ los controles del auto para que asocies cada DIMENSI‡N con la historia correspondiente en tu mundo y para que te informe que objeto quiere EL COLECCIONISTA." : PRINT
+1631 PRINT "CALEB lo adapt¢ los controles del auto para que asocies cada DIMENSI‡N con la historia correspondiente en tu mundo y para que te informe quÇ objeto quiere EL COLECCIONISTA." : PRINT
 1632 PRINT
 1633 COLOR CINFO : PRINT "1. Permanecer en la dimensi¢n de VOLVER AL FUTURO"
 1634 COLOR CINFO : PRINT "2. Viajar a otra dimensi¢n"
@@ -287,14 +287,14 @@
 
 1700 REM ---- SCENE 8 ----
 1701 CLS
-1702 PRINT "Estas aturidido y asustado por todo lo que te esta pasando. Decidis escapar. Quien sabe que intenciones tiene el viejo. Seguramente te drogo y eso te provoco alucionaciones." : PRINT
-1703 PRINT "Salis corriendo por la puerta mientras el viejo te grita." : PRINT
-1704 PRINT "- No! No podes salir ahora, es peligroso, mortal!!!" : PRINT
-1705 PRINT "No te importa lo que grite el viejo. Debe ser un engano." : PRINT
-1706 PRINT "Salis corriendo y te encontras en un lugar que te resulta conocido. Parece ser la casa del Dr. EMMET BROWN en  la primera pel°cula de VOLVER AL FUTURO." : PRINT
-1707 PRINT "Esta nevando.. una nieve particular.. luminiscente.. el contacto con la piel se siente raro.. te sentis mareado.. " : PRINT : GOSUB 9100
-1708 PRINT "La nieve te recuerda a la nevada del comic de OESTERHELD, EL ETERNAUTA.. " : PRINT
-1709 PRINT "El efecto no te deja mucho mas tiempo para pensar... mueres al instante.. " : PRINT
+1702 PRINT "Estas aturidido y asustado por todo lo que te est† pasando. Decid°s escapar. QuiÇn sabe quÇ intenciones tiene el viejo. Seguramente te drog¢ y eso te provoc¢ alucionaciones." : PRINT
+1703 PRINT "Sal°s corriendo por la puerta mientras el viejo te grita." : PRINT
+1704 PRINT "- ≠No! ≠No podÇs salir ahora, es peligroso, mortal!" : PRINT
+1705 PRINT "No te importa lo que grite el viejo. Debe ser un enga§o." : PRINT
+1706 PRINT "Sal°s corriendo y te encontr†s en un lugar que te resulta conocido. Parece ser la casa del Dr. EMMET BROWN en la primer pel°cula de VOLVER AL FUTURO." : PRINT
+1707 PRINT "Esta nevando... una nieve particular... luminiscente... el contacto con la piel se siente raro.. te sent°s mareado.. " : PRINT : GOSUB 9100
+1708 PRINT "La nieve te recuerda a la nevada del comic de OESTERHELD, EL ETERNAUTA... " : PRINT
+1709 PRINT "El efecto no te deja mucho mas tiempo para pensar... mor°s al instante... " : PRINT
 1710 PRINT
 1711 GOSUB 9110 : REM -- GAMEOVER --
 1799 RETURN 299
