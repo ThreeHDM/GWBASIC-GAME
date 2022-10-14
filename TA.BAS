@@ -57,7 +57,7 @@
 141 PRINT "Seg£n la leyenda, creativos como SPIELBERG, CAMERON, ZEMECKIS, ROMERO o GILBERT crearon sus obras maestras luego de jugar al DIMENTION." : PRINT : GOSUB 9100
 142 PRINT "Incluso se menciona que el DIMENTION tom¢ varias formas en diferentes Çpocas como juego de mesa, de computadora y hasta de consola." : PRINT
 143 PRINT "Este no puede ser ese DIMENTION, debe ser un software creado por un alguna peque§a empresa en honor a la leyenda." : PRINT
-144 PRINT "Le preguntas al vendedor d¢nde lo consigui¢. S¢lo recuerda que le lleg¢ en un lote que compr¢ por internet. QuerÇs tenerlo." : PRINT
+144 PRINT "Le pregunt†s al vendedor d¢nde lo consigui¢. S¢lo recuerda que le lleg¢ en un lote que compr¢ por internet. QuerÇs tenerlo." : PRINT
 145 PRINT "El vendedor nota tu interÇs en el art°culo y te pide un precio acorde. El costo del juego es muy alto... Gastar°as todo tu dinero." : PRINT
 146 PRINT "TenÇs mucha curiosidad, pero es mucho dinero por algo que quiz†s sea solamente un hack de COMMANDER KEEN con un sprite de DUKE NUKEM." : PRINT
 
@@ -211,18 +211,18 @@
 1409 PRINT "- Somos pocos los que tenemos conciencia de esto. Los dem†s seres no la tienen y, adem†s, est†n atrapados en bucles infinitos. Repitiendo las historias del COLECCIONISTA, una y otra vez." : PRINT
 1410 PRINT "- En esta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
 1411 PRINT "Todo cierra.. est†s en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
-1412 PRINT "Le preguntas a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
+1412 PRINT "Le pregunt†s a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
 1413 PRINT "- Para hacer eso debÇs llevar un objeto de colecci¢n al COLECCIONISTA. Algo de alguna de las dimensiones. As° podr†s obtener una audiencia con êl. En ese momento te pondr† a prueba." : PRINT
 1414 PRINT "- Si logr†s vencerlo, podr†s regresar a tu dimensi¢n con un libro, guion o c¢digo para un videojuego de su autor°a." : PRINT
 1415 PRINT "- Al COLECCIONISTA le gusta c¢mo la gente de tu dimensi¢n produce los guiones o historias que escribe." : PRINT
-1416 PRINT "Le preguntas a KIDCOMB por quÇ no enfrentan al COLECCIONISTA dado que los tiene atrapados en la MEGA DIMENSI‡N." : PRINT
+1416 PRINT "Le pregunt†s a KIDCOMB por quÇ no enfrentan al COLECCIONISTA dado que los tiene atrapados en la MEGA DIMENSI‡N." : PRINT
 1417 PRINT "Te responde que no le interesa.. que la diferencia casi no se nota excepto que, por momentos, las DIMENSI‡NES se superponen y podÇs cruzarte con MAZINGER Z o un TIRANOSAURIO REX en medio del caribe." : PRINT : GOSUB 9100
 1418 PRINT "Adem†s es dif°cil, ya que pare liberar a todos hay que destruir el BµCULO del COLECCIONISTA y para eso hay que estar lo suficientemente cerca de Çl." : PRINT
 1419 PRINT "Por otra parte, KIDCOMB no sabe quÇ seres de otras dimensiones son conscientes, o no, de estar atrapados." : PRINT
 1420 PRINT "Y seguramente, como Çl, los que son conscientes no correr°an ese riesgo. EL COLECCIONISTA es muy poderoso." : PRINT
 1421 PRINT "Ahora entendÇs todo.. el DIMENTION no vuelve genios creativos a sus jugadores... sino que es un portal a esta MEGA DIMENSI‡N." : PRINT
 1422 PRINT "RON GILBERT pas¢ las pruebas del coleccionista y volvi¢ a casa con una idea genial.. ese podr°a ser tu destino.. " : PRINT : GOSUB 9100
-1423 PRINT "Le preguntas a KIDCOMB a d¢nde podÇs ir ahora..." : PRINT
+1423 PRINT "Le pregunt†s a KIDCOMB a d¢nde podÇs ir ahora..." : PRINT
 1424 PRINT "KIDCOMB te dice que EL COLECCIONISTA quiere el ÷DOLO DE MÈLTIPLES BRAZOS de esta DIMENSI‡N." : PRINT
 1425 PRINT "Casualmente KIDCOMB tiene el °dolo en su poder, ya que paso las 3 pruebas para convertirse en pirata." : PRINT
 1426 PRINT "KIDCOMB te ofrece el °dolo, sino podÇs hablar con TRISTAN el vendedor de barcos de la isla, para navegar a otra DIMENSI‡N." : PRINT
@@ -248,7 +248,7 @@
 
 1600 REM ---- SCENE 7 ----
 1601 CLS
-1602 PRINT "Te present†s y le preguntas al viejo quiÇn es y d¢nde est†s." : PRINT
+1602 PRINT "Te present†s y le pregunt†s al viejo quiÇn es y d¢nde est†s." : PRINT
 1603 PRINT "El viejo, se quita el casco y te explica que pudo leer tu mente con Çl. Ya sabe todo sobre vos. " : PRINT
 1604 PRINT "®Un casco para leer la mente? ®Como el que EMMET BROWN us¢ con MARTY en VOLVER AL FUTURO I? " : PRINT
 1605 PRINT "êste tipo debe estar loco, nada tiene sentido... Adem†s, en la pel°cula el casco no funciona..." : PRINT
@@ -294,7 +294,7 @@
 1706 PRINT "Sal°s corriendo y te encontr†s en un lugar que te resulta conocido. Parece ser la casa del Dr. EMMET BROWN en la primer pel°cula de VOLVER AL FUTURO." : PRINT
 1707 PRINT "Esta nevando... una nieve particular... luminiscente... el contacto con la piel se siente raro.. te sent°s mareado.. " : PRINT : GOSUB 9100
 1708 PRINT "La nieve te recuerda a la nevada del comic de OESTERHELD, EL ETERNAUTA... " : PRINT
-1709 PRINT "El efecto no te deja mucho mas tiempo para pensar... mor°s al instante... " : PRINT
+1709 PRINT "El efecto no te deja mucho m†s tiempo para pensar... mor°s al instante... " : PRINT
 1710 PRINT
 1711 GOSUB 9110 : REM -- GAMEOVER --
 1799 RETURN 299
@@ -489,7 +489,7 @@
 2304 PRINT "Te acerc†s a la estatua y podÇs levantarla sin problemas." : PRINT
 2305 PRINT "Con la estatua en la mano, ya tenÇs el objeto de colecci¢n que quiere EL COLECCIONISTA." : PRINT
 2306 PRINT "≠Eso no fue tan dif°cil!" : PRINT
-2307 PRINT "Sub°s la escalera hacia los muelles y te preguntas quÇ pasos hay que seguir una vez que ya tenÇs el objeto para pedir la audiencia." : PRINT : GOSUB 9100
+2307 PRINT "Sub°s la escalera hacia los muelles y te pregunt†s quÇ pasos hay que seguir una vez que ya tenÇs el objeto para pedir la audiencia." : PRINT : GOSUB 9100
 2308 PRINT "Luego de unos segundos, tu cuerpo comienza a desvanecerse como YODA al morir en EL REGRESO DEL JEDI." : PRINT
 2397 COLOR CINFO : PRINT "1. Audiencia con el coleccionista"
 2398 SCENEA = 21 : OPTIONB$ = "1"
