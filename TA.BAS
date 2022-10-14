@@ -259,7 +259,7 @@
 1610 PRINT "Tus o°dos no pueden creen lo que escuchan. DebÇs estar en coma... debes haber perdido el conocimiento y est†s tirado en el piso de tu cocina..." : PRINT
 1611 PRINT "Mir†s bien a CALEB y not†s el parecido con el Dr. EMMET BROWN." : PRINT
 1612 PRINT "CALEB contin£a explic†ndote:" : PRINT : GOSUB 9100
-1613 PRINT "- Esta DIMENSI‡N, junto con otras, forma parte de una MEGA DIMENSI‡N. Somos todos prisioneros de un ser que mediante el viaje interdimensional comenz¢ a coleccionar dimensiones y a atraparlas en esta MEGA DIMENSI‡N." : PRINT
+1613 PRINT "- Esta DIMENSI‡N, junto con otras, forma parte de una MEGA DIMENSI‡N. Somos todos prisioneros de un ser, que mediante el viaje interdimensional, comenz¢ a coleccionar dimensiones y a atraparlas en esta MEGA DIMENSI‡N." : PRINT
 1614 PRINT "- Lo llamamos EL COLECCIONISTA y... es el £nico que puede ayudarte a regresar. Otros viajeros de tu dimensi¢n ya lo han logrado." : PRINT
 1615 PRINT "- EL COLECCIONISTA atrapa las dimensiones en bucles de historias que Çl mismo escribe. Son guiones fant†sticos que utilizan recursos de cada dimensi¢n." : PRINT
 1616 PRINT "- Somos muy pocos los seres que tenemos conciencia de esto. La mayor°a no sabe que est†n atrapados. Tuviste suerte de que yo te encontrara antes que cualquier otro." : PRINT
