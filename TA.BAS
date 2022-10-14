@@ -212,7 +212,7 @@
 1410 PRINT "- En esta dimensi¢n s¢lo yo tengo conciencia de estar en el bucle." : PRINT
 1411 PRINT "Todo cierra.. est†s en ese bucle viviendo la historia del MONKEY ISLAND I." : PRINT
 1412 PRINT "Le pregunt†s a KIDCOMB c¢mo salir de aqu° y regresar a casa." : PRINT : GOSUB 9100
-1413 PRINT "- Para hacer eso debÇs llevar un objeto de colecci¢n al COLECCIONISTA. Algo de alguna de las dimensiones. As° podr†s obtener una audiencia con êl. En ese momento te pondr† a prueba." : PRINT
+1413 PRINT "- Para hacer eso debÇs llevar un objeto de colecci¢n al COLECCIONISTA. Algo de alguna de las dimensiones. As° podr†s obtener una audiencia con Çl. En ese momento te pondr† a prueba." : PRINT
 1414 PRINT "- Si logr†s vencerlo, podr†s regresar a tu dimensi¢n con un libro, guion o c¢digo para un videojuego de su autor°a." : PRINT
 1415 PRINT "- Al COLECCIONISTA le gusta c¢mo la gente de tu dimensi¢n produce los guiones o historias que escribe." : PRINT
 1416 PRINT "Le pregunt†s a KIDCOMB por quÇ no enfrentan al COLECCIONISTA dado que los tiene atrapados en la MEGA DIMENSI‡N." : PRINT
@@ -221,7 +221,7 @@
 1419 PRINT "Por otra parte, KIDCOMB no sabe quÇ seres de otras dimensiones son conscientes, o no, de estar atrapados." : PRINT
 1420 PRINT "Y seguramente, como Çl, los que son conscientes no correr°an ese riesgo. EL COLECCIONISTA es muy poderoso." : PRINT
 1421 PRINT "Ahora entendÇs todo.. el DIMENTION no vuelve genios creativos a sus jugadores... sino que es un portal a esta MEGA DIMENSI‡N." : PRINT
-1422 PRINT "RON GILBERT pas¢ las pruebas del coleccionista y volvi¢ a casa con una idea genial.. ese podr°a ser tu destino.. " : PRINT : GOSUB 9100
+1422 PRINT "RON GILBERT pas¢ las pruebas del coleccionista y volvi¢ a casa con una idea genial... ese podr°a ser tu destino.. " : PRINT : GOSUB 9100
 1423 PRINT "Le pregunt†s a KIDCOMB a d¢nde podÇs ir ahora..." : PRINT
 1424 PRINT "KIDCOMB te dice que EL COLECCIONISTA quiere el ÷DOLO DE MÈLTIPLES BRAZOS de esta DIMENSI‡N." : PRINT
 1425 PRINT "Casualmente KIDCOMB tiene el °dolo en su poder, ya que paso las 3 pruebas para convertirse en pirata." : PRINT
@@ -422,24 +422,24 @@
 2034 PRINT "Te das cuenta de que no ha tomado conciencia de la uni¢n de las dimensiones." : PRINT
 2035 PRINT "Lleg†s a la conclusi¢n de que quiz†s no sea buena idea contarle todo. Le dec°s que pertenecÇs a la orden de los Caballeros de la Espada Cruciforme y que est†s dispuesto a ayudarlo." : PRINT
 2036 PRINT "Te mira desconfiado. Aun as°, se presenta como KANSAS JONAS." : PRINT : GOSUB 9100
-2037 PRINT "- ®QuÇ tal Dr. JONAS? Mi nombre es "USERNAME". Supongo que ya sabe que su padre est† en un castillo nazi." : PRINT
+2037 PRINT "- ®QuÇ tal Dr. JONAS? Mi nombre es "USERNAME$". Supongo que ya sabe que su padre est† en un castillo nazi." : PRINT
 2038 PRINT "- Le propongo que vayamos al castillo y rescatemos a su padre. Luego iremos en busca del GRIAL. Cuando lo logremos, usted me dar† un objeto suyo, para retornarme el favor." : PRINT
 2039 PRINT "A JONAS tu petici¢n le resulta extra§a, pero cree tu historia y te acepta como compa§ero." : PRINT
 2040 PRINT "A quien no ves es a la Dra. Schneider, claramente ella fue un interÇs rom†ntico agregado al guion de la pel°cula. Tampoco ves a Marcus, debe ser otro personaje a§adido al guion como alivio c¢mico." : PRINT
 2041 PRINT "Tal y como en la pel°cula, llegan al castillo para rescatar a HARRY JONAS, el padre del DR. JONAS. El mayordomo del castillo abre las inmensas puertas y le dec°s:" : PRINT : GOSUB 9100
 2042 PRINT "- Hola, vendo estas hermosas chaquetas de cuero." : PRINT
 2043 PRINT "El tipo no te cree una sola palabra y debes noquearlo." : PRINT
-2044 PRINT "Todo es tal cual la pel°cula con algunos detalles de la aventura grafica." : PRINT
+2044 PRINT "Todo es tal cual la pel°cula con algunos detalles de la aventura gr†fica." : PRINT
 2045 PRINT "ConocÇs bien el castillo dado que es muy similar a historia de la peli y el juego." : PRINT
 2046 PRINT "Juntos, logran rescatar a HARRY y huir del castillo evitando ser capturados, la escena del incendio o la persecuci¢n en motocicleta." : PRINT : GOSUB 9100
 2047 PRINT "Una vez a salvo, escap†s con los Dres. JONAS en zepel°n, para luego viajar al Valle de la Luna Creciente y buscar la copa de Cristo." : PRINT
 2048 PRINT "Como evitaste que los nazis obtuvieran el diario del grial, en el templo no hay nadie. Nadie supo c¢mo hallarlo." : PRINT
 2049 PRINT "Es hora de pasar por las tres pruebas." : PRINT
 2050 PRINT "Avanz†s con los Dres. JONAS por la primer prueba." : PRINT
-2051 PRINT "S¢lo el hombre penitente pasar†... ≠el hombre penitente est† de rodillas, cuidado con las cuchillas! KANSAS JONAS logra detenerlas justo a tiempo. " : PRINT : GOSUB 9100
+2051 PRINT "S¢lo el hombre penitente pasar†... ≠El hombre penitente est† de rodillas, cuidado con las cuchillas! KANSAS JONAS logra detenerlas justo a tiempo. " : PRINT : GOSUB 9100
 2052 PRINT "Bien.. s¢lo dos m†s..." : PRINT
-2053 PRINT "Seguir los pasos de Dios.. la palabra de Dios.. Record†s que en lat°n ≠Jehov† se escribe con I! Segunda prueba superada." : PRINT
-2054 PRINT "En el salto desde la cabeza del le¢n.. el probar† su valor.. êsta prueba es un salto de fe... Los Dres. JONAS te miran at¢nitos cuando decid°s dar el salto y caÇs en el puente invisible." : PRINT
+2053 PRINT "Seguir los pasos de Dios... la palabra de Dios.. Record†s que en lat°n ≠Jehov† se escribe con I! Segunda prueba superada." : PRINT
+2054 PRINT "En el salto desde la cabeza del le¢n... el probar† su valor.. êsta prueba es un salto de fe... Los Dres. JONAS te miran at¢nitos cuando decid°s dar el salto y caÇs en el puente invisible." : PRINT
 2055 PRINT "Listo.. es hora de conocer al caballero... al £ltimo de los tres hermanos que protegen la copa de Cristo. Los Dres. JONAS siguen tus pasos boquiabiertos. Es el sue§o de cualquier arque¢logo." : PRINT
 2056 PRINT "Al entrar, ves un caballero que espera a otro para batirse a duelo. Pero est† muy viejo y no logra levantar la espada. Esper¢ 700 a§os para ser vencido por otro caballero." : PRINT : GOSUB 9100
 2057 PRINT "Detr†s del caballero hay una gran mesa llena de copas y c†lices. Uno de ellos es el santo grial. " : PRINT
@@ -555,7 +555,7 @@
 2802 PRINT "Jes£s bebi¢ de la copa de un carpintero. ≠Justo como en la pel°cula!" : PRINT
 2803 PRINT "Tom†s un sorbo y te sent°s fortalecido." : PRINT
 2804 PRINT "El caballero dice:" : PRINT
-2805 PRINT "- Tu elegiste con sabidur°a." : PRINT
+2805 PRINT "- T£ elegiste con sabidur°a." : PRINT
 2806 PRINT "Los Dres. JONAS beben de la copa como vos y te agradecen por tu ayuda. Los ayudaste a escapar de los nazis y obtener el Grial." : PRINT
 2807 PRINT "A cambio le ped°s al KANSAS su l†tigo. Muy a su pesar, te lo entrega.. una promesa es una promesa.. pero no pasa nada... " : PRINT : GOSUB 9100
 2808 PRINT "Esper†s, en vano, alguna se§al para ver al COLECCIONISTA..." : PRINT
@@ -574,7 +574,7 @@
 2904 PRINT "Tus manos comienzan a envejecer y todo tu cuerpo se siente pesado, avejentado. Tu pelo se torna blanco, canoso, podrido..." : PRINT
 2905 PRINT "Tus ojos se secan, hasta que finalmente caen de tus cuencas oculares." : PRINT
 2906 PRINT "Moriste..." : PRINT
-2907 PRINT "Tu elegiste mal..." : PRINT  : GOSUB 9100
+2907 PRINT "T£ elegiste mal..." : PRINT  : GOSUB 9100
 2908 PRINT "           ______              "
 2909 PRINT "        .-"      "-.           "
 2910 PRINT "       /            \          "
@@ -601,7 +601,7 @@
 3008 PRINT "Te acerc†s hacia el primer conjunto de escalones de color verde y mir†s hacia arriba. Hay una luz cegadora en la cima de la escalera, pero llegas a ver una figura sentada." : PRINT
 3009 PRINT "- Gracias por mi nuevo objeto de colecci¢n. Dice EL COLECCIONISTA. " : PRINT
 3010 PRINT "En ese momento, el objeto que trajiste desaparece de tus manos y se materializa en una de las estanter°as." : PRINT
-3011 PRINT "- Ahora debÇs superar una £ltima prueba. Si contestas bien estas 3 preguntas podr†s regresar a tu dimensi¢n con la £ltima de mis creaciones. Un idea que te har† rico y famoso." : PRINT
+3011 PRINT "- Ahora debÇs superar una £ltima prueba. Si contest†s bien estas 3 preguntas podr†s regresar a tu dimensi¢n con la £ltima de mis creaciones. Un idea que te har† rico y famoso." : PRINT
 3012 PRINT "La primera pregunta es:" : PRINT
 3013 PRINT "- ®En que a§o se public¢ el primer arcade de STREET FIGHTER 2?" : PRINT
 
@@ -668,7 +668,7 @@
 3506 PRINT "Una puerta trampa se abre en el suelo del †tico. De ella sale un verde y poligonal zombi." : PRINT
 3507 PRINT "≠Te das cuenta! Se trata de la mansi¢n Derceto! Estas en la DIMENSI‡N ALONE IN THE DARK!" : PRINT
 3508 PRINT "Huis del †tico y corrÇs por el pasillo, olvidaste que, en el juego, el suelo de este corredor es inestable.. aqu° tambiÇn.." : PRINT
-3509 PRINT "El suelo se desmorona bajo tus pies y mor°s al instante.." : PRINT£ltimo
+3509 PRINT "El suelo se desmorona bajo tus pies y mor°s al instante.." : PRINT
 3598 GOSUB 9110 : REM -- GAMEOVER --
 3599 RETURN 299
 
