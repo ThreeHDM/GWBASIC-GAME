@@ -661,7 +661,7 @@
 
 3500 REM ---- SCENE 26 ----
 3501 CLS
-3502 3502 PRINT "- ­Incorrecto!" : PRINT
+3502 PRINT "- ­Incorrecto!" : PRINT
 3503 PRINT "- ­No, la £ltima versi¢n estable es la 3.23!" : PRINT
 3504 PRINT "EL COLECCIONISTA toma su b culo y te arroja un hechizo." : PRINT
 3505 PRINT "La magia te lleva al  tico de una mansi¢n muy antigua . Un fuerte ruido llama tu atenci¢n." : PRINT
